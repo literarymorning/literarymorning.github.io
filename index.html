@@ -9,7 +9,13 @@
 <meta property="og:title" content="The Literary Morning">
 <meta property="og:description" content="매일 아침 9시 무렵 발행되는 문학 소식. 소설 공모와 당선 결과, 지원금·레지던시, 신간, 칼럼, 문단 이슈, 해외 문학.">
 <meta name="theme-color" content="#2f4a3a">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='6' fill='%231e6a49'/%3E%3Ctext x='32' y='46' font-size='40' text-anchor='middle' fill='white' font-family='serif'%3E%EB%AC%B8%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/png" href="icons/favicon-64.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Lit Morning">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <style>
 html{-webkit-text-size-adjust:100%}
 :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -163,6 +169,26 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   padding-block: 6px;
 }
 .dateline strong { color: var(--ink); font-weight: 600; }
+.install { display: flex; flex-direction: column; align-items: center; gap: 6px; margin-top: 6px; }
+.install-btn {
+  font: 600 0.8125rem var(--font-body);
+  color: var(--ink); background: transparent;
+  border: 1px solid var(--ink); border-radius: 999px;
+  min-height: 30px; padding: 0 14px; cursor: pointer;
+}
+.install-btn:hover { background: var(--sheet); }
+.install-hint { margin: 0; font-size: 0.8125rem; color: var(--band-muted); max-width: 30em; text-wrap: balance; }
+.since {
+  margin: 0; align-self: center;
+  font-size: var(--step--1); font-weight: 600;
+  color: var(--sheet); background: var(--accent);
+  padding: 2px 12px; border-radius: 999px;
+}
+.archive .new-dot {
+  display: inline-block; margin-left: 6px; padding: 0 6px;
+  border-radius: 3px; background: var(--accent); color: var(--sheet);
+  font-family: var(--font-body); font-size: 0.6875rem; font-weight: 600; line-height: 1.6;
+}
 @media (max-width: 560px) {
   .dateline { justify-content: center; text-align: center; }
 }
@@ -360,8 +386,13 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     <div class="nameplate">
       <p class="flag" lang="en">The Literary Morning</p>
       <div class="nameplate-sub">매일 아침 9시 무렵 발행되는 문학 소식</div>
+      <div class="install" id="install" hidden>
+        <button type="button" class="install-btn" id="install-btn">홈 화면에 추가</button>
+        <p class="install-hint" id="install-hint" hidden></p>
+      </div>
     </div>
     <div class="dateline" id="dateline"><span>브리핑을 불러오는 중입니다</span></div>
+    <p class="since" id="since" hidden></p>
     <h1 class="headline" id="headline" hidden></h1>
     <p class="lede" id="lede" hidden></p>
   </header>
@@ -619,7 +650,9 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       var b = el("button");
       b.type = "button";
       b.setAttribute("aria-current", iss.id === currentId ? "true" : "false");
-      b.appendChild(el("span", "d", shortDate(iss.date) + (iss.issue ? " · 제" + iss.issue + "호" : "")));
+      var dspan = el("span", "d", shortDate(iss.date) + (iss.issue ? " · 제" + iss.issue + "호" : ""));
+      if (seenBefore && iss.date > seenBefore) dspan.appendChild(el("span", "new-dot", "새"));
+      b.appendChild(dspan);
       b.appendChild(el("span", "h", iss.headline || "제목 없음"));
       b.addEventListener("click", function () { show(iss.id, true); });
       li.appendChild(b);
@@ -730,6 +763,13 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       renderNoData("첫 호를 기다리고 있습니다", "매일 아침 9시 무렵 그날의 문학 소식이 이 자리에 올라옵니다.");
       return;
     }
+    var fresh = seenBefore ? index.filter(function (i) { return i.date > seenBefore; }).length : 0;
+    if (fresh > 0) {
+      var sinceEl = $("since");
+      sinceEl.textContent = "지난 방문 이후 새 호 " + fresh + "개";
+      sinceEl.hidden = false;
+    }
+    try { localStorage.setItem(SEEN_KEY, index[0].date); } catch (e) {}
     try { latestFull = await getIssue(index[0].id); } catch (e) { latestFull = null; }
     var want = null;
     try { want = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
@@ -741,6 +781,41 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     archiveShown += ARCHIVE_STEP;
     renderArchive();
   });
+  var SEEN_KEY = "tlm.lastSeen";
+  var seenBefore = null;
+  try { var sv = localStorage.getItem(SEEN_KEY); if (isDate(sv)) seenBefore = sv; } catch (e) {}
+
+  /* 홈 화면에 추가 */
+  var deferredPrompt = null;
+  function isStandalone() {
+    try { if (window.matchMedia("(display-mode: standalone)").matches) return true; } catch (e) {}
+    return window.navigator.standalone === true;
+  }
+  function isIOS() {
+    var ua = navigator.userAgent;
+    return /iPhone|iPad|iPod/i.test(ua) || (navigator.maxTouchPoints > 1 && /Macintosh/.test(ua));
+  }
+  function isInApp() { return /KAKAOTALK|NAVER\(inapp|Instagram|FBAN|FBAV|Line\//i.test(navigator.userAgent); }
+  function showInstall() { if (!isStandalone()) $("install").hidden = false; }
+  window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); deferredPrompt = e; showInstall(); });
+  window.addEventListener("appinstalled", function () { $("install").hidden = true; });
+  if (isIOS() || /Android/i.test(navigator.userAgent)) showInstall();
+  $("install-btn").addEventListener("click", async function () {
+    var hint = $("install-hint");
+    if (deferredPrompt) {
+      var p = deferredPrompt; deferredPrompt = null;
+      try { p.prompt(); await p.userChoice; } catch (e) {}
+      return;
+    }
+    var msg;
+    if (isInApp()) msg = "앱 안의 브라우저에서는 추가할 수 없습니다. 메뉴(⋮ 또는 공유)에서 '다른 브라우저로 열기'를 누른 뒤 다시 눌러 주세요.";
+    else if (isIOS()) msg = "공유 버튼(네모 위 화살표)을 누르고 '홈 화면에 추가'를 고르세요.";
+    else if (/Android/i.test(navigator.userAgent)) msg = "브라우저 메뉴(⋮ 또는 ≡)에서 '홈 화면에 추가' 또는 '앱 설치'를 고르세요.";
+    else msg = "휴대폰 브라우저에서 이 주소를 열면 홈 화면에 추가할 수 있습니다.";
+    hint.textContent = msg;
+    hint.hidden = false;
+  });
+
   setDay(kstToday());
   boot();
 })();
