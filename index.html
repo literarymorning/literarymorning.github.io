@@ -19,7 +19,7 @@ img{max-width:100%}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
 <style>
 /* Layout: 조간 지면 한 장. 원고지 칸에 앉힌 제호, 본문 단 하나, 넓은 화면에서는 오른쪽에 마감 달력과 지난 호. */
 :root {
@@ -35,6 +35,7 @@ img{max-width:100%}
   --chip: #e6eee6;
   --rule: #d7dfd7;
   --alert: #b2432c;
+  --font-flag: "UnifrakturMaguntia", "Old English Text MT", "Times New Roman", serif;
   --font-display: "Hahmlet", "Nanum Myeongjo", "AppleMyungjo", "Batang", serif;
   --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -134,37 +135,37 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
 .masthead { display: flex; flex-direction: column; gap: 14px; padding-block: 26px 24px; }
-.band .cell { background: var(--sheet); }
 .band .nameplate-sub, .band .dateline { color: var(--band-muted); }
-.band .dateline { border-top-color: var(--grid); }
-.nameplate { display: flex; align-items: flex-end; gap: 14px; flex-wrap: wrap; }
-.cells { display: flex; border-top: 1.5px solid var(--grid); border-left: 1.5px solid var(--grid); }
-.cell {
-  width: 3.1rem; height: 3.1rem;
-  display: grid; place-items: center;
-  border-right: 1.5px solid var(--grid);
-  border-bottom: 1.5px solid var(--grid);
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1;
+/* 제호: 뉴욕타임스식 블랙레터 깃발, 가운데 정렬 */
+.nameplate { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
+.flag {
+  margin: 0;
+  font-family: var(--font-flag);
+  font-weight: 400;
+  font-size: clamp(2.75rem, 11vw, 4.75rem);
+  line-height: 1.05;
+  letter-spacing: 0.005em;
   color: var(--ink);
+  white-space: nowrap;
 }
 .nameplate-sub {
+  font-family: var(--font-display);
   font-size: var(--step--1);
-  color: var(--muted);
   letter-spacing: 0.04em;
-  padding-bottom: 2px;
 }
 .dateline {
-  display: flex; flex-wrap: wrap; gap: 4px 14px;
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline;
+  gap: 2px 14px;
   font-size: var(--step--1);
-  color: var(--muted);
   font-variant-numeric: tabular-nums;
-  border-top: 1px solid var(--rule);
-  padding-top: 10px;
+  border-top: 3px double var(--ink);
+  border-bottom: 1px solid var(--ink);
+  padding-block: 6px;
 }
 .dateline strong { color: var(--ink); font-weight: 600; }
+@media (max-width: 560px) {
+  .dateline { justify-content: center; text-align: center; }
+}
 .headline {
   font-family: var(--font-display);
   font-weight: 700;
@@ -345,7 +346,6 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 }
 
 @media (max-width: 420px) {
-  .cell { width: 2.75rem; height: 2.75rem; font-size: 1.75rem; }
   .headline { font-size: var(--step-2); }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -358,9 +358,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 <div class="band">
   <header class="masthead wrap">
     <div class="nameplate">
-      <div class="cells" aria-label="문학 조간">
-        <span class="cell" aria-hidden="true">문</span><span class="cell" aria-hidden="true">학</span><span class="cell" aria-hidden="true">조</span><span class="cell" aria-hidden="true">간</span>
-      </div>
+      <p class="flag" lang="en">Munhak Jogan</p>
       <div class="nameplate-sub">매일 아침 9시 무렵 발행되는 문학 소식</div>
     </div>
     <div class="dateline" id="dateline"><span>브리핑을 불러오는 중입니다</span></div>
@@ -462,12 +460,11 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
   function renderDateline(issue) {
     var dl = $("dateline");
     dl.replaceChildren();
-    var d = el("strong", null, longDate(issue.date));
-    dl.appendChild(d);
-    if (issue.issue) dl.appendChild(el("span", null, "제" + issue.issue + "호"));
+    dl.appendChild(el("span", null, issue.issue ? "제" + issue.issue + "호" : ""));
+    dl.appendChild(el("strong", null, longDate(issue.date)));
     var t = issue.generatedAt ? kstTime(issue.generatedAt) : null;
-    if (t) dl.appendChild(el("span", null, t + " 발행"));
-    if (issue.note) dl.appendChild(el("span", null, issue.note));
+    var right = [t ? t + " 발행" : "", issue.note || ""].filter(Boolean).join(" · ");
+    dl.appendChild(el("span", null, right));
   }
 
   function renderItem(item, today) {
