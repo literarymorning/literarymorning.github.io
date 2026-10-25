@@ -25,7 +25,7 @@ img{max-width:100%}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700&family=UnifrakturMaguntia&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700&family=Archivo:wght@800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
 <style>
 /* Layout: 조간 지면 한 장. 원고지 칸에 앉힌 제호, 본문 단 하나, 넓은 화면에서는 오른쪽에 마감 달력과 지난 호. */
 :root {
@@ -41,7 +41,7 @@ img{max-width:100%}
   --chip: #e6eee6;
   --rule: #d7dfd7;
   --alert: #b2432c;
-  --font-flag: "UnifrakturMaguntia", "Old English Text MT", "Times New Roman", serif;
+  --font-flag: "Archivo", "Helvetica Neue", Arial, "Apple SD Gothic Neo", sans-serif;
   --font-display: "Hahmlet", "Nanum Myeongjo", "AppleMyungjo", "Batang", serif;
   --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -142,15 +142,15 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 .masthead { display: flex; flex-direction: column; gap: 14px; padding-block: 26px 24px; }
 .band .nameplate-sub, .band .dateline { color: var(--band-muted); }
-/* 제호: 뉴욕타임스식 블랙레터 깃발, 가운데 정렬 */
+/* 제호: 두꺼운 산세리프, 가운데 정렬 */
 .nameplate { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
 .flag {
   margin: 0;
   font-family: var(--font-flag);
-  font-weight: 400;
-  font-size: clamp(1.9rem, 7.6vw, 4.5rem);
-  line-height: 1.08;
-  letter-spacing: 0.005em;
+  font-weight: 800;
+  font-size: clamp(1.7rem, 6.8vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
   color: var(--ink);
   text-wrap: balance;
 }
