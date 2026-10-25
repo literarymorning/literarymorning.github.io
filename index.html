@@ -534,7 +534,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
   }
   function asArray(v) { return Array.isArray(v) ? v : []; }
   function man(n) { return Number(n).toLocaleString("ko-KR") + "만 원"; }
-  var REGIONS = ["영미권", "남미권", "유럽", "러시아", "중국", "일본", "제3세계"];
+  var REGIONS = ["영미권", "남미권", "유럽", "러시아", "중국", "일본", "아시아", "제3세계"];
   function regionRank(it) { var i = REGIONS.indexOf(it && it.region); return i < 0 ? REGIONS.length : i; }
 
   function renderDateline(issue) {
@@ -769,7 +769,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
         calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 기성·신인 응모 여부와 원고 매수, 도착분·소인 기준을 함께 적습니다.",
         results: "공모와 같은 기준으로 소설 부문 결과만 싣습니다. 심사평과 당선작이 온라인에 올라오면 바로가기와 심사 경향 분석을 붙입니다.",
         today: "매일 2016년 이후 신춘문예 소설 당선작 한 편과, 전문이 무료로 공개된 기성 작가 단편을 국내·해외 한 편씩 무작위로 골라 소개합니다. 한 번 소개한 작품은 다시 고르지 않습니다. 광고가 많은 페이지는 브라우저의 읽기 모드로, 해외 작품은 브라우저 번역으로 읽으세요.",
-        world: "영미권·남미권·유럽·러시아·중국·일본·제3세계 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
+        world: "영미권·남미권·유럽·러시아·중국·일본·아시아(인도·동남아·중앙아시아 등)·제3세계(아프리카·중동) 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
       };
       if (NOTES[s.id]) sec.appendChild(el("p", "section-note", NOTES[s.id]));
       var ul = el("ul", "items");
