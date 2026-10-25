@@ -265,6 +265,12 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 .chip.prize.big { background: var(--accent); border-color: var(--accent); color: var(--sheet); }
 .item-flags { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip.region { background: var(--ink); color: var(--paper); font-weight: 600; }
+.chip.elig { background: transparent; font-weight: 600; border: 1px solid currentColor; }
+.chip.elig-new { color: var(--alert); }
+.chip.elig-open { color: var(--accent); }
+.chip.elig-limited { color: var(--ink); }
+.chip.elig-unknown { color: var(--muted); border-style: dashed; }
+.deadline .elig-mark { white-space: nowrap; }
 .section-note { margin: 2px 0 0; font-size: 0.75rem; color: var(--muted); }
 .deadline .prize-mark { color: var(--accent); font-weight: 600; white-space: nowrap; }
 .item-links { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -539,6 +545,13 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     if (prize) {
       flags.appendChild(el("span", "chip prize" + (prize >= 500 ? " big" : ""), "상금 " + man(prize) + (item.prizeNote ? " · " + item.prizeNote : "")));
     }
+    var elig = item.eligibility;
+    if (elig && elig.label) {
+      var lv = /^(new|open|limited|unknown)$/.test(elig.level) ? elig.level : "unknown";
+      var ec = el("span", "chip elig elig-" + lv, elig.label);
+      if (elig.detail) ec.title = elig.detail;
+      flags.appendChild(ec);
+    }
     if (isDate(item.deadline)) {
       var n = dayDiff(today, item.deadline);
       flags.appendChild(el("span", "chip due" + (n < 0 ? " past" : n <= 7 ? " soon" : ""), "마감 " + shortDate(item.deadline) + " · " + ddayLabel(n)));
@@ -675,7 +688,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       h.appendChild(el("span", "count", asArray(s.items).length));
       sec.appendChild(h);
       var NOTES = {
-        calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시합니다.",
+        calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 응모 자격(등단 여부)을 함께 적습니다.",
         results: "공모와 같은 기준으로 소설 부문 결과만 싣습니다. 심사평과 당선작이 온라인에 올라오면 바로가기와 심사 경향 분석을 붙입니다.",
         world: "영미권·남미권·유럽·러시아·중국·일본·제3세계 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
       };
@@ -727,6 +740,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       if (c.kind) sm.appendChild(el("span", "kind", c.kind + " · "));
       sm.appendChild(document.createTextNode(shortDate(c.date) + (c.note ? " · " + c.note : "")));
       if (typeof c.prize === "number" && c.prize >= 500) sm.appendChild(el("span", "prize-mark", " · 상금 " + man(c.prize)));
+      if (c.elig) sm.appendChild(el("span", "elig-mark", " · " + c.elig));
       w.appendChild(sm);
       li.appendChild(w);
       ul.appendChild(li);
