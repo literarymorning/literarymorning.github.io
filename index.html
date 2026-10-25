@@ -270,6 +270,10 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 .chip.elig-open { color: var(--accent); }
 .chip.elig-limited { color: var(--ink); }
 .chip.elig-unknown { color: var(--muted); border-style: dashed; }
+.chip.len { background: transparent; border: 1px solid var(--grid); }
+.chip.submit { background: transparent; border: 1px solid var(--grid); }
+.chip.submit.arrive { border-color: var(--ink); font-weight: 600; }
+.chip.submit.unknown, .chip.len.unknown { color: var(--muted); border-style: dashed; }
 .deadline .elig-mark { white-space: nowrap; }
 .section-note { margin: 2px 0 0; font-size: 0.75rem; color: var(--muted); }
 .deadline .prize-mark { color: var(--accent); font-weight: 600; white-space: nowrap; }
@@ -552,9 +556,20 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       if (elig.detail) ec.title = elig.detail;
       flags.appendChild(ec);
     }
+    var len = item.length;
+    if (typeof len === "string" && len) {
+      flags.appendChild(el("span", "chip len" + (/확인/.test(len) ? " unknown" : ""), len));
+    }
     if (isDate(item.deadline)) {
       var n = dayDiff(today, item.deadline);
       flags.appendChild(el("span", "chip due" + (n < 0 ? " past" : n <= 7 ? " soon" : ""), "마감 " + shortDate(item.deadline) + " · " + ddayLabel(n)));
+    }
+    var sub = item.submit;
+    if (typeof sub === "string") sub = { label: sub };
+    if (sub && sub.label) {
+      var sc = el("span", "chip submit" + (/확인/.test(sub.label) ? " unknown" : /도착/.test(sub.label) ? " arrive" : ""), sub.label);
+      if (sub.detail) sc.title = sub.detail;
+      flags.appendChild(sc);
     }
     if (flags.childNodes.length) li.appendChild(flags);
     li.appendChild(el("h3", "item-title", item.title || ""));
@@ -688,7 +703,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       h.appendChild(el("span", "count", asArray(s.items).length));
       sec.appendChild(h);
       var NOTES = {
-        calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 기성·신인 응모 여부를 함께 적습니다.",
+        calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 기성·신인 응모 여부와 원고 매수, 도착분·소인 기준을 함께 적습니다.",
         results: "공모와 같은 기준으로 소설 부문 결과만 싣습니다. 심사평과 당선작이 온라인에 올라오면 바로가기와 심사 경향 분석을 붙입니다.",
         world: "영미권·남미권·유럽·러시아·중국·일본·제3세계 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
       };
@@ -739,6 +754,8 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       var sm = el("small");
       if (c.kind) sm.appendChild(el("span", "kind", c.kind + " · "));
       sm.appendChild(document.createTextNode(shortDate(c.date) + (c.note ? " · " + c.note : "")));
+      if (c.submit) sm.appendChild(el("span", null, " · " + c.submit));
+      if (c.length) sm.appendChild(el("span", null, " · " + c.length));
       if (typeof c.prize === "number" && c.prize >= 500) sm.appendChild(el("span", "prize-mark", " · 상금 " + man(c.prize)));
       if (c.elig) sm.appendChild(el("span", "elig-mark", " · " + c.elig));
       w.appendChild(sm);
