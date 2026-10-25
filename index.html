@@ -311,6 +311,14 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 .book-reviews { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.9375rem; }
 .book-reviews b { font-weight: 600; }
 .book-reviews a { margin-left: 6px; font-size: var(--step--1); color: var(--muted); white-space: nowrap; }
+.cand-list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; }
+.cand-list li { padding-block: 8px; border-bottom: 1px solid var(--grid-soft); }
+.cand-list li:first-child { padding-top: 2px; }
+.cand-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+.cand-head { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 6px; }
+.cand-head b { font-family: var(--font-display); font-weight: 600; }
+.cand-orig, .cand-by { font-size: var(--step--1); color: var(--muted); }
+.cand-line { margin: 2px 0 0; font-size: 0.9375rem; }
 .sources { display: inline-flex; flex-wrap: wrap; gap: 4px 10px; }
 .sources a { color: var(--muted); }
 .sources a:hover { color: var(--accent); }
@@ -562,6 +570,8 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       li.appendChild(ab);
     }
     asArray(item.books).forEach(function (bk) { if (bk && bk.title) li.appendChild(renderBook(bk)); });
+    var cands = asArray(item.candidates).filter(function (c) { return c && c.title; });
+    if (cands.length) li.appendChild(renderCandidates(cands));
     var meta = el("div", "item-meta");
     asArray(item.tags).forEach(function (t) { if (t) meta.appendChild(el("span", "chip", t)); });
     var srcs = asArray(item.sources);
@@ -619,6 +629,29 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       body.appendChild(ul);
     }
     if (bk.note) body.appendChild(el("p", "book-note", bk.note));
+    det.appendChild(body);
+    return det;
+  }
+
+  function renderCandidates(cands) {
+    var det = el("details", "book");
+    var sum = el("summary");
+    sum.appendChild(el("span", "book-label", "후보작"));
+    sum.appendChild(el("span", "book-title", "후보 " + cands.length + "편 한 줄 줄거리"));
+    det.appendChild(sum);
+    var body = el("div", "book-body");
+    var ul = el("ul", "cand-list");
+    cands.forEach(function (c) {
+      var li = el("li");
+      var head = el("p", "cand-head");
+      head.appendChild(el("b", null, "『" + c.title + "』"));
+      if (c.original) head.appendChild(el("span", "cand-orig", "(" + c.original + ")"));
+      if (c.author) head.appendChild(el("span", "cand-by", c.author));
+      li.appendChild(head);
+      if (c.line) li.appendChild(el("p", "cand-line", c.line));
+      ul.appendChild(li);
+    });
+    body.appendChild(ul);
     det.appendChild(body);
     return det;
   }
