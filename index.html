@@ -589,6 +589,12 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
         var a = el("a", "link-btn", (k.label || "바로가기") + " ↗");
         a.href = safeUrl(k.url); a.target = "_blank"; a.rel = "noopener noreferrer";
         lk.appendChild(a);
+        var tu = k.translate ? translateUrl(k.url) : null;
+        if (tu) {
+          var t = el("a", "link-btn", "번역해서 읽기 ↗");
+          t.href = tu; t.target = "_blank"; t.rel = "noopener noreferrer";
+          lk.appendChild(t);
+        }
       });
       li.appendChild(lk);
     }
@@ -610,6 +616,12 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       rg.appendChild(el("span", "analysis-label", "심사평 요지"));
       rg.appendChild(el("p", null, item.reviewGist));
       li.appendChild(rg);
+    }
+    if (item.craft) {
+      var cr = el("div", "analysis");
+      cr.appendChild(el("span", "analysis-label", "눈여겨볼 점"));
+      cr.appendChild(el("p", null, item.craft));
+      li.appendChild(cr);
     }
     if (item.note) li.appendChild(el("p", "item-note", item.note));
     asArray(item.books).forEach(function (bk) { if (bk && bk.title) li.appendChild(renderBook(bk)); });
@@ -635,6 +647,16 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     }
     if (meta.childNodes.length) li.appendChild(meta);
     return li;
+  }
+
+  // 구글 번역 웹페이지 프록시 주소 (예: www.example.com → www-example-com.translate.goog)
+  function translateUrl(raw) {
+    var u;
+    try { u = new URL(safeUrl(raw)); } catch (e) { return null; }
+    if (!/^https?:$/.test(u.protocol)) return null;
+    var host = u.hostname.replace(/-/g, "--").replace(/\./g, "-") + ".translate.goog";
+    var q = u.search ? u.search.slice(1) + "&" : "";
+    return "https://" + host + u.pathname + "?" + q + "_x_tr_sl=auto&_x_tr_tl=ko&_x_tr_hl=ko&_x_tr_pto=wapp" + u.hash;
   }
 
   function renderBook(bk) {
@@ -720,7 +742,8 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       var NOTES = {
         calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 기성·신인 응모 여부와 원고 매수, 도착분·소인 기준을 함께 적습니다.",
         results: "공모와 같은 기준으로 소설 부문 결과만 싣습니다. 심사평과 당선작이 온라인에 올라오면 바로가기와 심사 경향 분석을 붙입니다.",
-        past: "2016~2026년 신춘문예 소설 당선작 가운데 매일 두 편을 골라 소개합니다. 신문사가 겹치지 않게 무작위로 고르고, 한 번 소개한 작품은 다시 고르지 않습니다.",
+        past: "2016~2026년 신춘문예 소설 당선작 가운데 매일 두 편을 골라 소개합니다. 신문사가 겹치지 않게 무작위로 고르고, 한 번 소개한 작품은 다시 고르지 않습니다. 신문사 페이지에 광고가 많으면 브라우저의 읽기 모드로 보세요.",
+        established: "웹진과 문예지에 전문이 무료로 공개된 기성 작가 단편을 매일 한 편, 국내와 해외 가운데 무작위로 골라 소개합니다. 해외 작품에는 구글 번역으로 읽는 링크를 함께 붙입니다.",
         world: "영미권·남미권·유럽·러시아·중국·일본·제3세계 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
       };
       if (NOTES[s.id]) sec.appendChild(el("p", "section-note", NOTES[s.id]));

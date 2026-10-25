@@ -1,0 +1,780 @@
+{
+ "updatedAt": "2026-10-25T23:50:00+09:00",
+ "about": "전문을 무료로 읽을 수 있는 기성 작가 단편 목록. 국내는 웹진, 해외는 무료 공개 문예지. 링크만 걸고 본문은 옮기지 않는다.",
+ "sources": [
+  {
+   "name": "문장웹진",
+   "side": "국내",
+   "domain": "munjang.or.kr",
+   "note": "한국문화예술위원회 문학 웹진. 단편소설 게시판(bid=0003)에 매달 신작 단편이 실린다. 월호 목차는 bid=0031."
+  },
+  {
+   "name": "Electric Literature",
+   "side": "해외",
+   "domain": "electricliterature.com",
+   "note": "Recommended Reading 꼭지에 단편 전문을 무료로 싣는다. 장편 발췌는 뺀다."
+  },
+  {
+   "name": "Words Without Borders",
+   "side": "해외",
+   "domain": "wordswithoutborders.org",
+   "note": "영어권 밖 작품을 영어로 옮겨 무료로 싣는다. 연재·장편 발췌는 뺀다."
+  },
+  {
+   "name": "Guernica",
+   "side": "해외",
+   "domain": "guernicamag.com",
+   "note": "fiction 꼭지 단편 무료."
+  },
+  {
+   "name": "Asymptote",
+   "side": "해외",
+   "domain": "asymptotejournal.com",
+   "note": "번역 문학 웹진. fiction 꼭지와 Translation Tuesday."
+  }
+ ],
+ "entries": [
+  {
+   "id": "munjang-113084",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "공유자의 기록",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=113084",
+   "author": "이서수",
+   "year": 2026,
+   "checked": "2026-10-25"
+  },
+  {
+   "id": "munjang-113083",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "베일",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=113083",
+   "author": "윤해서",
+   "year": 2026
+  },
+  {
+   "id": "munjang-113082",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "보트 아래",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=113082",
+   "author": "손호영",
+   "year": 2026
+  },
+  {
+   "id": "munjang-113081",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "암순응",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=113081",
+   "author": "박선우",
+   "year": 2026
+  },
+  {
+   "id": "munjang-112498",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "사람 같은 이름을 지어 주면 오래 산다",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=112498",
+   "author": "임아라",
+   "year": 2026
+  },
+  {
+   "id": "munjang-112497",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "심심",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=112497",
+   "author": "임승훈",
+   "year": 2026
+  },
+  {
+   "id": "munjang-112496",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "그래도 우리는 그것을 찾아 계속 헤맬 거예요",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=112496",
+   "author": "이승은",
+   "year": 2026
+  },
+  {
+   "id": "munjang-112383",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "자꾸 아니라는 생각이 든다",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=112383",
+   "author": "김효나",
+   "year": 2026
+  },
+  {
+   "id": "munjang-111802",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "늦은 새해",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=111802",
+   "author": "주나영",
+   "year": 2026
+  },
+  {
+   "id": "munjang-111801",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "장정호",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=111801",
+   "author": "장희원",
+   "year": 2026
+  },
+  {
+   "id": "munjang-111800",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "내 마음이야",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=111800",
+   "author": "이갑수",
+   "year": 2026
+  },
+  {
+   "id": "munjang-111799",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "하인즈",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=111799",
+   "author": "박우연",
+   "year": 2026
+  },
+  {
+   "id": "munjang-2075",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "웨딩드레스 44",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2075",
+   "author": "정세랑",
+   "year": 2016
+  },
+  {
+   "id": "munjang-2348",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "두 사람의 인터내셔널",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2348",
+   "author": "김기태",
+   "year": 2022
+  },
+  {
+   "id": "munjang-2068",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "씬짜오, 씬짜오",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2068",
+   "author": "최은영",
+   "year": 2016
+  },
+  {
+   "id": "munjang-99810",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "그 개와 혁명",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=99810",
+   "author": "예소연",
+   "year": 2024
+  },
+  {
+   "id": "munjang-2172",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "나의 후쿠오카 가이드",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2172",
+   "author": "장류진",
+   "year": 2019
+  },
+  {
+   "id": "munjang-2179",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "당신이 있던 풍경의 신과 잠들지 않는 거인",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2179",
+   "author": "우다영",
+   "year": 2019
+  },
+  {
+   "id": "munjang-2232",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "초록 달을 만나러",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2232",
+   "author": "백승연",
+   "year": 2020
+  },
+  {
+   "id": "munjang-94539",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "이응 이응",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=94539",
+   "author": "김멜라",
+   "year": 2023
+  },
+  {
+   "id": "munjang-105254",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "사과",
+   "url": "https://munjang.or.kr/board.es?act=view&bid=0003&list_no=105254&mid=a21300000000",
+   "author": "박솔뫼",
+   "year": 2025,
+   "checked": "2026-10-25",
+   "featured": "2026-10-25"
+  },
+  {
+   "id": "munjang-105001",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "히데오",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=105001",
+   "author": "서장원",
+   "year": 2025
+  },
+  {
+   "id": "munjang-2242",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "언두",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2242",
+   "author": "성해나",
+   "year": 2020
+  },
+  {
+   "id": "munjang-103098",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "속으로 하는 말",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=103098",
+   "author": "권희진",
+   "year": 2024
+  },
+  {
+   "id": "munjang-103097",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "구하고 원하는 자에게",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=103097",
+   "author": "윤치규",
+   "year": 2024
+  },
+  {
+   "id": "munjang-103095",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "숲 바깥쪽으로",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=103095",
+   "author": "김선재",
+   "year": 2024
+  },
+  {
+   "id": "munjang-103094",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "불안을 모르는 마누엘",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=103094",
+   "author": "임택수",
+   "year": 2024
+  },
+  {
+   "id": "munjang-103093",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "모로",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=103093",
+   "author": "김영은",
+   "year": 2024
+  },
+  {
+   "id": "munjang-100624",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "상속",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=100624",
+   "author": "김유담",
+   "year": 2024
+  },
+  {
+   "id": "munjang-100541",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "손상",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=100541",
+   "author": "지강숙",
+   "year": 2024
+  },
+  {
+   "id": "munjang-100540",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "킨츠키 클래스",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=100540",
+   "author": "신주희",
+   "year": 2024
+  },
+  {
+   "id": "munjang-100539",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "나경",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=100539",
+   "author": "박서영",
+   "year": 2024
+  },
+  {
+   "id": "munjang-2212",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "없는 순간",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2212"
+  },
+  {
+   "id": "munjang-2178",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "원인",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2178"
+  },
+  {
+   "id": "munjang-2207",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "어둠 뒤에",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2207"
+  },
+  {
+   "id": "munjang-2173",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "어쨌거나 인류의 대변자",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2173"
+  },
+  {
+   "id": "munjang-2189",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "마른 익사",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2189"
+  },
+  {
+   "id": "munjang-2379",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "ㅊㅅㄹ",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2379"
+  },
+  {
+   "id": "munjang-2209",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "각자는 각자의 할 말이 있다",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2209"
+  },
+  {
+   "id": "munjang-2165",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "오리진",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2165"
+  },
+  {
+   "id": "munjang-2338",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "임상소설",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2338"
+  },
+  {
+   "id": "munjang-2322",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "내부순환",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2322"
+  },
+  {
+   "id": "munjang-2329",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "Little Boy",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2329"
+  },
+  {
+   "id": "munjang-2358",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "개와 당신의 이야기",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2358"
+  },
+  {
+   "id": "munjang-2362",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "오랍(奥拉)",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2362"
+  },
+  {
+   "id": "munjang-2341",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "내 이름 묻지 마세요",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2341"
+  },
+  {
+   "id": "munjang-2081",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "곤충채집 체험학습",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2081"
+  },
+  {
+   "id": "munjang-2082",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "첫사랑",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2082"
+  },
+  {
+   "id": "munjang-101872",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "등에 쓴 글자",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=101872"
+  },
+  {
+   "id": "munjang-103509",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "반감기",
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=103509"
+  },
+  {
+   "id": "el-birds-in-the-mouth-by-samanta-schweblin",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Birds in the Mouth",
+   "author": "Samanta Schweblin",
+   "url": "https://electricliterature.com/birds-in-the-mouth-by-samanta-schweblin/"
+  },
+  {
+   "id": "el-cattle-haul",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Cattle Haul",
+   "author": "Jesmyn Ward",
+   "url": "https://electricliterature.com/cattle-haul/"
+  },
+  {
+   "id": "el-my-last-story",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "My Last Story",
+   "author": "Janet Frame",
+   "url": "https://electricliterature.com/my-last-story/"
+  },
+  {
+   "id": "el-north-of",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "North Of",
+   "author": "Marie-Helene Bertino",
+   "url": "https://electricliterature.com/north-of/"
+  },
+  {
+   "id": "el-the-knowers",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Knowers",
+   "author": "Helen Phillips",
+   "url": "https://electricliterature.com/the-knowers/"
+  },
+  {
+   "id": "el-the-graveless-doll-of-eric-mutis-by-karen-russell",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Graveless Doll of Eric Mutis",
+   "author": "Karen Russell",
+   "url": "https://electricliterature.com/the-graveless-doll-of-eric-mutis-by-karen-russell/"
+  },
+  {
+   "id": "el-bettering-myself",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Bettering Myself",
+   "author": "Ottessa Moshfegh",
+   "url": "https://electricliterature.com/bettering-myself/"
+  },
+  {
+   "id": "el-yours",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Yours",
+   "author": "Mary Robison",
+   "url": "https://electricliterature.com/yours/"
+  },
+  {
+   "id": "el-the-school",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The School",
+   "author": "Donald Barthelme",
+   "url": "https://electricliterature.com/the-school/"
+  },
+  {
+   "id": "el-safety-tips-for-living-alone",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Safety Tips for Living Alone",
+   "author": "Jim Shepard",
+   "url": "https://electricliterature.com/safety-tips-for-living-alone/"
+  },
+  {
+   "id": "el-the-soul-is-not-a-smithy",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Soul Is Not a Smithy",
+   "author": "David Foster Wallace",
+   "url": "https://electricliterature.com/the-soul-is-not-a-smithy/"
+  },
+  {
+   "id": "el-the-moon-in-its-flight",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Moon in Its Flight",
+   "author": "Gilbert Sorrentino",
+   "url": "https://electricliterature.com/the-moon-in-its-flight/"
+  },
+  {
+   "id": "el-the-lady-of-the-house-of-love",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Lady of the House of Love",
+   "author": "Angela Carter",
+   "url": "https://electricliterature.com/the-lady-of-the-house-of-love/"
+  },
+  {
+   "id": "el-the-swan-as-metaphor-for-love",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Swan as Metaphor for Love",
+   "author": "Amelia Gray",
+   "url": "https://electricliterature.com/the-swan-as-metaphor-for-love/"
+  },
+  {
+   "id": "el-stone-animals",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Stone Animals",
+   "author": "Kelly Link",
+   "url": "https://electricliterature.com/stone-animals/"
+  },
+  {
+   "id": "el-youre-home-early",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "You're Home Early",
+   "author": "Vincent Scarpa",
+   "url": "https://electricliterature.com/youre-home-early/"
+  },
+  {
+   "id": "el-the-great-silence-by-ted-chiang",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Great Silence",
+   "author": "Ted Chiang",
+   "url": "https://electricliterature.com/the-great-silence-by-ted-chiang/"
+  },
+  {
+   "id": "el-if-thats-all-there-is",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "If That's All There Is",
+   "author": "Mona Awad",
+   "url": "https://electricliterature.com/if-thats-all-there-is/"
+  },
+  {
+   "id": "el-the-bastard",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Bastard",
+   "author": "Patrick deWitt",
+   "url": "https://electricliterature.com/the-bastard/"
+  },
+  {
+   "id": "el-to-revive-a-person-is-no-slight-thing",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "To Revive a Person Is No Slight Thing",
+   "author": "Diane Williams",
+   "url": "https://electricliterature.com/to-revive-a-person-is-no-slight-thing/"
+  },
+  {
+   "id": "el-black-eyed-women-by-viet-thanh-nguyen",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Black-Eyed Women",
+   "author": "Viet Thanh Nguyen",
+   "url": "https://electricliterature.com/black-eyed-women-by-viet-thanh-nguyen/"
+  },
+  {
+   "id": "el-a-story-about-the-devastation-of-loving-your-husband",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "If You Sing Like That for Me",
+   "author": "Akhil Sharma",
+   "url": "https://electricliterature.com/a-story-about-the-devastation-of-loving-your-husband/"
+  },
+  {
+   "id": "el-a-new-story-by-the-master-of-hardboiled-detective-fiction",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Glass That Laughed",
+   "author": "Dashiell Hammett",
+   "url": "https://electricliterature.com/a-new-story-by-the-master-of-hardboiled-detective-fiction/"
+  },
+  {
+   "id": "el-sex-six-days-a-week",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Sundays",
+   "author": "Emma Eisenberg",
+   "url": "https://electricliterature.com/sex-six-days-a-week/"
+  },
+  {
+   "id": "el-how-many-emails-does-it-take-to-not-apologize",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Someone Is Recording",
+   "author": "Lynn Coady",
+   "url": "https://electricliterature.com/how-many-emails-does-it-take-to-not-apologize/"
+  },
+  {
+   "id": "el-a-new-short-story-by-laura-van-den-berg-about-the-survivors-guilt-of-the-suicidal",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Last Night",
+   "author": "Laura van den Berg",
+   "url": "https://electricliterature.com/a-new-short-story-by-laura-van-den-berg-about-the-survivors-guilt-of-the-suicidal/"
+  },
+  {
+   "id": "el-love-after-the-sex-party-circuit",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "A Strange Tale from Down by the River",
+   "author": "Banana Yoshimoto",
+   "url": "https://electricliterature.com/love-after-the-sex-party-circuit/"
+  },
+  {
+   "id": "el-a-new-short-story-by-helen-dewitt-recommended-by-sheila-heti",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "On the Town",
+   "author": "Helen DeWitt",
+   "url": "https://electricliterature.com/a-new-short-story-by-helen-dewitt-recommended-by-sheila-heti/"
+  },
+  {
+   "id": "el-do-you-want-to-be-her-or-do-you-want-to-fuck-her",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Pussy Hounds",
+   "author": "Sarah Gerard",
+   "url": "https://electricliterature.com/do-you-want-to-be-her-or-do-you-want-to-fuck-her/"
+  },
+  {
+   "id": "el-life-is-a-joke-and-death-is-the-punchline",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Predestination",
+   "author": "Trevor Shikaze",
+   "url": "https://electricliterature.com/life-is-a-joke-and-death-is-the-punchline/"
+  },
+  {
+   "id": "el-the-girl-is-always-eaten-at-the-end",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Daddy Thing",
+   "author": "KC Mead-Brewer",
+   "url": "https://electricliterature.com/the-girl-is-always-eaten-at-the-end/"
+  },
+  {
+   "id": "el-rick-moody-recommends-a-full-service-shelter-by-amy-hempel",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "A Full-Service Shelter",
+   "author": "Amy Hempel",
+   "url": "https://electricliterature.com/rick-moody-recommends-a-full-service-shelter-by-amy-hempel/"
+  },
+  {
+   "id": "el-all-stories-by-kevin-wilson",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "All Stories",
+   "author": "Kevin Wilson",
+   "url": "https://electricliterature.com/all-stories-by-kevin-wilson/"
+  },
+  {
+   "id": "el-gondola-by-etgar-keret",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Gondola",
+   "author": "Etgar Keret",
+   "url": "https://electricliterature.com/gondola-by-etgar-keret/"
+  },
+  {
+   "id": "el-the-cattleman-by-aaron-gwyn",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "The Cattleman",
+   "author": "Aaron Gwyn",
+   "url": "https://electricliterature.com/the-cattleman-by-aaron-gwyn/"
+  },
+  {
+   "id": "el-blood-makes-a-bad-dye-by-samantha-xiao-cody",
+   "side": "해외",
+   "source": "Electric Literature",
+   "title": "Blood Makes a Bad Dye",
+   "author": "Samantha Xiao Cody",
+   "url": "https://electricliterature.com/blood-makes-a-bad-dye-by-samantha-xiao-cody/"
+  },
+  {
+   "id": "wwb-eva-popa-edina-szvoren-ottilie-mulzet",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "Éva Popa",
+   "author": "Edina Szvoren",
+   "originalLanguage": "헝가리어",
+   "url": "https://wordswithoutborders.org/read/article/2023-02/eva-popa-edina-szvoren-ottilie-mulzet/"
+  },
+  {
+   "id": "wwb-anna-and-her-daughters-partner-laksmi-pamuntjak-annie-tucker",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "Anna and Her Daughter's Partner",
+   "author": "Laksmi Pamuntjak",
+   "originalLanguage": "인도네시아어",
+   "url": "https://wordswithoutborders.org/read/article/2023-05/anna-and-her-daughters-partner-laksmi-pamuntjak-annie-tucker/"
+  },
+  {
+   "id": "wwb-letter-to-juan-in-space-armonia-somers-kit-maude",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "Letter to Juan in Space",
+   "author": "Armonía Somers",
+   "originalLanguage": "스페인어",
+   "url": "https://wordswithoutborders.org/read/article/2023-11/letter-to-juan-in-space-armonia-somers-kit-maude/",
+   "checked": "2026-10-25"
+  },
+  {
+   "id": "wwb-a-village-fest-alisa-ganieva-will-firth",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "A Village Fest",
+   "author": "Alisa Ganieva",
+   "originalLanguage": "러시아어",
+   "url": "https://wordswithoutborders.org/read/article/2023-02/a-village-fest-alisa-ganieva-will-firth/"
+  }
+ ]
+}
