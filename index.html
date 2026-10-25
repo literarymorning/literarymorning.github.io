@@ -276,6 +276,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 .chip.submit.unknown, .chip.len.unknown { color: var(--muted); border-style: dashed; }
 .deadline .elig-mark { white-space: nowrap; }
 .section-note { margin: 2px 0 0; font-size: 0.75rem; color: var(--muted); }
+.item-note { margin: 0; font-size: 0.8125rem; color: var(--muted); }
 .deadline .prize-mark { color: var(--accent); font-weight: 600; white-space: nowrap; }
 .item-links { display: flex; flex-wrap: wrap; gap: 8px; }
 .link-btn {
@@ -545,6 +546,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     var li = el("li", "item");
     var flags = el("div", "item-flags");
     if (item.region) flags.appendChild(el("span", "chip region", item.region));
+    if (item.origin) flags.appendChild(el("span", "chip region", item.origin));
     var prize = typeof item.prize === "number" && item.prize > 0 ? item.prize : null;
     if (prize) {
       flags.appendChild(el("span", "chip prize" + (prize >= 500 ? " big" : ""), "상금 " + man(prize) + (item.prizeNote ? " · " + item.prizeNote : "")));
@@ -574,7 +576,13 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     if (flags.childNodes.length) li.appendChild(flags);
     li.appendChild(el("h3", "item-title", item.title || ""));
     if (item.body) li.appendChild(el("p", "item-body", item.body));
-    var links = asArray(item.links).filter(function (k) { return k && safeUrl(k.url); });
+    var seenUrl = {};
+    var links = asArray(item.links).filter(function (k) {
+      var u = k && safeUrl(k.url);
+      if (!u || seenUrl[u]) return false;
+      seenUrl[u] = true;
+      return true;
+    });
     if (links.length) {
       var lk = el("div", "item-links");
       links.forEach(function (k) {
@@ -597,6 +605,13 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       ab.appendChild(el("p", null, item.analysis));
       li.appendChild(ab);
     }
+    if (item.reviewGist) {
+      var rg = el("div", "analysis");
+      rg.appendChild(el("span", "analysis-label", "심사평 요지"));
+      rg.appendChild(el("p", null, item.reviewGist));
+      li.appendChild(rg);
+    }
+    if (item.note) li.appendChild(el("p", "item-note", item.note));
     asArray(item.books).forEach(function (bk) { if (bk && bk.title) li.appendChild(renderBook(bk)); });
     var cands = asArray(item.candidates).filter(function (c) { return c && c.title; });
     if (cands.length) li.appendChild(renderCandidates(cands));
@@ -705,6 +720,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       var NOTES = {
         calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 기성·신인 응모 여부와 원고 매수, 도착분·소인 기준을 함께 적습니다.",
         results: "공모와 같은 기준으로 소설 부문 결과만 싣습니다. 심사평과 당선작이 온라인에 올라오면 바로가기와 심사 경향 분석을 붙입니다.",
+        past: "2016~2026년 신춘문예 소설 당선작 가운데 매일 두 편을 골라 소개합니다. 신문사가 겹치지 않게 무작위로 고르고, 한 번 소개한 작품은 다시 고르지 않습니다.",
         world: "영미권·남미권·유럽·러시아·중국·일본·제3세계 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
       };
       if (NOTES[s.id]) sec.appendChild(el("p", "section-note", NOTES[s.id]));

@@ -1,0 +1,2760 @@
+{
+ "updatedAt": "2026-10-25T23:40:00+09:00",
+ "about": "2016~2026년 신문사 신춘문예 소설(단편·중편) 당선작 목록. 가작·장편은 넣지 않는다. 링크는 당선작이 실린 신문사 기사.",
+ "range": [
+  2016,
+  2026
+ ],
+ "papers": [
+  "강원일보",
+  "경남신문",
+  "경상일보",
+  "경인일보",
+  "경향신문",
+  "광남일보",
+  "광주일보",
+  "국제신문",
+  "농민신문",
+  "대전일보",
+  "동아일보",
+  "매일신문",
+  "무등일보",
+  "문화일보",
+  "부산일보",
+  "불교신문",
+  "서울신문",
+  "세계일보",
+  "영남일보",
+  "전북도민일보",
+  "전북일보",
+  "조선일보",
+  "한국불교신문",
+  "한국일보",
+  "한라일보"
+ ],
+ "pendingYears": [
+  2016,
+  2019,
+  2020,
+  2021,
+  2022
+ ],
+ "gaps": [
+  {
+   "year": 2023,
+   "paper": "광주일보"
+  },
+  {
+   "year": 2023,
+   "paper": "농민신문"
+  },
+  {
+   "year": 2018,
+   "paper": "광주일보"
+  },
+  {
+   "year": 2017,
+   "paper": "광주일보"
+  }
+ ],
+ "entries": [
+  {
+   "id": "2026-강원일보-단편소설",
+   "year": 2026,
+   "paper": "강원일보",
+   "category": "단편소설",
+   "title": "조각들",
+   "author": "오혜",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kwnews.co.kr/page/view/2026010119042981124"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.kwnews.co.kr/page/view/2026010119230999673"
+    }
+   ],
+   "linkNote": "심사평은 당선 소감 기사에 함께 실림"
+  },
+  {
+   "id": "2026-경남신문-단편소설",
+   "year": 2026,
+   "paper": "경남신문",
+   "category": "단편소설",
+   "title": "강약중강약",
+   "author": "박필우",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1478688"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1478693&gubun="
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1478698&gubun="
+    }
+   ]
+  },
+  {
+   "id": "2026-경상일보-단편소설",
+   "year": 2026,
+   "paper": "경상일보",
+   "category": "단편소설",
+   "title": "새해에는",
+   "author": "지영현",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1045675"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2026-경인일보-단편소설",
+   "year": 2026,
+   "paper": "경인일보",
+   "category": "단편소설",
+   "title": "미대출 구역",
+   "author": "이상무",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kyeongin.com/article/1757160"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.kyeongin.com/article/1757164"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.kyeongin.com/article/1757168"
+    }
+   ]
+  },
+  {
+   "id": "2026-경향신문-단편소설",
+   "year": 2026,
+   "paper": "경향신문",
+   "category": "단편소설",
+   "title": "라이브",
+   "author": "이정원",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.khan.co.kr/article/202601010000085"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.khan.co.kr/article/202601010000105"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.khan.co.kr/article/202601010000095"
+    }
+   ]
+  },
+  {
+   "id": "2026-광남일보-소설",
+   "year": 2026,
+   "paper": "광남일보",
+   "category": "소설",
+   "title": "원숭이 인간",
+   "author": "차현숙",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.gwangnam.co.kr/article.php?aid=1767274403526877120"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.gwangnam.co.kr/article.php?aid=1767274424526878120"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.gwangnam.co.kr/article.php?aid=1767274443526880120"
+    }
+   ]
+  },
+  {
+   "id": "2026-광주일보-단편소설",
+   "year": 2026,
+   "paper": "광주일보",
+   "category": "단편소설",
+   "title": "밀봉된 마음",
+   "author": "김수현",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kwangju.co.kr/article.php?aid=1767250800793897026"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.kwangju.co.kr/article.php?aid=1767250800793898026"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.kwangju.co.kr/article.php?aid=1767250800793899026"
+    }
+   ]
+  },
+  {
+   "id": "2026-국제신문-단편소설",
+   "year": 2026,
+   "paper": "국제신문",
+   "category": "단편소설",
+   "title": "4664",
+   "author": "조정규",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20260101.22020011398"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20260101.22021011397"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20260101.22021011396"
+    }
+   ]
+  },
+  {
+   "id": "2026-농민신문-단편소설",
+   "year": 2026,
+   "paper": "농민신문",
+   "category": "단편소설",
+   "title": "강선과 팽나무",
+   "author": "배은경",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.nongmin.com/article/20251229500535"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2026-동아일보-단편소설",
+   "year": 2026,
+   "paper": "동아일보",
+   "category": "단편소설",
+   "title": "루빅스 큐브",
+   "author": "김근희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://sinchoon.donga.com/View?cid=6035929"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.donga.com/news/Culture/article/all/20260101/133072608/2"
+    }
+   ],
+   "linkNote": "심사평은 당선 소감 기사에 함께 실림"
+  },
+  {
+   "id": "2026-동아일보-중편소설",
+   "year": 2026,
+   "paper": "동아일보",
+   "category": "중편소설",
+   "title": "한시직 진화",
+   "author": "배은정",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://sinchoon.donga.com/View?cid=6035857"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.donga.com/news/Culture/article/all/20260101/133072636/2"
+    }
+   ],
+   "linkNote": "심사평은 당선 소감 기사에 함께 실림"
+  },
+  {
+   "id": "2026-매일신문-단편소설",
+   "year": 2026,
+   "paper": "매일신문",
+   "category": "단편소설",
+   "title": "매트리스 케어 근무일지",
+   "author": "장다경",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.imaeil.com/page/view/2025121914111374954"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.imaeil.com/page/view/2025121915120730499"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.imaeil.com/page/view/2025121914272967762"
+    }
+   ]
+  },
+  {
+   "id": "2026-무등일보-단편소설",
+   "year": 2026,
+   "paper": "무등일보",
+   "category": "단편소설",
+   "title": "화산꽃",
+   "author": "임순월",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.mdilbo.com/detail/K4YzjP/751696"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.mdilbo.com/detail/K4YzjP/751701"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.mdilbo.com/detail/K4YzjP/751698"
+    }
+   ]
+  },
+  {
+   "id": "2026-문화일보-단편소설",
+   "year": 2026,
+   "paper": "문화일보",
+   "category": "단편소설",
+   "title": "가챠, 가챠",
+   "author": "박재연",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.munhwa.com/article/11558036"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.munhwa.com/article/11558037"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.munhwa.com/article/11558038"
+    }
+   ]
+  },
+  {
+   "id": "2026-부산일보-단편소설",
+   "year": 2026,
+   "paper": "부산일보",
+   "category": "단편소설",
+   "title": "여기서 누군가",
+   "author": "윤현준",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.busan.com/view/busan/view.php?code=2025123117162345640"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.busan.com/view/busan/view.php?code=2025123112134257365"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.busan.com/view/busan/view.php?code=2025123112134820740"
+    }
+   ]
+  },
+  {
+   "id": "2026-불교신문-단편소설",
+   "year": 2026,
+   "paper": "불교신문",
+   "category": "단편소설",
+   "title": "서해의 쓸모",
+   "author": "류혜진",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.ibulgyo.com/news/articleView.html?idxno=434293"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2026-서울신문-단편소설",
+   "year": 2026,
+   "paper": "서울신문",
+   "category": "단편소설",
+   "title": "언어의 고고학",
+   "author": "김세정",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.seoul.co.kr/news/life/contest2026/2026/01/01/20260101033001"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.seoul.co.kr/news/life/contest2026/2026/01/01/20260101035001"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.seoul.co.kr/news/life/contest2026/2026/01/01/20260101035002"
+    }
+   ]
+  },
+  {
+   "id": "2026-세계일보-단편소설",
+   "year": 2026,
+   "paper": "세계일보",
+   "category": "단편소설",
+   "title": "예지",
+   "author": "고아림",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.segye.com/newsView/20251215518768"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2026-영남일보-단편소설",
+   "year": 2026,
+   "paper": "영남일보",
+   "category": "단편소설",
+   "title": "낙수(落水)",
+   "author": "이동윤",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.yeongnam.com/web/view.php?key=20251230023037387"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.yeongnam.com/web/view.php?key=20251230025397399"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.yeongnam.com/web/view.php?key=20251230021137074"
+    }
+   ]
+  },
+  {
+   "id": "2026-전북도민일보-단편소설",
+   "year": 2026,
+   "paper": "전북도민일보",
+   "category": "단편소설",
+   "title": "정론직필",
+   "author": "이준구",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1540520&sc_section_code=S1N9"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1540518&sc_section_code=S1N9"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1540456&sc_section_code=S1N9"
+    }
+   ]
+  },
+  {
+   "id": "2026-전북일보-단편소설",
+   "year": 2026,
+   "paper": "전북일보",
+   "category": "단편소설",
+   "title": "캠핑",
+   "author": "양준희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.jjan.kr/article/20251226500183"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.jjan.kr/article/20251226500198"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.jjan.kr/article/20251226500185"
+    }
+   ]
+  },
+  {
+   "id": "2026-조선일보-단편소설",
+   "year": 2026,
+   "paper": "조선일보",
+   "category": "단편소설",
+   "title": "떨어지며 나는 소리",
+   "author": "김선준",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.chosun.com/culture-life/culture_general/2026/01/01/HJG3MRIDYJD35K4T3MQHCV6W5Y/"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.chosun.com/culture-life/culture_general/2026/01/01/KVATAVHWEVBMXLC7VZXHOYGPZM/"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.chosun.com/culture-life/culture_general/2026/01/01/2OKCYUTSK5GFJFD3B6QXD3RSHA/"
+    }
+   ]
+  },
+  {
+   "id": "2026-한국일보-소설",
+   "year": 2026,
+   "paper": "한국일보",
+   "category": "소설",
+   "title": "호버링",
+   "author": "황예솔",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.hankookilbo.com/News/Read/A2025122315110003746"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.hankookilbo.com/News/Read/A2025122315060004616"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.hankookilbo.com/News/Read/A2025122415190005249"
+    }
+   ]
+  },
+  {
+   "id": "2026-한라일보-단편소설",
+   "year": 2026,
+   "paper": "한라일보",
+   "category": "단편소설",
+   "title": "오이지",
+   "author": "이수연",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.ihalla.com/read.php3?aid=1767283200780560036"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.ihalla.com/read.php3?aid=1767283200780554036"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.ihalla.com/read.php3?aid=1767283200780553036"
+    }
+   ]
+  },
+  {
+   "id": "2025-강원일보-단편소설",
+   "year": 2025,
+   "paper": "강원일보",
+   "category": "단편소설",
+   "title": "네모난 우주가 만든 둥근 세상",
+   "author": "김화순",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kwnews.co.kr/page/view/2025010119584192144"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.kwnews.co.kr/page/view/2025010115114488076"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.kwnews.co.kr/page/view/2025010115114616633"
+    }
+   ]
+  },
+  {
+   "id": "2025-경남신문-단편소설",
+   "year": 2025,
+   "paper": "경남신문",
+   "category": "단편소설",
+   "title": "모르는 사람",
+   "author": "강정아",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://knnews.co.kr/news/articleView.php?idxno=1450301&gubun="
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://knnews.co.kr/news/articleView.php?idxno=1450306&gubun="
+    },
+    {
+     "label": "심사평",
+     "url": "https://knnews.co.kr/news/articleView.php?idxno=1450307&gubun="
+    }
+   ]
+  },
+  {
+   "id": "2025-경상일보-단편소설",
+   "year": 2025,
+   "paper": "경상일보",
+   "category": "단편소설",
+   "title": "빛의 그을음",
+   "author": "허지영",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1017440"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2025-경인일보-단편소설",
+   "year": 2025,
+   "paper": "경인일보",
+   "category": "단편소설",
+   "title": "체어샷",
+   "author": "박정현",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kyeongin.com/article/1724719"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.kyeongin.com/article/1724724"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.kyeongin.com/article/1724727"
+    }
+   ]
+  },
+  {
+   "id": "2025-경향신문-단편소설",
+   "year": 2025,
+   "paper": "경향신문",
+   "category": "단편소설",
+   "title": "관희는 거울 거울은 관희",
+   "author": "남의현",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.khan.co.kr/article/202501010600025"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.khan.co.kr/article/202501010600005"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.khan.co.kr/article/202501010600015"
+    }
+   ]
+  },
+  {
+   "id": "2025-광남일보-단편소설",
+   "year": 2025,
+   "paper": "광남일보",
+   "category": "단편소설",
+   "title": "국경의 밤",
+   "author": "김성배",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://gwangnam.co.kr/read.php3?aid=1735721803496465025"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://gwangnam.co.kr/read.php3?aid=1735721792496466025"
+    },
+    {
+     "label": "심사평",
+     "url": "http://gwangnam.co.kr/read.php3?aid=1735721777496461025"
+    }
+   ]
+  },
+  {
+   "id": "2025-광주일보-소설",
+   "year": 2025,
+   "paper": "광주일보",
+   "category": "소설",
+   "title": "그리고 바다,",
+   "author": "김근수",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kwangju.co.kr/article.php?aid=1735743600778345026"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.kwangju.co.kr/article.php?aid=1735743600778343026"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.kwangju.co.kr/article.php?aid=1735743600778344026"
+    }
+   ]
+  },
+  {
+   "id": "2025-국제신문-단편소설",
+   "year": 2025,
+   "paper": "국제신문",
+   "category": "단편소설",
+   "title": "노란 문",
+   "author": "이주현",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20250101.22016010929&kid=k10"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20250101.22017010928&kid=k10"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20250101.22017010927&kid=k10"
+    }
+   ]
+  },
+  {
+   "id": "2025-농민신문-단편소설",
+   "year": 2025,
+   "paper": "농민신문",
+   "category": "단편소설",
+   "title": "블러드문",
+   "author": "오재아",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.nongmin.com/article/20241227500567"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2025-동아일보-단편소설",
+   "year": 2025,
+   "paper": "동아일보",
+   "category": "단편소설",
+   "title": "어떤 진심",
+   "author": "박진호",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.donga.com/news/Culture/article/all/20250101/130764832/2"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2025-동아일보-중편소설",
+   "year": 2025,
+   "paper": "동아일보",
+   "category": "중편소설",
+   "title": "남아있는 사람",
+   "author": "김준현",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.donga.com/news/Culture/article/all/20250101/130764865/2"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2025-매일신문-단편소설",
+   "year": 2025,
+   "paper": "매일신문",
+   "category": "단편소설",
+   "title": "하지만 나는 끝까지",
+   "author": "미래",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.imaeil.com/page/view/2024121912190081631"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.imaeil.com/page/view/2024122215125369200"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.imaeil.com/page/view/2024121916285301190"
+    }
+   ]
+  },
+  {
+   "id": "2025-무등일보-단편소설",
+   "year": 2025,
+   "paper": "무등일보",
+   "category": "단편소설",
+   "title": "신탄진",
+   "author": "최참치",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.mdilbo.com/detail/EHdc4G/736766"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.mdilbo.com/detail/EHdc4G/736780"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.mdilbo.com/detail/EHdc4G/736770"
+    }
+   ]
+  },
+  {
+   "id": "2025-문화일보-단편소설",
+   "year": 2025,
+   "paper": "문화일보",
+   "category": "단편소설",
+   "title": "친칠라취급주의",
+   "author": "이상하",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.munhwa.com/news/view.html?no=2025010201032715112001"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.munhwa.com/news/view.html?no=2025010201032912000002"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.munhwa.com/news/view.html?no=2025010201032912000001"
+    }
+   ]
+  },
+  {
+   "id": "2025-부산일보-단편소설",
+   "year": 2025,
+   "paper": "부산일보",
+   "category": "단편소설",
+   "title": "기린을 옮기는 방법",
+   "author": "조재윤",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.busan.com/view/busan/view.php?code=2024123117205824953"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.busan.com/view/busan/view.php?code=2024122614511282658"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.busan.com/view/busan/view.php?code=2024122614512768012"
+    }
+   ]
+  },
+  {
+   "id": "2025-불교신문-소설",
+   "year": 2025,
+   "paper": "불교신문",
+   "category": "소설",
+   "title": "목련의 잉태",
+   "author": "정유진",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.ibulgyo.com/news/articleView.html?idxno=421711"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2025-서울신문-단편소설",
+   "year": 2025,
+   "paper": "서울신문",
+   "category": "단편소설",
+   "title": "폴리 사운드",
+   "author": "홍성구",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.seoul.co.kr/news/life/literarycontest2025/2025/01/01/20250101033001"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.seoul.co.kr/news/life/literarycontest2025/2025/01/01/20250101035001"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.seoul.co.kr/news/life/literarycontest2025/2025/01/01/20250101035002"
+    }
+   ]
+  },
+  {
+   "id": "2025-세계일보-단편소설",
+   "year": 2025,
+   "paper": "세계일보",
+   "category": "단편소설",
+   "title": "숨이 차오를 때",
+   "author": "이수정",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.segye.com/newsView/20241223517045"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2025-영남일보-단편소설",
+   "year": 2025,
+   "paper": "영남일보",
+   "category": "단편소설",
+   "title": "사실 나도 케이크가 아닐까",
+   "author": "전혜린",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.yeongnam.com/web/view.php?key=20241229010004765"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.yeongnam.com/web/view.php?key=20241229010004764"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.yeongnam.com/web/view.php?key=20241230010004879"
+    }
+   ]
+  },
+  {
+   "id": "2025-전북도민일보-단편소설",
+   "year": 2025,
+   "paper": "전북도민일보",
+   "category": "단편소설",
+   "title": "삼대",
+   "author": "유인봉",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1497361&sc_section_code=S1N9"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1496984&sc_section_code=S1N9"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1496985&sc_section_code=S1N9"
+    }
+   ]
+  },
+  {
+   "id": "2025-전북일보-단편소설",
+   "year": 2025,
+   "paper": "전북일보",
+   "category": "단편소설",
+   "title": "넋두리",
+   "author": "장용돈",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.jjan.kr/article/20250101580129"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.jjan.kr/article/20241226580374"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.jjan.kr/article/20241226580372"
+    }
+   ]
+  },
+  {
+   "id": "2025-조선일보-단편소설",
+   "year": 2025,
+   "paper": "조선일보",
+   "category": "단편소설",
+   "title": "경고문 쓰는 여자",
+   "author": "차영은",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.chosun.com/culture-life/culture_general/2025/01/01/3IM7VEOEYZCSJAVZZR5WKFFH44/"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.chosun.com/culture-life/culture_general/2025/01/01/JEG523ND2RASXJZSTCE566LASQ/"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.chosun.com/culture-life/culture_general/2025/01/01/KCSNBF4DL5C3NDTYH53XYZH3FY/"
+    }
+   ]
+  },
+  {
+   "id": "2025-한국불교신문-단편소설",
+   "year": 2025,
+   "paper": "한국불교신문",
+   "category": "단편소설",
+   "title": "졸(卒)의 봉기(蜂起)",
+   "author": "박찬우",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kbulgyonews.com/news/articleView.html?idxno=43567"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2025-한국일보-소설",
+   "year": 2025,
+   "paper": "한국일보",
+   "category": "소설",
+   "title": "복 있는 자들",
+   "author": "길란",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.hankookilbo.com/News/Read/A2024122313320000807"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.hankookilbo.com/News/Read/A2024122415340005862"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.hankookilbo.com/News/Read/A2024122518030004347"
+    }
+   ]
+  },
+  {
+   "id": "2025-한라일보-단편소설",
+   "year": 2025,
+   "paper": "한라일보",
+   "category": "단편소설",
+   "title": "소금의 집",
+   "author": "김영진",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.ihalla.com/read.php3?aid=1735743600766719036"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.ihalla.com/read.php3?aid=1735743600766734036"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.ihalla.com/read.php3?aid=1735743600766731036"
+    }
+   ]
+  },
+  {
+   "id": "2024-강원일보-단편소설",
+   "year": 2024,
+   "paper": "강원일보",
+   "category": "단편소설",
+   "title": "시계를 넘어",
+   "author": "임희강",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kwnews.co.kr/page/view/2024010116024968587"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.kwnews.co.kr/page/view/2024010116025045980"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.kwnews.co.kr/page/view/2024010116025013717"
+    }
+   ]
+  },
+  {
+   "id": "2024-경남신문-단편소설",
+   "year": 2024,
+   "paper": "경남신문",
+   "category": "단편소설",
+   "title": "인어의 시간",
+   "author": "곽민주",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1422214"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1422216"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1422215"
+    }
+   ]
+  },
+  {
+   "id": "2024-경상일보-단편소설",
+   "year": 2024,
+   "paper": "경상일보",
+   "category": "단편소설",
+   "title": "마리모",
+   "author": "오승경",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=988693"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2024-경인일보-단편소설",
+   "year": 2024,
+   "paper": "경인일보",
+   "category": "단편소설",
+   "title": "하찮은 진심",
+   "author": "이준아",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kyeongin.com/main/view.php?key=20240102010000023"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.kyeongin.com/main/view.php?key=20240102010003414"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.kyeongin.com/main/view.php?key=20240102010003409"
+    }
+   ]
+  },
+  {
+   "id": "2024-경향신문-단편소설",
+   "year": 2024,
+   "paper": "경향신문",
+   "category": "단편소설",
+   "title": "i",
+   "author": "허성환",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.khan.co.kr/culture/culture-general/article/202312312042005"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.khan.co.kr/culture/culture-general/article/202312312051005"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.khan.co.kr/culture/culture-general/article/202312312051015"
+    }
+   ]
+  },
+  {
+   "id": "2024-광남일보-단편소설",
+   "year": 2024,
+   "paper": "광남일보",
+   "category": "단편소설",
+   "title": "필인더블랭크",
+   "author": "김진표",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.gwangnam.co.kr/read.php3?aid=1704099638466604025&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.gwangnam.co.kr/read.php3?aid=1704099606466610025&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.gwangnam.co.kr/read.php3?aid=1704099625466605025&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    }
+   ]
+  },
+  {
+   "id": "2024-광주일보-단편소설",
+   "year": 2024,
+   "paper": "광주일보",
+   "category": "단편소설",
+   "title": "벽장 밖은 어디로",
+   "author": "유재연",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kwangju.co.kr/article.php?aid=1704121200762497026&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.kwangju.co.kr/article.php?aid=1704121200762500026&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.kwangju.co.kr/article.php?aid=1704121200762499026&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    }
+   ]
+  },
+  {
+   "id": "2024-국제신문-단편소설",
+   "year": 2024,
+   "paper": "국제신문",
+   "category": "단편소설",
+   "title": "공존",
+   "author": "김슬기",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20240102.22020000222"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20240102.22021000220"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20240102.22021000218"
+    }
+   ]
+  },
+  {
+   "id": "2024-농민신문-단편소설",
+   "year": 2024,
+   "paper": "농민신문",
+   "category": "단편소설",
+   "title": "내규에 따라",
+   "author": "곽재민",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.nongmin.com/article/20231227500058"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2024-동아일보-단편소설",
+   "year": 2024,
+   "paper": "동아일보",
+   "category": "단편소설",
+   "title": "오랜 날 오랜 밤",
+   "author": "임택수",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://sinchoon.donga.com/View?cid=4653307"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.donga.com/news/article/all/20240101/122846945/1"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.donga.com/news/article/all/20240101/122846952/1"
+    }
+   ]
+  },
+  {
+   "id": "2024-동아일보-중편소설",
+   "year": 2024,
+   "paper": "동아일보",
+   "category": "중편소설",
+   "title": "호모 헌드레드",
+   "author": "이상민",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://sinchoon.donga.com/View?cid=4653343"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.donga.com/news/article/all/20240101/122847095/1"
+    }
+   ],
+   "linkNote": "심사평은 당선 소감 기사에 함께 실림"
+  },
+  {
+   "id": "2024-매일신문-단편소설",
+   "year": 2024,
+   "paper": "매일신문",
+   "category": "단편소설",
+   "title": "안나의 방",
+   "author": "홍기라",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.imaeil.com/page/view/2023121810422834086"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.imaeil.com/page/view/2023121810045211357"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.imaeil.com/page/view/2023122013275790674"
+    }
+   ]
+  },
+  {
+   "id": "2024-무등일보-단편소설",
+   "year": 2024,
+   "paper": "무등일보",
+   "category": "단편소설",
+   "title": "러닝",
+   "author": "장대성",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.mdilbo.com/detail/EHdc4G/709570"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.mdilbo.com/detail/EHdc4G/709573"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.mdilbo.com/detail/EHdc4G/709576"
+    }
+   ]
+  },
+  {
+   "id": "2024-문화일보-단편소설",
+   "year": 2024,
+   "paper": "문화일보",
+   "category": "단편소설",
+   "title": "유명한 기름집",
+   "author": "기명진",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.munhwa.com/news/view.html?no=2024010201032712000001"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.munhwa.com/news/view.html?no=2024010201032912000002"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.munhwa.com/news/view.html?no=2024010201032912000001"
+    }
+   ]
+  },
+  {
+   "id": "2024-부산일보-단편소설",
+   "year": 2024,
+   "paper": "부산일보",
+   "category": "단편소설",
+   "title": "6이 나올 때까지",
+   "author": "조성백",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.busan.com/view/busan/view.php?code=2024010116280570194"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.busan.com/view/busan/view.php?code=2024010116335065711"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.busan.com/view/busan/view.php?code=2024010116334925409"
+    }
+   ]
+  },
+  {
+   "id": "2024-불교신문-단편소설",
+   "year": 2024,
+   "paper": "불교신문",
+   "category": "단편소설",
+   "title": "나비춤",
+   "author": "김성희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.ibulgyo.com/news/articleView.html?idxno=409424"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2024-서울신문-단편소설",
+   "year": 2024,
+   "paper": "서울신문",
+   "category": "단편소설",
+   "title": "북바인딩 수업",
+   "author": "이지혜",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.seoul.co.kr/news/newsView.php?id=20240102500019"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.seoul.co.kr/news/newsView.php?id=20240102031001"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.seoul.co.kr/news/newsView.php?id=20240102031002"
+    }
+   ]
+  },
+  {
+   "id": "2024-세계일보-단편소설",
+   "year": 2024,
+   "paper": "세계일보",
+   "category": "단편소설",
+   "title": "붉은 베리야",
+   "author": "유호민",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.segye.com/newsView/20231218518191"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2024-영남일보-단편소설",
+   "year": 2024,
+   "paper": "영남일보",
+   "category": "단편소설",
+   "title": "코타키나발루의 봄",
+   "author": "이수정",
+   "links": [
+    {
+     "label": "당선작 읽기(상)",
+     "url": "https://www.yeongnam.com/web/view.php?key=20240102010000202"
+    },
+    {
+     "label": "당선작 읽기(하)",
+     "url": "https://www.yeongnam.com/web/view.php?key=20240102010000203"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.yeongnam.com/web/view.php?key=20231228010004106"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.yeongnam.com/web/view.php?key=20231228010004109"
+    }
+   ]
+  },
+  {
+   "id": "2024-전북도민일보-단편소설",
+   "year": 2024,
+   "paper": "전북도민일보",
+   "category": "단편소설",
+   "title": "우는 여인",
+   "author": "김하진",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1452355&sc_section_code=S1N9"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1452356&sc_section_code=S1N9"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1452360&sc_section_code=S1N9"
+    }
+   ]
+  },
+  {
+   "id": "2024-전북일보-소설",
+   "year": 2024,
+   "paper": "전북일보",
+   "category": "소설",
+   "title": "미지의 여행",
+   "author": "신가람",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.jjan.kr/article/20231226580282"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.jjan.kr/article/20231226580346"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.jjan.kr/article/20231228580062"
+    }
+   ]
+  },
+  {
+   "id": "2024-조선일보-단편소설",
+   "year": 2024,
+   "paper": "조선일보",
+   "category": "단편소설",
+   "title": "러브레터",
+   "author": "권희진",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.chosun.com/culture-life/culture_general/2024/01/01/QDXFKEG6FBDTXMGEU5OE6X7M6U/"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.chosun.com/culture-life/culture_general/2024/01/01/IMKYWZ2FO5FAZAFFNZPQTA44FE/"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.chosun.com/culture-life/culture_general/2024/01/01/2WHESJ5S45AIDK5YD2YBTQUXIQ/"
+    }
+   ]
+  },
+  {
+   "id": "2024-한국불교신문-단편소설",
+   "year": 2024,
+   "paper": "한국불교신문",
+   "category": "단편소설",
+   "title": "영장류의 골목",
+   "author": "김보경",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kbulgyonews.com/news/articleView.html?idxno=42441"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2024-한국일보-소설",
+   "year": 2024,
+   "paper": "한국일보",
+   "category": "소설",
+   "title": "말을 하자면",
+   "author": "김영은",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.hankookilbo.com/News/Read/A2023122611070003310"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.hankookilbo.com/News/Read/A2023122610000002826"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.hankookilbo.com/News/Read/A2023122610460002376"
+    }
+   ]
+  },
+  {
+   "id": "2024-한라일보-단편소설",
+   "year": 2024,
+   "paper": "한라일보",
+   "category": "단편소설",
+   "title": "상구와 상순",
+   "author": "윤호준",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.ihalla.com/read.php3?aid=1704121200751348036"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.ihalla.com/read.php3?aid=1704121200751336036"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.ihalla.com/read.php3?aid=1704121200751333036"
+    }
+   ]
+  },
+  {
+   "id": "2023-강원일보-단편소설",
+   "year": 2023,
+   "paper": "강원일보",
+   "category": "단편소설",
+   "title": "국경",
+   "author": "한소은",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kwnews.co.kr/page/view/2023010113183509853"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.kwnews.co.kr/page/view/2022122517302715848"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.kwnews.co.kr/page/view/2022122518290079015"
+    }
+   ]
+  },
+  {
+   "id": "2023-경남신문-단편소설",
+   "year": 2023,
+   "paper": "경남신문",
+   "category": "단편소설",
+   "title": "펭귄섬",
+   "author": "이상희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.knnews.co.kr/news/articleView.php?idxno=1393714"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.knnews.co.kr/news/articleView.php?idxno=1393715"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.knnews.co.kr/news/articleView.php?idxno=1393716"
+    }
+   ]
+  },
+  {
+   "id": "2023-경상일보-단편소설",
+   "year": 2023,
+   "paper": "경상일보",
+   "category": "단편소설",
+   "title": "피비",
+   "author": "이혜정",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.ksilbo.co.kr/news/articleView.html?idxno=957556"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2023-경인일보-단편소설",
+   "year": 2023,
+   "paper": "경인일보",
+   "category": "단편소설",
+   "title": "숨비들다",
+   "author": "고은경",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kyeongin.com/main/view.php?key=20221227010005058"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.kyeongin.com/main/view.php?key=20221227010005059"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.kyeongin.com/main/view.php?key=20221228010005353"
+    }
+   ]
+  },
+  {
+   "id": "2023-경향신문-단편소설",
+   "year": 2023,
+   "paper": "경향신문",
+   "category": "단편소설",
+   "title": "휠 얼라이먼트",
+   "author": "신보라",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.khan.co.kr/culture/culture-general/article/202301012144005"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.khan.co.kr/culture/culture-general/article/202301012149005"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.khan.co.kr/culture/culture-general/article/202301012149015"
+    }
+   ]
+  },
+  {
+   "id": "2023-광남일보-단편소설",
+   "year": 2023,
+   "paper": "광남일보",
+   "category": "단편소설",
+   "title": "코뿔소",
+   "author": "임정인",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.gwangnam.co.kr/read.php3?aid=1672565326436486025&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.gwangnam.co.kr/read.php3?aid=1672565310436487025&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.gwangnam.co.kr/read.php3?aid=1672565277436478025&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    }
+   ]
+  },
+  {
+   "id": "2023-국제신문-단편소설",
+   "year": 2023,
+   "paper": "국제신문",
+   "category": "단편소설",
+   "title": "마음의 거리",
+   "author": "임순옥",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20230102.22022000242"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20230102.22023000241"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20230102.22023000240"
+    }
+   ]
+  },
+  {
+   "id": "2023-동아일보-단편소설",
+   "year": 2023,
+   "paper": "동아일보",
+   "category": "단편소설",
+   "title": "녹",
+   "author": "공현진",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.donga.com/news/article/all/20230102/117247549/1"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2023-동아일보-중편소설",
+   "year": 2023,
+   "paper": "동아일보",
+   "category": "중편소설",
+   "title": "레드볼",
+   "author": "김혜빈",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.donga.com/news/article/all/20230102/117247504/1"
+    }
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+  },
+  {
+   "id": "2023-매일신문-단편소설",
+   "year": 2023,
+   "paper": "매일신문",
+   "category": "단편소설",
+   "title": "파도는 언덕을 쓸어내린다",
+   "author": "임재일",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://news.imaeil.com/page/view/2022121916491832539"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://news.imaeil.com/page/view/2022121917182673733"
+    },
+    {
+     "label": "심사평",
+     "url": "http://news.imaeil.com/page/view/2022121614335249003"
+    }
+   ]
+  },
+  {
+   "id": "2023-무등일보-단편소설",
+   "year": 2023,
+   "paper": "무등일보",
+   "category": "단편소설",
+   "title": "빈 세상을 넘어",
+   "author": "나규리",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.mdilbo.com/detail/K4YzjP/685891"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.mdilbo.com/detail/K4YzjP/685894"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.mdilbo.com/detail/K4YzjP/685895"
+    }
+   ]
+  },
+  {
+   "id": "2023-문화일보-단편소설",
+   "year": 2023,
+   "paper": "문화일보",
+   "category": "단편소설",
+   "title": "낮에 접는 별",
+   "author": "양수빈",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.munhwa.com/news/view.html?no=2023010201032833000001"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.munhwa.com/news/view.html?no=2023010201033012000001"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.munhwa.com/news/view.html?no=2023010201033012000002"
+    }
+   ]
+  },
+  {
+   "id": "2023-부산일보-단편소설",
+   "year": 2023,
+   "paper": "부산일보",
+   "category": "단편소설",
+   "title": "주제넘기",
+   "author": "이예린",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.busan.com/view/busan/view.php?code=2023010116303244088"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.busan.com/view/busan/view.php?code=2023010116303081482"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.busan.com/view/busan/view.php?code=2023010116304724950"
+    }
+   ]
+  },
+  {
+   "id": "2023-불교신문-단편소설",
+   "year": 2023,
+   "paper": "불교신문",
+   "category": "단편소설",
+   "title": "북을 두드리는 오후",
+   "author": "김하연",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.ibulgyo.com/news/articleView.html?idxno=221919"
+    }
+   ]
+  },
+  {
+   "id": "2023-서울신문-단편소설",
+   "year": 2023,
+   "paper": "서울신문",
+   "category": "단편소설",
+   "title": "체조합시다",
+   "author": "김사사",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.seoul.co.kr/news/newsView.php?id=20230102029012"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.seoul.co.kr/news/newsView.php?id=20230102031015"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.seoul.co.kr/news/newsView.php?id=20230102031014"
+    }
+   ]
+  },
+  {
+   "id": "2023-세계일보-단편소설",
+   "year": 2023,
+   "paper": "세계일보",
+   "category": "단편소설",
+   "title": "수박",
+   "author": "박가람",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.segye.com/newsView/20221226516244"
+    }
+   ]
+  },
+  {
+   "id": "2023-영남일보-단편소설",
+   "year": 2023,
+   "paper": "영남일보",
+   "category": "단편소설",
+   "title": "NIRVANA",
+   "author": "아신",
+   "links": [
+    {
+     "label": "당선작 읽기(상)",
+     "url": "http://www.yeongnam.com/web/view.php?key=20230102010000138"
+    },
+    {
+     "label": "당선작 읽기(하)",
+     "url": "https://www.yeongnam.com/web/view.php?key=20230102010000140"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.yeongnam.com/web/view.php?key=20221226010003283"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.yeongnam.com/web/view.php?key=20221229010003900"
+    }
+   ]
+  },
+  {
+   "id": "2023-전북도민일보-소설",
+   "year": 2023,
+   "paper": "전북도민일보",
+   "category": "소설",
+   "title": "말 없는 말",
+   "author": "조제인",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.domin.co.kr/news/articleView.html?idxno=1408358&sc_section_code=S1N9"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.domin.co.kr/news/articleView.html?idxno=1408354&sc_section_code=S1N9"
+    },
+    {
+     "label": "심사평",
+     "url": "http://www.domin.co.kr/news/articleView.html?idxno=1408352&sc_section_code=S1N9"
+    }
+   ]
+  },
+  {
+   "id": "2023-전북일보-단편소설",
+   "year": 2023,
+   "paper": "전북일보",
+   "category": "단편소설",
+   "title": "오월의 박제관",
+   "author": "배은정",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.jjan.kr/article/20221227580151"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.jjan.kr/article/20221227580152"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.jjan.kr/article/20221227580153"
+    }
+   ]
+  },
+  {
+   "id": "2023-조선일보-단편소설",
+   "year": 2023,
+   "paper": "조선일보",
+   "category": "단편소설",
+   "title": "쥐",
+   "author": "전지영",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.chosun.com/culture-life/culture_general/2023/01/02/YVULNAEXXJGO3HFCFKU3VTLM7A/"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.chosun.com/culture-life/culture_general/2023/01/02/PSLVM77VCNGYFIAEQTTCHEGFJI/"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.chosun.com/culture-life/culture_general/2023/01/02/QWQBNV4JRBADJHPNQ76MC25RW4/"
+    }
+   ]
+  },
+  {
+   "id": "2023-한국일보-소설",
+   "year": 2023,
+   "paper": "한국일보",
+   "category": "소설",
+   "title": "난간에 부딪힌 비가 집안으로 들이쳤지만",
+   "author": "전지영",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.hankookilbo.com/News/Read/A2022122713050000281"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.hankookilbo.com/News/Read/A2022122713030004867"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.hankookilbo.com/News/Read/A2022122713060002331"
+    }
+   ]
+  },
+  {
+   "id": "2023-한라일보-단편소설",
+   "year": 2023,
+   "paper": "한라일보",
+   "category": "단편소설",
+   "title": "기적의 남자",
+   "author": "김동승",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.ihalla.com/read.php3?aid=1672585200736584036"
+    },
+    {
+     "label": "당선 소감",
+     "url": "http://www.ihalla.com/read.php3?aid=1672585200736593036"
+    }
+   ]
+  },
+  {
+   "id": "2020-대전일보-단편소설",
+   "year": 2020,
+   "paper": "대전일보",
+   "category": "단편소설",
+   "title": "아침의 동행",
+   "author": "한승주",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.daejonilbo.com/news/articleView.html?idxno=1403420"
+    }
+   ],
+   "linkNote": "당선 소감이 같은 기사에 실림",
+   "checked": "2026-10-25"
+  },
+  {
+   "id": "2019-대전일보-단편소설",
+   "year": 2019,
+   "paper": "대전일보",
+   "category": "단편소설",
+   "title": "종점 만화방",
+   "author": "김은희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.daejonilbo.com/news/articleView.html?idxno=1350135"
+    }
+   ],
+   "linkNote": "당선 소감이 같은 기사에 실림",
+   "checked": "2026-10-25"
+  },
+  {
+   "id": "2018-강원일보-단편소설",
+   "year": 2018,
+   "paper": "강원일보",
+   "category": "단편소설",
+   "title": "그 여자의 거짓말",
+   "author": "이윤경",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kwnews.co.kr/nview.asp?s=601&aid=218010100152"
+    }
+   ]
+  },
+  {
+   "id": "2018-경남신문-단편소설",
+   "year": 2018,
+   "paper": "경남신문",
+   "category": "단편소설",
+   "title": "포토그래퍼",
+   "author": "김지원",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.knnews.co.kr/news/articleView.php?idxno=1236337"
+    }
+   ]
+  },
+  {
+   "id": "2018-경상일보-단편소설",
+   "year": 2018,
+   "paper": "경상일보",
+   "category": "단편소설",
+   "title": "심해(沈海)",
+   "author": "양지은",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.ksilbo.co.kr/news/articleView.html?idxno=625338"
+    }
+   ]
+  },
+  {
+   "id": "2018-경인일보-단편소설",
+   "year": 2018,
+   "paper": "경인일보",
+   "category": "단편소설",
+   "title": "린을 찾아가는 길",
+   "author": "황윤정",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kyeongin.com/main/view.php?key=20180102010000269"
+    }
+   ]
+  },
+  {
+   "id": "2018-경향신문-단편소설",
+   "year": 2018,
+   "paper": "경향신문",
+   "category": "단편소설",
+   "title": "볼트",
+   "author": "지혜",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://news.khan.co.kr/kh_news/khan_art_view.html?artid=201712312051005&code=960205"
+    }
+   ]
+  },
+  {
+   "id": "2018-광남일보-단편소설",
+   "year": 2018,
+   "paper": "광남일보",
+   "category": "단편소설",
+   "title": "버스는 오지 않는다",
+   "author": "백승권",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.gwangnam.co.kr/read.php3?aid=1514448598275847025&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    }
+   ]
+  },
+  {
+   "id": "2018-국제신문-단편소설",
+   "year": 2018,
+   "paper": "국제신문",
+   "category": "단편소설",
+   "title": "천사의 손길",
+   "author": "이화정",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20180101.22028009405"
+    }
+   ]
+  },
+  {
+   "id": "2018-농민신문-단편소설",
+   "year": 2018,
+   "paper": "농민신문",
+   "category": "단편소설",
+   "title": "닭집 여자",
+   "author": "이휘빈",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.nongmin.com/nature/NAT/ETC/285762/view"
+    }
+   ]
+  },
+  {
+   "id": "2018-대전일보-단편소설",
+   "year": 2018,
+   "paper": "대전일보",
+   "category": "단편소설",
+   "title": "애도의 방식",
+   "author": "김수영",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.daejonilbo.com/news/articleView.html?idxno=1291470"
+    }
+   ],
+   "checked": "2026-10-25",
+   "featured": "2026-10-25"
+  },
+  {
+   "id": "2018-동아일보-단편소설",
+   "year": 2018,
+   "paper": "동아일보",
+   "category": "단편소설",
+   "title": "우따",
+   "author": "강석희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://news.donga.com/3/all/20180101/87972974/1"
+    }
+   ]
+  },
+  {
+   "id": "2018-동아일보-중편소설",
+   "year": 2018,
+   "paper": "동아일보",
+   "category": "중편소설",
+   "title": "내가 만든 사례에 대하여",
+   "author": "최유안",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://news.donga.com/3/all/20180101/87973038/1"
+    }
+   ]
+  },
+  {
+   "id": "2018-매일신문-단편소설",
+   "year": 2018,
+   "paper": "매일신문",
+   "category": "단편소설",
+   "title": "봄, 달",
+   "author": "방미현",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.imaeil.com/sub_news/sub_news_view.php?news_id=9&yy=2018"
+    }
+   ]
+  },
+  {
+   "id": "2018-무등일보-단편소설",
+   "year": 2018,
+   "paper": "무등일보",
+   "category": "단편소설",
+   "title": "봉이",
+   "author": "김용매",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.honam.co.kr/read.php3?aid=1514905200543928007"
+    }
+   ]
+  },
+  {
+   "id": "2018-문화일보-단편소설",
+   "year": 2018,
+   "paper": "문화일보",
+   "category": "단편소설",
+   "title": "오늘의 루프탑",
+   "author": "이경란",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.munhwa.com/news/view.html?no=2018010201033412000001"
+    }
+   ]
+  },
+  {
+   "id": "2018-부산일보-단편소설",
+   "year": 2018,
+   "paper": "부산일보",
+   "category": "단편소설",
+   "title": "맹순이 바당",
+   "author": "임성용",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://news20.busan.com/controller/newsController.jsp?newsId=20171224000230"
+    }
+   ]
+  },
+  {
+   "id": "2018-불교신문-단편소설",
+   "year": 2018,
+   "paper": "불교신문",
+   "category": "단편소설",
+   "title": "등(燈)",
+   "author": "김영민",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.ibulgyo.com/news/articleView.html?idxno=162926"
+    }
+   ]
+  },
+  {
+   "id": "2018-서울신문-단편소설",
+   "year": 2018,
+   "paper": "서울신문",
+   "category": "단편소설",
+   "title": "플랫폼",
+   "author": "김민수",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.seoul.co.kr/news/newsView.php?id=20180101029001"
+    }
+   ]
+  },
+  {
+   "id": "2018-세계일보-단편소설",
+   "year": 2018,
+   "paper": "세계일보",
+   "category": "단편소설",
+   "title": "피에카르스키를 찾아서",
+   "author": "도재경",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.segye.com/newsView/20171231001300"
+    }
+   ]
+  },
+  {
+   "id": "2018-영남일보-단편소설",
+   "year": 2018,
+   "paper": "영남일보",
+   "category": "단편소설",
+   "title": "야드",
+   "author": "임채묵",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.yeongnam.com/mnews/newsview.do?mode=newsView&newskey=20180102.010280952260001"
+    }
+   ]
+  },
+  {
+   "id": "2018-전북도민일보-단편소설",
+   "year": 2018,
+   "paper": "전북도민일보",
+   "category": "단편소설",
+   "title": "파티, 파티",
+   "author": "허채원",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.domin.co.kr/news/articleView.html?idxno=1179274"
+    }
+   ]
+  },
+  {
+   "id": "2018-전북일보-단편소설",
+   "year": 2018,
+   "paper": "전북일보",
+   "category": "단편소설",
+   "title": "아침 대화",
+   "author": "최아현",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.jjan.kr/news/articleView.html?idxno=1146089"
+    }
+   ]
+  },
+  {
+   "id": "2018-조선일보-단편소설",
+   "year": 2018,
+   "paper": "조선일보",
+   "category": "단편소설",
+   "title": "폴이라 불리는 명준",
+   "author": "명학수",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://news.chosun.com/site/data/html_dir/2017/12/31/2017123100707.html"
+    }
+   ]
+  },
+  {
+   "id": "2018-한국일보-단편소설",
+   "year": 2018,
+   "paper": "한국일보",
+   "category": "단편소설",
+   "title": "( )",
+   "author": "김수온",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://hankookilbo.com/v/2166576c04594918b6df459f070b7808"
+    }
+   ]
+  },
+  {
+   "id": "2018-한라일보-단편소설",
+   "year": 2018,
+   "paper": "한라일보",
+   "category": "단편소설",
+   "title": "사십사 계단",
+   "author": "이정연",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.ihalla.com/read.php3?aid=1514890800583162036"
+    }
+   ]
+  },
+  {
+   "id": "2017-강원일보-단편소설",
+   "year": 2017,
+   "paper": "강원일보",
+   "category": "단편소설",
+   "title": "열린문",
+   "author": "김선희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kwnews.co.kr/nview.asp?s=601&aid=217010100163"
+    }
+   ]
+  },
+  {
+   "id": "2017-경남신문-단편소설",
+   "year": 2017,
+   "paper": "경남신문",
+   "category": "단편소설",
+   "title": "블랙스팟",
+   "author": "김서연",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.knnews.co.kr/news/articleView.php?idxno=1201750"
+    }
+   ]
+  },
+  {
+   "id": "2017-경상일보-단편소설",
+   "year": 2017,
+   "paper": "경상일보",
+   "category": "단편소설",
+   "title": "과녁",
+   "author": "이서안",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.ksilbo.co.kr/news/articleView.html?idxno=571634"
+    }
+   ]
+  },
+  {
+   "id": "2017-경인일보-단편소설",
+   "year": 2017,
+   "paper": "경인일보",
+   "category": "단편소설",
+   "title": "켄의 세계",
+   "author": "최은",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.kyeongin.com/main/view.php?key=20170102010008975"
+    }
+   ]
+  },
+  {
+   "id": "2017-경향신문-단편소설",
+   "year": 2017,
+   "paper": "경향신문",
+   "category": "단편소설",
+   "title": "신다",
+   "author": "남궁지혜",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://news.khan.co.kr/kh_news/khan_art_view.html?artid=201701012126005&code=960100"
+    }
+   ]
+  },
+  {
+   "id": "2017-광남일보-단편소설",
+   "year": 2017,
+   "paper": "광남일보",
+   "category": "단편소설",
+   "title": "열쇠",
+   "author": "강정희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.gwangnam.co.kr/read.php3?aid=1483001301249868025&search=%BD%C5%C3%E1%B9%AE%BF%B9"
+    }
+   ]
+  },
+  {
+   "id": "2017-국제신문-단편소설",
+   "year": 2017,
+   "paper": "국제신문",
+   "category": "단편소설",
+   "title": "화분",
+   "author": "양정규",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20170102.22041184709"
+    }
+   ],
+   "checked": "2026-10-25",
+   "featured": "2026-10-25"
+  },
+  {
+   "id": "2017-농민신문-단편소설",
+   "year": 2017,
+   "paper": "농민신문",
+   "category": "단편소설",
+   "title": "연소증후군",
+   "author": "최영희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.nongmin.com/article/ar_detail.htm?ar_id=271835&subMenu=dsearch&key=%BD%C5%C3%E1%B9%AE%BF%B9"
+    }
+   ]
+  },
+  {
+   "id": "2017-대전일보-단편소설",
+   "year": 2017,
+   "paper": "대전일보",
+   "category": "단편소설",
+   "title": "부자",
+   "author": "김선욱",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.daejonilbo.com/news/newsitem.asp?pk_no=1245979"
+    }
+   ]
+  },
+  {
+   "id": "2017-동아일보-단편소설",
+   "year": 2017,
+   "paper": "동아일보",
+   "category": "단편소설",
+   "title": "어쨌든 하루하루",
+   "author": "김홍",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.donga.com/docs/sinchoon/2017/02_1.html"
+    }
+   ]
+  },
+  {
+   "id": "2017-동아일보-중편소설",
+   "year": 2017,
+   "paper": "동아일보",
+   "category": "중편소설",
+   "title": "무덤이 조금씩",
+   "author": "위수정",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.donga.com/docs/sinchoon/2017/01_1.html"
+    }
+   ]
+  },
+  {
+   "id": "2017-매일신문-단편소설",
+   "year": 2017,
+   "paper": "매일신문",
+   "category": "단편소설",
+   "title": "닭을 먹다",
+   "author": "김호애",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.imaeil.com/sub_news/sub_news_view.php?news_id=6&yy=2017"
+    }
+   ]
+  },
+  {
+   "id": "2017-무등일보-단편소설",
+   "year": 2017,
+   "paper": "무등일보",
+   "category": "단편소설",
+   "title": "두 개의 그림자",
+   "author": "조안영",
+   "links": [],
+   "status": "needs_link"
+  },
+  {
+   "id": "2017-문화일보-단편소설",
+   "year": 2017,
+   "paper": "문화일보",
+   "category": "단편소설",
+   "title": "플랫폼",
+   "author": "문은미",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.munhwa.com/news/view.html?no=2017010201033412000001"
+    }
+   ]
+  },
+  {
+   "id": "2017-부산일보-단편소설",
+   "year": 2017,
+   "paper": "부산일보",
+   "category": "단편소설",
+   "title": "문어",
+   "author": "신호철",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://news20.busan.com/controller/newsController.jsp?newsId=20161221000423"
+    }
+   ]
+  },
+  {
+   "id": "2017-불교신문-단편소설",
+   "year": 2017,
+   "paper": "불교신문",
+   "category": "단편소설",
+   "title": "산벚꽃나무 아래",
+   "author": "이선재",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.ibulgyo.com/news/articleView.html?idxno=154311"
+    }
+   ]
+  },
+  {
+   "id": "2017-서울신문-단편소설",
+   "year": 2017,
+   "paper": "서울신문",
+   "category": "단편소설",
+   "title": "밸러스트",
+   "author": "문은강",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.seoul.co.kr/news/newsView.php?id=20170102033003"
+    }
+   ]
+  },
+  {
+   "id": "2017-세계일보-단편소설",
+   "year": 2017,
+   "paper": "세계일보",
+   "category": "단편소설",
+   "title": "래빗 쇼",
+   "author": "이상희",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.segye.com/content/html/2017/01/01/20170101001375.html"
+    }
+   ]
+  },
+  {
+   "id": "2017-영남일보-단편소설",
+   "year": 2017,
+   "paper": "영남일보",
+   "category": "단편소설",
+   "title": "라스트 장용영",
+   "author": "정남일",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.yeongnam.com/mnews/newsview.do?mode=newsView&newskey=20170102.010280845050001"
+    }
+   ]
+  },
+  {
+   "id": "2017-전북도민일보-단편소설",
+   "year": 2017,
+   "paper": "전북도민일보",
+   "category": "단편소설",
+   "title": "마지막 수유 시간",
+   "author": "최정원",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.domin.co.kr/news/articleView.html?idxno=1135573"
+    }
+   ]
+  },
+  {
+   "id": "2017-전북일보-단편소설",
+   "year": 2017,
+   "paper": "전북일보",
+   "category": "단편소설",
+   "title": "백팩",
+   "author": "정숙인",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.jjan.kr/news/articleView.html?idxno=1117262"
+    }
+   ]
+  },
+  {
+   "id": "2017-조선일보-단편소설",
+   "year": 2017,
+   "paper": "조선일보",
+   "category": "단편소설",
+   "title": "박스",
+   "author": "권제훈",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://news.chosun.com/site/data/html_dir/2017/01/01/2017010100681.html"
+    }
+   ]
+  },
+  {
+   "id": "2017-한국일보-단편소설",
+   "year": 2017,
+   "paper": "한국일보",
+   "category": "단편소설",
+   "title": "쓰나미 오는 날",
+   "author": "고민실",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "http://www.hankookilbo.com/v/97d1fc42e7634e04b0e63399150edd9a"
+    }
+   ]
+  },
+  {
+   "id": "2017-한라일보-단편소설",
+   "year": 2017,
+   "paper": "한라일보",
+   "category": "단편소설",
+   "title": "끝 없는 밤",
+   "author": "김선희",
+   "links": [],
+   "status": "needs_link"
+  },
+  {
+   "id": "2016-대전일보-단편소설",
+   "year": 2016,
+   "paper": "대전일보",
+   "category": "단편소설",
+   "title": "디타의 토요일",
+   "author": "임아라",
+   "links": [
+    {
+     "label": "당선작 읽기",
+     "url": "https://www.daejonilbo.com/news/articleView.html?idxno=1199011"
+    }
+   ],
+   "linkNote": "당선 소감과 심사평(이시백·한창훈)이 같은 기사에 실림",
+   "checked": "2026-10-25"
+  }
+ ],
+ "domains": {
+  "강원일보": "kwnews.co.kr",
+  "경남신문": "knnews.co.kr",
+  "경상일보": "ksilbo.co.kr",
+  "경인일보": "kyeongin.com",
+  "경향신문": "khan.co.kr",
+  "광남일보": "gwangnam.co.kr",
+  "광주일보": "kwangju.co.kr",
+  "국제신문": "kookje.co.kr",
+  "농민신문": "nongmin.com",
+  "대전일보": "daejonilbo.com",
+  "동아일보": "donga.com",
+  "매일신문": "imaeil.com",
+  "무등일보": "mdilbo.com",
+  "문화일보": "munhwa.com",
+  "부산일보": "busan.com",
+  "불교신문": "ibulgyo.com",
+  "서울신문": "seoul.co.kr",
+  "세계일보": "segye.com",
+  "영남일보": "yeongnam.com",
+  "전북도민일보": "domin.co.kr",
+  "전북일보": "jjan.kr",
+  "조선일보": "chosun.com",
+  "한국불교신문": "kbulgyonews.com",
+  "한국일보": "hankookilbo.com",
+  "한라일보": "ihalla.com"
+ }
+}
