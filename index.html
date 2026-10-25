@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>문학 조간</title>
+<meta name="description" content="공모·당선·지원금·신간·칼럼·이슈·해외 문학 소식을 매일 아침 9시 무렵 전하는 문학 브리핑.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="문학 조간">
+<meta property="og:description" content="매일 아침 9시 무렵 발행되는 문학 소식. 소설 공모와 당선 결과, 지원금·레지던시, 신간, 칼럼, 문단 이슈, 해외 문학.">
+<meta name="theme-color" content="#2f4a3a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='6' fill='%231e6a49'/%3E%3Ctext x='32' y='46' font-size='40' text-anchor='middle' fill='white' font-family='serif'%3E%EB%AC%B8%3C/text%3E%3C/svg%3E">
+<style>
+html{-webkit-text-size-adjust:100%}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;font:14px/1.5 system-ui,sans-serif}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<style>
+/* Layout: 조간 지면 한 장. 원고지 칸에 앉힌 제호, 본문 단 하나, 넓은 화면에서는 오른쪽에 마감 달력과 지난 호. */
+:root {
+  --paper: #f2f5f2;
+  --sheet: #fafcfa;
+  --band: #bfd7bf;
+  --band-muted: #414b41;
+  --ink: #1a211a;
+  --muted: #5e675e;
+  --grid: #96b696;
+  --grid-soft: #d7e5d7;
+  --accent: #376839;
+  --chip: #e6eee6;
+  --rule: #d7dfd7;
+  --alert: #b2432c;
+  --font-display: "Hahmlet", "Nanum Myeongjo", "AppleMyungjo", "Batang", serif;
+  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --step--1: 0.8125rem;
+  --step-0: 0.96875rem;
+  --step-1: 1.125rem;
+  --step-2: 1.5rem;
+  --step-3: 1.875rem;
+}
+/* 요일별 색: 일 빨 · 월 주 · 화 노 · 수 초 · 목 파 · 금 남 · 토 보. 명도와 채도는 고정하고 색상만 돌린다. */
+:root[data-day="0"] { --paper: #f8f3f2; --sheet: #fefbfb; --band: #eac5c2; --band-muted: #524442; --ink: #251c1b; --muted: #6e615f; --grid: #ce9e99; --grid-soft: #efdbd9; --accent: #864440; --chip: #f4e8e7; --rule: #e6d9d8; }
+:root[data-day="1"] { --paper: #f7f3f0; --sheet: #fdfbfa; --band: #e4cab4; --band-muted: #50453d; --ink: #241d17; --muted: #6c625a; --grid: #c7a487; --grid-soft: #ecddd1; --accent: #7e4d1c; --chip: #f2e9e3; --rule: #e3dbd3; }
+:root[data-day="2"] { --paper: #f5f4f0; --sheet: #fcfcfa; --band: #d5d1b1; --band-muted: #4a483c; --ink: #201f17; --muted: #676559; --grid: #b4ad83; --grid-soft: #e3e1d0; --accent: #675b10; --chip: #edece2; --rule: #deddd2; }
+:root[data-day="3"] { --paper: #f2f5f2; --sheet: #fafcfa; --band: #bfd7bf; --band-muted: #414b41; --ink: #1a211a; --muted: #5e675e; --grid: #96b696; --grid-soft: #d7e5d7; --accent: #376839; --chip: #e6eee6; --rule: #d7dfd7; }
+:root[data-day="4"] { --paper: #f0f5f8; --sheet: #fafcfd; --band: #b6d4e7; --band-muted: #3e4a51; --ink: #182025; --muted: #5b666d; --grid: #88b2cc; --grid-soft: #d2e3ee; --accent: #166286; --chip: #e3edf3; --rule: #d4dee4; }
+:root[data-day="5"] { --paper: #f2f4f8; --sheet: #fbfcfe; --band: #c5ceec; --band-muted: #444753; --ink: #1c1e26; --muted: #61646f; --grid: #9faad1; --grid-soft: #dbe0f0; --accent: #49568d; --chip: #e8ebf4; --rule: #d9dce6; }
+:root[data-day="6"] { --paper: #f6f3f7; --sheet: #fcfbfd; --band: #dac8e3; --band-muted: #4c454f; --ink: #211c24; --muted: #68616c; --grid: #baa1c5; --grid-soft: #e6dceb; --accent: #6e4a7d; --chip: #eee9f1; --rule: #e0dae3; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121612;
+    --sheet: #181d18;
+    --band: #223323;
+    --band-muted: #b6c1b6;
+    --ink: #e4eae4;
+    --muted: #96a196;
+    --grid: #486a49;
+    --grid-soft: #273527;
+    --accent: #89c68a;
+    --chip: #222b22;
+    --rule: #293129;
+    --alert: #ec8a6b;
+    color-scheme: dark;
+  }
+  :root:not([data-theme="light"])[data-day="0"] { --paper: #181313; --sheet: #211918; --band: #3e2725; --band-muted: #cab9b7; --ink: #eee5e4; --muted: #ab9997; --grid: #81514d; --grid-soft: #402b29; --accent: #f09a92; --chip: #312423; --rule: #382b2a; }
+  :root:not([data-theme="light"])[data-day="1"] { --paper: #181411; --sheet: #1f1a16; --band: #3b2a1b; --band-muted: #c8bbb1; --ink: #ede6e1; --muted: #a89b91; --grid: #7b5738; --grid-soft: #3d2e20; --accent: #e4a56c; --chip: #2f261e; --rule: #362d25; }
+  :root:not([data-theme="light"])[data-day="2"] { --paper: #151510; --sheet: #1c1b15; --band: #322e19; --band-muted: #c0beb0; --ink: #e9e8e1; --muted: #a19e90; --grid: #686134; --grid-soft: #35321e; --accent: #c4b664; --chip: #2a281d; --rule: #312f24; }
+  :root:not([data-theme="light"])[data-day="3"] { --paper: #121612; --sheet: #181d18; --band: #223323; --band-muted: #b6c1b6; --ink: #e4eae4; --muted: #96a196; --grid: #486a49; --grid-soft: #273527; --accent: #89c68a; --chip: #222b22; --rule: #293129; }
+  :root:not([data-theme="light"])[data-day="4"] { --paper: #111518; --sheet: #161c20; --band: #1b313d; --band-muted: #b2c0c9; --ink: #e2e9ee; --muted: #92a0a9; --grid: #386680; --grid-soft: #21343f; --accent: #6cbfee; --chip: #1e2a30; --rule: #263137; }
+  :root:not([data-theme="light"])[data-day="5"] { --paper: #131519; --sheet: #191b21; --band: #272d40; --band-muted: #b9bdcb; --ink: #e5e8ef; --muted: #999dab; --grid: #535e85; --grid-soft: #2b3042; --accent: #9db0f8; --chip: #242732; --rule: #2b2e39; }
+  :root:not([data-theme="light"])[data-day="6"] { --paper: #161417; --sheet: #1d1a1f; --band: #35283a; --band-muted: #c3bac7; --ink: #eae6ed; --muted: #a39aa7; --grid: #6e5579; --grid-soft: #372c3c; --accent: #cea0e2; --chip: #2c252f; --rule: #322c36; }
+}
+:root[data-theme="dark"] {
+  --paper: #121612;
+  --sheet: #181d18;
+  --band: #223323;
+  --band-muted: #b6c1b6;
+  --ink: #e4eae4;
+  --muted: #96a196;
+  --grid: #486a49;
+  --grid-soft: #273527;
+  --accent: #89c68a;
+  --chip: #222b22;
+  --rule: #293129;
+  --alert: #ec8a6b;
+  color-scheme: dark;
+}
+:root[data-theme="dark"][data-day="0"] { --paper: #181313; --sheet: #211918; --band: #3e2725; --band-muted: #cab9b7; --ink: #eee5e4; --muted: #ab9997; --grid: #81514d; --grid-soft: #402b29; --accent: #f09a92; --chip: #312423; --rule: #382b2a; }
+:root[data-theme="dark"][data-day="1"] { --paper: #181411; --sheet: #1f1a16; --band: #3b2a1b; --band-muted: #c8bbb1; --ink: #ede6e1; --muted: #a89b91; --grid: #7b5738; --grid-soft: #3d2e20; --accent: #e4a56c; --chip: #2f261e; --rule: #362d25; }
+:root[data-theme="dark"][data-day="2"] { --paper: #151510; --sheet: #1c1b15; --band: #322e19; --band-muted: #c0beb0; --ink: #e9e8e1; --muted: #a19e90; --grid: #686134; --grid-soft: #35321e; --accent: #c4b664; --chip: #2a281d; --rule: #312f24; }
+:root[data-theme="dark"][data-day="3"] { --paper: #121612; --sheet: #181d18; --band: #223323; --band-muted: #b6c1b6; --ink: #e4eae4; --muted: #96a196; --grid: #486a49; --grid-soft: #273527; --accent: #89c68a; --chip: #222b22; --rule: #293129; }
+:root[data-theme="dark"][data-day="4"] { --paper: #111518; --sheet: #161c20; --band: #1b313d; --band-muted: #b2c0c9; --ink: #e2e9ee; --muted: #92a0a9; --grid: #386680; --grid-soft: #21343f; --accent: #6cbfee; --chip: #1e2a30; --rule: #263137; }
+:root[data-theme="dark"][data-day="5"] { --paper: #131519; --sheet: #191b21; --band: #272d40; --band-muted: #b9bdcb; --ink: #e5e8ef; --muted: #999dab; --grid: #535e85; --grid-soft: #2b3042; --accent: #9db0f8; --chip: #242732; --rule: #2b2e39; }
+:root[data-theme="dark"][data-day="6"] { --paper: #161417; --sheet: #1d1a1f; --band: #35283a; --band-muted: #c3bac7; --ink: #eae6ed; --muted: #a39aa7; --grid: #6e5579; --grid-soft: #372c3c; --accent: #cea0e2; --chip: #2c252f; --rule: #322c36; }
+@media (prefers-reduced-motion: no-preference) {
+  body, .band { transition: background-color .5s ease; }
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.7;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* 제호 띠 */
+.band { background: var(--band); border-bottom: 1.5px solid var(--grid); }
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.masthead { display: flex; flex-direction: column; gap: 14px; padding-block: 26px 24px; }
+.band .cell { background: var(--sheet); }
+.band .nameplate-sub, .band .dateline { color: var(--band-muted); }
+.band .dateline { border-top-color: var(--grid); }
+.nameplate { display: flex; align-items: flex-end; gap: 14px; flex-wrap: wrap; }
+.cells { display: flex; border-top: 1.5px solid var(--grid); border-left: 1.5px solid var(--grid); }
+.cell {
+  width: 3.1rem; height: 3.1rem;
+  display: grid; place-items: center;
+  border-right: 1.5px solid var(--grid);
+  border-bottom: 1.5px solid var(--grid);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--ink);
+}
+.nameplate-sub {
+  font-size: var(--step--1);
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  padding-bottom: 2px;
+}
+.dateline {
+  display: flex; flex-wrap: wrap; gap: 4px 14px;
+  font-size: var(--step--1);
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+}
+.dateline strong { color: var(--ink); font-weight: 600; }
+.headline {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--step-3);
+  line-height: 1.32;
+  text-wrap: balance;
+  margin: 6px 0 0;
+  max-width: 30em;
+}
+.lede { margin: 0; max-width: 40em; color: var(--ink); font-size: 1.03125rem; }
+
+/* 지면 배치 */
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "dl" "main" "ar";
+  gap: 32px;
+}
+@media (min-width: 900px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr) 290px;
+    grid-template-areas: "main dl" "main ar";
+    grid-template-rows: auto 1fr;
+    column-gap: 48px;
+  }
+  .rail-deadlines { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 20px); }
+}
+main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap: 36px; }
+.rail-deadlines { grid-area: dl; align-self: start; min-width: 0; }
+.rail-archive { grid-area: ar; align-self: start; min-width: 0; }
+
+.section-label {
+  display: flex; align-items: baseline; gap: 10px;
+  font-size: var(--step--1);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin: 0 0 4px;
+  padding-bottom: 8px;
+  border-bottom: 1.5px solid var(--grid);
+}
+.section-label .count { font-family: var(--font-mono); font-weight: 500; color: var(--muted); letter-spacing: 0; }
+
+.items { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.item { padding-block: 18px; border-bottom: 1px solid var(--rule); display: flex; flex-direction: column; gap: 8px; }
+.item:last-child { border-bottom: 0; }
+.item-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--step-1);
+  line-height: 1.45;
+  margin: 0;
+  text-wrap: balance;
+}
+.item-body { margin: 0; max-width: 40em; }
+.item-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: var(--step--1); color: var(--muted); }
+.chip {
+  display: inline-flex; align-items: center;
+  padding: 1px 8px;
+  border-radius: 3px;
+  background: var(--chip);
+  color: var(--ink);
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+.chip.due { background: transparent; border: 1px solid var(--grid); font-family: var(--font-mono); font-weight: 500; }
+.chip.due.soon { background: var(--alert); border-color: var(--alert); color: var(--sheet); }
+.chip.due.past { color: var(--muted); border-style: dashed; }
+.chip.prize { background: transparent; border: 1px solid var(--accent); color: var(--accent); font-weight: 600; }
+.chip.prize.big { background: var(--accent); border-color: var(--accent); color: var(--sheet); }
+.item-flags { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip.region { background: var(--ink); color: var(--paper); font-weight: 600; }
+.section-note { margin: 2px 0 0; font-size: 0.75rem; color: var(--muted); }
+.deadline .prize-mark { color: var(--accent); font-weight: 600; white-space: nowrap; }
+.item-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.link-btn {
+  display: inline-flex; align-items: center;
+  min-height: 32px; padding: 0 12px;
+  border: 1px solid var(--accent); border-radius: 3px;
+  background: var(--sheet); color: var(--accent);
+  font-size: 0.8125rem; font-weight: 600; text-decoration: none;
+}
+.link-btn:hover { background: var(--chip); }
+.judges { margin: 0; font-size: var(--step--1); color: var(--muted); }
+.judges b { color: var(--ink); font-weight: 600; }
+.analysis {
+  max-width: 40em;
+  background: var(--sheet);
+  border: 1.5px solid var(--grid-soft);
+  padding: 12px 14px;
+  display: flex; flex-direction: column; gap: 4px;
+}
+.analysis-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; color: var(--accent); }
+.analysis p { margin: 0; font-size: 0.9375rem; }
+.sources { display: inline-flex; flex-wrap: wrap; gap: 4px 10px; }
+.sources a { color: var(--muted); }
+.sources a:hover { color: var(--accent); }
+
+/* 오른쪽 단 */
+.rail-title {
+  font-size: var(--step--1);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin: 0 0 10px;
+  display: flex; justify-content: space-between; align-items: baseline; gap: 8px;
+}
+.rail-title span { font-weight: 400; letter-spacing: 0; color: var(--muted); font-size: 0.75rem; }
+.deadlines {
+  list-style: none; margin: 0; padding: 0;
+  background: var(--sheet);
+  border: 1.5px solid var(--grid);
+  border-radius: 2px;
+}
+.deadline {
+  display: grid;
+  grid-template-columns: 4.2rem minmax(0, 1fr);
+  border-bottom: 1px solid var(--grid-soft);
+}
+.deadline:last-child { border-bottom: 0; }
+.deadline .dday {
+  display: grid; place-items: center;
+  border-right: 1px solid var(--grid-soft);
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+  padding: 10px 4px;
+}
+.deadline.soon .dday { background: var(--alert); color: var(--sheet); }
+.deadline .what { padding: 9px 12px; display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.deadline .what b { font-weight: 500; font-size: 0.875rem; line-height: 1.5; }
+.deadline .what small { color: var(--muted); font-size: 0.75rem; font-variant-numeric: tabular-nums; }
+.deadline .kind { color: var(--accent); }
+.deadline.soon .kind { color: var(--alert); }
+
+.archive { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.archive button {
+  all: unset;
+  cursor: pointer;
+  display: flex; flex-direction: column; gap: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.archive button .d { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.archive button .h { font-size: 0.875rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.archive button:hover .h { color: var(--accent); }
+.archive button[aria-current="true"] .d { color: var(--accent); }
+.archive button[aria-current="true"] .h { font-weight: 600; }
+.more-btn {
+  margin-top: 10px;
+  min-height: 34px; padding: 0 12px;
+  border: 1px solid var(--grid); border-radius: 3px;
+  background: var(--sheet); color: var(--accent);
+  font: 600 0.8125rem var(--font-body);
+  cursor: pointer;
+}
+.more-btn:hover { background: var(--chip); }
+
+.empty {
+  background: var(--sheet);
+  border: 1.5px dashed var(--grid);
+  padding: 22px 20px;
+  color: var(--muted);
+  display: flex; flex-direction: column; gap: 6px;
+  max-width: 40em;
+}
+.empty strong { color: var(--ink); font-family: var(--font-display); font-weight: 600; font-size: var(--step-1); }
+
+.colophon {
+  border-top: 1px solid var(--rule);
+  padding-top: 14px;
+  font-size: var(--step--1);
+  color: var(--muted);
+  max-width: 46em;
+}
+
+@media (max-width: 420px) {
+  .cell { width: 2.75rem; height: 2.75rem; font-size: 1.75rem; }
+  .headline { font-size: var(--step-2); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  main.fresh { animation: settle .35s ease-out; }
+  @keyframes settle { from { opacity: .55; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+}
+</style>
+</head>
+<body>
+<div class="band">
+  <header class="masthead wrap">
+    <div class="nameplate">
+      <div class="cells" aria-label="문학 조간">
+        <span class="cell" aria-hidden="true">문</span><span class="cell" aria-hidden="true">학</span><span class="cell" aria-hidden="true">조</span><span class="cell" aria-hidden="true">간</span>
+      </div>
+      <div class="nameplate-sub">매일 아침 9시 무렵 발행되는 문학 소식</div>
+    </div>
+    <div class="dateline" id="dateline"><span>브리핑을 불러오는 중입니다</span></div>
+    <h1 class="headline" id="headline" hidden></h1>
+    <p class="lede" id="lede" hidden></p>
+  </header>
+</div>
+
+<div class="page">
+  <div class="layout">
+    <aside class="rail-deadlines" aria-labelledby="dl-title">
+      <h2 class="rail-title" id="dl-title">다가오는 마감과 일정 <span id="dl-today"></span></h2>
+      <ul class="deadlines" id="deadlines">
+        <li class="deadline"><div class="dday">—</div><div class="what"><b>일정을 불러오는 중입니다</b><small>공모 마감, 시상식, 수상 발표일이 여기에 모입니다</small></div></li>
+      </ul>
+    </aside>
+
+    <main id="sections">
+      <div class="empty">
+        <strong>오늘 아침 브리핑을 펼치는 중입니다</strong>
+        <span>공모와 마감, 당선 결과, 지원금과 레지던시, 신간, 칼럼, 문단 이슈, 해외 문학 소식이 이 자리에 실립니다.</span>
+      </div>
+    </main>
+
+    <aside class="rail-archive" aria-labelledby="ar-title">
+      <h2 class="rail-title" id="ar-title">지난 호 <span id="ar-count"></span></h2>
+      <ul class="archive" id="archive"></ul>
+      <button type="button" class="more-btn" id="ar-more" hidden>이전 호 더 보기</button>
+    </aside>
+  </div>
+
+  <p class="colophon">새 호는 매일 아침 9시 무렵 자동으로 올라옵니다. 기사 내용은 원문을 바탕으로 짧게 다시 쓴 요약이니, 공모 요강과 마감 일자는 응모 전에 원문 링크에서 꼭 확인하세요.</p>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var WEEK = ["일", "월", "화", "수", "목", "금", "토"];
+  var currentId = null;
+  var firstRender = true;
+
+  function $(id) { return document.getElementById(id); }
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = String(text);
+    return n;
+  }
+  function isDate(s) { return typeof s === "string" && /^\d{4}-\d{2}-\d{2}$/.test(s); }
+  function kstToday() {
+    try {
+      return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+    } catch (e) {
+      var d = new Date(Date.now() + 9 * 3600000);
+      return d.toISOString().slice(0, 10);
+    }
+  }
+  function dayDiff(from, to) {
+    return Math.round((Date.parse(to + "T00:00:00Z") - Date.parse(from + "T00:00:00Z")) / 86400000);
+  }
+  function weekday(s) { return WEEK[new Date(s + "T00:00:00Z").getUTCDay()]; }
+  function setDay(s) {
+    var d = new Date(s + "T00:00:00Z").getUTCDay();
+    if (!isNaN(d)) document.documentElement.setAttribute("data-day", String(d));
+    try {
+      var band = getComputedStyle(document.documentElement).getPropertyValue("--band").trim();
+      var meta = document.querySelector('meta[name="theme-color"]');
+      if (band && meta) meta.setAttribute("content", band);
+    } catch (e) {}
+  }
+  function longDate(s) {
+    var p = s.split("-");
+    return p[0] + "년 " + Number(p[1]) + "월 " + Number(p[2]) + "일 " + weekday(s) + "요일";
+  }
+  function shortDate(s) {
+    var p = s.split("-");
+    return Number(p[1]) + "." + Number(p[2]) + " (" + weekday(s) + ")";
+  }
+  function ddayLabel(n) {
+    if (n === 0) return "D-day";
+    if (n > 0) return "D-" + n;
+    return "지남";
+  }
+  function safeUrl(u) {
+    return typeof u === "string" && /^https?:\/\//i.test(u) ? u : null;
+  }
+  function kstTime(iso) {
+    try {
+      var d = new Date(iso);
+      if (isNaN(d)) return null;
+      return new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", hour: "numeric", minute: "2-digit" }).format(d);
+    } catch (e) { return null; }
+  }
+  function asArray(v) { return Array.isArray(v) ? v : []; }
+  function man(n) { return Number(n).toLocaleString("ko-KR") + "만 원"; }
+  var REGIONS = ["영미권", "남미권", "유럽", "러시아", "중국", "일본", "제3세계"];
+  function regionRank(it) { var i = REGIONS.indexOf(it && it.region); return i < 0 ? REGIONS.length : i; }
+
+  function renderDateline(issue) {
+    var dl = $("dateline");
+    dl.replaceChildren();
+    var d = el("strong", null, longDate(issue.date));
+    dl.appendChild(d);
+    if (issue.issue) dl.appendChild(el("span", null, "제" + issue.issue + "호"));
+    var t = issue.generatedAt ? kstTime(issue.generatedAt) : null;
+    if (t) dl.appendChild(el("span", null, t + " 발행"));
+    if (issue.note) dl.appendChild(el("span", null, issue.note));
+  }
+
+  function renderItem(item, today) {
+    var li = el("li", "item");
+    var flags = el("div", "item-flags");
+    if (item.region) flags.appendChild(el("span", "chip region", item.region));
+    var prize = typeof item.prize === "number" && item.prize > 0 ? item.prize : null;
+    if (prize) {
+      flags.appendChild(el("span", "chip prize" + (prize >= 500 ? " big" : ""), "상금 " + man(prize) + (item.prizeNote ? " · " + item.prizeNote : "")));
+    }
+    if (isDate(item.deadline)) {
+      var n = dayDiff(today, item.deadline);
+      flags.appendChild(el("span", "chip due" + (n < 0 ? " past" : n <= 7 ? " soon" : ""), "마감 " + shortDate(item.deadline) + " · " + ddayLabel(n)));
+    }
+    if (flags.childNodes.length) li.appendChild(flags);
+    li.appendChild(el("h3", "item-title", item.title || ""));
+    if (item.body) li.appendChild(el("p", "item-body", item.body));
+    var links = asArray(item.links).filter(function (k) { return k && safeUrl(k.url); });
+    if (links.length) {
+      var lk = el("div", "item-links");
+      links.forEach(function (k) {
+        var a = el("a", "link-btn", (k.label || "바로가기") + " ↗");
+        a.href = safeUrl(k.url); a.target = "_blank"; a.rel = "noopener noreferrer";
+        lk.appendChild(a);
+      });
+      li.appendChild(lk);
+    }
+    var judges = asArray(item.judges).filter(function (j) { return j && j.name; });
+    if (judges.length) {
+      var jp = el("p", "judges");
+      jp.appendChild(el("b", null, "심사 "));
+      jp.appendChild(document.createTextNode(judges.map(function (j) { return j.name + (j.role ? "(" + j.role + ")" : ""); }).join(", ")));
+      li.appendChild(jp);
+    }
+    if (item.analysis) {
+      var ab = el("div", "analysis");
+      ab.appendChild(el("span", "analysis-label", "심사 경향 분석"));
+      ab.appendChild(el("p", null, item.analysis));
+      li.appendChild(ab);
+    }
+    var meta = el("div", "item-meta");
+    asArray(item.tags).forEach(function (t) { if (t) meta.appendChild(el("span", "chip", t)); });
+    var srcs = asArray(item.sources);
+    if (srcs.length) {
+      var box = el("span", "sources");
+      srcs.forEach(function (s) {
+        var u = safeUrl(s && s.url);
+        var label = (s && s.name ? s.name : "원문") + (s && isDate(s.date) ? " " + Number(s.date.slice(5, 7)) + "." + Number(s.date.slice(8)) : "");
+        if (u) {
+          var a = el("a", null, label + " ↗");
+          a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer";
+          box.appendChild(a);
+        } else {
+          box.appendChild(el("span", null, label));
+        }
+      });
+      meta.appendChild(box);
+    }
+    if (meta.childNodes.length) li.appendChild(meta);
+    return li;
+  }
+
+  function renderSections(issue, today) {
+    var main = $("sections");
+    main.replaceChildren();
+    var sections = asArray(issue.sections).filter(function (s) { return s && asArray(s.items).length; });
+    if (!sections.length) {
+      var e = el("div", "empty");
+      e.appendChild(el("strong", null, "이 호에는 실린 기사가 없습니다"));
+      e.appendChild(el("span", null, "새 소식이 없던 날입니다. 오른쪽 일정과 지난 호를 살펴보세요."));
+      main.appendChild(e);
+      return;
+    }
+    sections.forEach(function (s) {
+      var sec = el("section");
+      sec.setAttribute("aria-label", s.label || "");
+      var h = el("h2", "section-label");
+      h.appendChild(document.createTextNode(s.label || ""));
+      h.appendChild(el("span", "count", asArray(s.items).length));
+      sec.appendChild(h);
+      var NOTES = {
+        calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시합니다.",
+        results: "공모와 같은 기준으로 소설 부문 결과만 싣습니다. 심사평과 당선작이 온라인에 올라오면 바로가기와 심사 경향 분석을 붙입니다.",
+        world: "영미권·남미권·유럽·러시아·중국·일본·제3세계 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
+      };
+      if (NOTES[s.id]) sec.appendChild(el("p", "section-note", NOTES[s.id]));
+      var ul = el("ul", "items");
+      var list = asArray(s.items).slice();
+      if (s.id === "world") list.sort(function (a, b) { return regionRank(a) - regionRank(b); });
+      list.forEach(function (it) { ul.appendChild(renderItem(it || {}, today)); });
+      sec.appendChild(ul);
+      main.appendChild(sec);
+    });
+    if (firstRender) { main.classList.add("fresh"); firstRender = false; }
+  }
+
+  function renderDeadlines(today) {
+    var ul = $("deadlines");
+    ul.replaceChildren();
+    $("dl-today").textContent = "오늘 " + shortDate(today) + " 기준";
+    var latest = latestFull;
+    var rows = latest ? asArray(latest.calendar).filter(function (c) { return c && isDate(c.date) && dayDiff(today, c.date) >= 0; }) : [];
+    rows.sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
+    if (!rows.length) {
+      var li = el("li", "deadline");
+      li.appendChild(el("div", "dday", "—"));
+      var w = el("div", "what");
+      w.appendChild(el("b", null, "다가오는 일정이 없습니다"));
+      w.appendChild(el("small", null, "새 공고가 나오면 다음 호에 추가됩니다"));
+      li.appendChild(w);
+      ul.appendChild(li);
+      return;
+    }
+    rows.forEach(function (c) {
+      var n = dayDiff(today, c.date);
+      var li = el("li", "deadline" + (n <= 7 ? " soon" : ""));
+      li.appendChild(el("div", "dday", ddayLabel(n)));
+      var w = el("div", "what");
+      var u = safeUrl(c.url);
+      if (u) {
+        var b = el("b");
+        var a = el("a", null, c.label || "");
+        a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer";
+        a.style.color = "inherit";
+        b.appendChild(a);
+        w.appendChild(b);
+      } else {
+        w.appendChild(el("b", null, c.label || ""));
+      }
+      var sm = el("small");
+      if (c.kind) sm.appendChild(el("span", "kind", c.kind + " · "));
+      sm.appendChild(document.createTextNode(shortDate(c.date) + (c.note ? " · " + c.note : "")));
+      if (typeof c.prize === "number" && c.prize >= 500) sm.appendChild(el("span", "prize-mark", " · 상금 " + man(c.prize)));
+      w.appendChild(sm);
+      li.appendChild(w);
+      ul.appendChild(li);
+    });
+  }
+
+  var ARCHIVE_STEP = 30;
+  var archiveShown = ARCHIVE_STEP;
+
+  function renderArchive() {
+    var ul = $("archive");
+    ul.replaceChildren();
+    $("ar-count").textContent = index.length ? index.length + "호" : "";
+    var currentPos = -1;
+    for (var i = 0; i < index.length; i++) if (index[i].id === currentId) { currentPos = i; break; }
+    if (currentPos >= archiveShown) archiveShown = Math.ceil((currentPos + 1) / ARCHIVE_STEP) * ARCHIVE_STEP;
+    index.slice(0, archiveShown).forEach(function (iss) {
+      var li = el("li");
+      var b = el("button");
+      b.type = "button";
+      b.setAttribute("aria-current", iss.id === currentId ? "true" : "false");
+      b.appendChild(el("span", "d", shortDate(iss.date) + (iss.issue ? " · 제" + iss.issue + "호" : "")));
+      b.appendChild(el("span", "h", iss.headline || "제목 없음"));
+      b.addEventListener("click", function () { show(iss.id, true); });
+      li.appendChild(b);
+      ul.appendChild(li);
+    });
+    var more = $("ar-more");
+    var rest = index.length - archiveShown;
+    more.hidden = rest <= 0;
+    if (rest > 0) more.textContent = "이전 호 " + Math.min(rest, ARCHIVE_STEP) + "개 더 보기";
+  }
+
+  var index = [];
+  var months = {};
+  var latestFull = null;
+
+  function fetchJson(path) {
+    return fetch(path, { cache: "no-cache" }).then(function (r) {
+      if (!r.ok) throw new Error(String(r.status));
+      return r.json();
+    });
+  }
+  function loadMonth(m) {
+    if (!months[m]) {
+      months[m] = fetchJson("issues/" + m + ".json").then(function (j) {
+        return (j && j.issues) || {};
+      }).catch(function (e) { delete months[m]; throw e; });
+    }
+    return months[m];
+  }
+  async function getIssue(date) {
+    var all = await loadMonth(date.slice(0, 7));
+    var v = all[date];
+    if (!v) return null;
+    var o = {};
+    for (var k in v) o[k] = v[k];
+    o.id = date;
+    if (!isDate(o.date)) o.date = date;
+    return o;
+  }
+
+  var showToken = 0;
+  async function show(id, fromClick) {
+    var entry = null;
+    for (var i = 0; i < index.length; i++) if (index[i].id === id) { entry = index[i]; break; }
+    if (!entry) entry = index[0];
+    if (!entry) return;
+    var token = ++showToken;
+    var issue = null;
+    try { issue = await getIssue(entry.id); } catch (e) { issue = null; }
+    if (token !== showToken) return;
+    if (!issue) {
+      if (entry.id !== index[0].id) { show(index[0].id, fromClick); return; }
+      renderNoData("이 호를 불러오지 못했습니다", "잠시 후 페이지를 새로 고쳐 주세요.");
+      return;
+    }
+    currentId = issue.id;
+    setDay(issue.date);
+    var today = kstToday();
+    renderDateline(issue);
+    var h = $("headline");
+    h.textContent = issue.headline || "";
+    h.hidden = !issue.headline;
+    var l = $("lede");
+    l.textContent = issue.lede || "";
+    l.hidden = !issue.lede;
+    renderSections(issue, today);
+    renderDeadlines(today);
+    renderArchive();
+    if (fromClick) {
+      try { if (location.hash.slice(1) !== issue.id) location.hash = issue.id; } catch (e) {}
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+
+  function renderNoData(title, detail) {
+    $("dateline").replaceChildren(el("span", null, "아직 발행된 호가 없습니다"));
+    var main = $("sections");
+    main.replaceChildren();
+    var e = el("div", "empty");
+    e.appendChild(el("strong", null, title));
+    e.appendChild(el("span", null, detail));
+    main.appendChild(e);
+    $("deadlines").replaceChildren();
+    var li = el("li", "deadline");
+    li.appendChild(el("div", "dday", "—"));
+    var w = el("div", "what");
+    w.appendChild(el("b", null, "일정이 아직 없습니다"));
+    li.appendChild(w);
+    $("deadlines").appendChild(li);
+  }
+
+  window.addEventListener("hashchange", function () {
+    var id = location.hash.slice(1);
+    if (id && id !== currentId && index.some(function (i) { return i.id === id; })) show(id, false);
+  });
+
+  async function boot() {
+    try {
+      var j = await fetchJson("index.json");
+      index = asArray(j && j.issues).filter(function (x) { return x && isDate(x.date); }).map(function (x) {
+        return { id: x.date, date: x.date, issue: x.issue, headline: x.headline };
+      }).sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+    } catch (e) {
+      renderNoData("브리핑을 불러오지 못했습니다", "잠시 후 페이지를 새로 고쳐 주세요.");
+      return;
+    }
+    if (!index.length) {
+      renderNoData("첫 호를 기다리고 있습니다", "매일 아침 9시 무렵 그날의 문학 소식이 이 자리에 올라옵니다.");
+      return;
+    }
+    try { latestFull = await getIssue(index[0].id); } catch (e) { latestFull = null; }
+    var want = null;
+    try { want = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
+    var hit = want && index.some(function (i) { return i.id === want; }) ? want : null;
+    show(hit || index[0].id, false);
+  }
+
+  $("ar-more").addEventListener("click", function () {
+    archiveShown += ARCHIVE_STEP;
+    renderArchive();
+  });
+  setDay(kstToday());
+  boot();
+})();
+</script>
+
+</body>
+</html>
