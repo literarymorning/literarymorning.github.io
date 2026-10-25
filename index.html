@@ -277,6 +277,11 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 .deadline .elig-mark { white-space: nowrap; }
 .section-note { margin: 2px 0 0; font-size: 0.75rem; color: var(--muted); }
 .item-note { margin: 0; font-size: 0.8125rem; color: var(--muted); }
+.slot-label {
+  margin: 0; display: flex; align-items: center; gap: 10px;
+  font-size: 0.875rem; font-weight: 700; letter-spacing: 0.06em; color: var(--accent);
+}
+.slot-label::after { content: ""; flex: 1; height: 1px; background: var(--grid-soft); }
 .deadline .prize-mark { color: var(--accent); font-weight: 600; white-space: nowrap; }
 .item-links { display: flex; flex-wrap: wrap; gap: 8px; }
 .link-btn {
@@ -544,9 +549,13 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 
   function renderItem(item, today) {
     var li = el("li", "item");
+    if (item._slot) li.appendChild(el("p", "slot-label", item._slot));
     var flags = el("div", "item-flags");
     if (item.region) flags.appendChild(el("span", "chip region", item.region));
-    if (item.origin) flags.appendChild(el("span", "chip region", item.origin));
+    if (item.origin) {
+      var originText = item._slot ? String(item.origin).replace(/^(국내|해외)\s*·\s*/, "") : item.origin;
+      flags.appendChild(el("span", "chip region", originText));
+    }
     var prize = typeof item.prize === "number" && item.prize > 0 ? item.prize : null;
     if (prize) {
       flags.appendChild(el("span", "chip prize" + (prize >= 500 ? " big" : ""), "상금 " + man(prize) + (item.prizeNote ? " · " + item.prizeNote : "")));
@@ -708,10 +717,40 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     return det;
   }
 
+  // 지난 당선작(past)과 기성 작가 단편(established)을 '오늘의 단편' 한 꼭지로 묶는다.
+  var SLOT_ORDER = ["신춘문예", "국내단편", "해외단편"];
+  function slotOf(sectionId, it) {
+    if (it.slot && SLOT_ORDER.indexOf(it.slot) >= 0) return it.slot;
+    if (sectionId === "past") return "신춘문예";
+    var o = String(it.origin || "");
+    if (/^해외/.test(o) || it.side === "해외") return "해외단편";
+    return "국내단편";
+  }
+  function mergeShortStories(sections) {
+    var items = [], at = -1, rest = [];
+    sections.forEach(function (s) {
+      if (s.id === "past" || s.id === "established") {
+        if (at < 0) at = rest.length;
+        asArray(s.items).forEach(function (it) {
+          if (!it) return;
+          var copy = Object.assign({}, it);
+          copy._slot = slotOf(s.id, it);
+          items.push(copy);
+        });
+      } else {
+        rest.push(s);
+      }
+    });
+    if (at < 0 || !items.length) return sections;
+    items.sort(function (a, b) { return SLOT_ORDER.indexOf(a._slot) - SLOT_ORDER.indexOf(b._slot); });
+    rest.splice(at, 0, { id: "today", label: "오늘의 단편", items: items });
+    return rest;
+  }
+
   function renderSections(issue, today) {
     var main = $("sections");
     main.replaceChildren();
-    var sections = asArray(issue.sections).filter(function (s) { return s && asArray(s.items).length; });
+    var sections = mergeShortStories(asArray(issue.sections).filter(function (s) { return s && asArray(s.items).length; }));
     if (!sections.length) {
       var e = el("div", "empty");
       e.appendChild(el("strong", null, "이 호에는 실린 기사가 없습니다"));
@@ -729,8 +768,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       var NOTES = {
         calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 기성·신인 응모 여부와 원고 매수, 도착분·소인 기준을 함께 적습니다.",
         results: "공모와 같은 기준으로 소설 부문 결과만 싣습니다. 심사평과 당선작이 온라인에 올라오면 바로가기와 심사 경향 분석을 붙입니다.",
-        past: "2016~2026년 신춘문예 소설 당선작 가운데 매일 한 편을 무작위로 골라 소개합니다. 한 번 소개한 작품은 다시 고르지 않습니다. 신문사 페이지에 광고가 많으면 브라우저의 읽기 모드로 보세요.",
-        established: "웹진과 문예지에 전문이 무료로 공개된 기성 작가 단편을 매일 국내 한 편, 해외 한 편씩 무작위로 골라 소개합니다. 해외 작품은 원문 페이지에서 브라우저 번역을 켜면 우리말로 읽을 수 있습니다.",
+        today: "매일 2016년 이후 신춘문예 소설 당선작 한 편과, 전문이 무료로 공개된 기성 작가 단편을 국내·해외 한 편씩 무작위로 골라 소개합니다. 한 번 소개한 작품은 다시 고르지 않습니다. 광고가 많은 페이지는 브라우저의 읽기 모드로, 해외 작품은 브라우저 번역으로 읽으세요.",
         world: "영미권·남미권·유럽·러시아·중국·일본·제3세계 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
       };
       if (NOTES[s.id]) sec.appendChild(el("p", "section-note", NOTES[s.id]));
