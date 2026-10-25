@@ -266,7 +266,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 .item-flags { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip.region { background: var(--ink); color: var(--paper); font-weight: 600; }
 .chip.elig { background: transparent; font-weight: 600; border: 1px solid currentColor; }
-.chip.elig-new { color: var(--alert); }
+.chip.elig-new { color: var(--ink); }
 .chip.elig-open { color: var(--accent); }
 .chip.elig-limited { color: var(--ink); }
 .chip.elig-unknown { color: var(--muted); border-style: dashed; }
@@ -688,7 +688,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       h.appendChild(el("span", "count", asArray(s.items).length));
       sec.appendChild(h);
       var NOTES = {
-        calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 응모 자격(등단 여부)을 함께 적습니다.",
+        calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 기성·신인 응모 여부를 함께 적습니다.",
         results: "공모와 같은 기준으로 소설 부문 결과만 싣습니다. 심사평과 당선작이 온라인에 올라오면 바로가기와 심사 경향 분석을 붙입니다.",
         world: "영미권·남미권·유럽·러시아·중국·일본·제3세계 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
       };
