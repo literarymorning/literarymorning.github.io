@@ -171,10 +171,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .dateline strong { color: var(--ink); font-weight: 600; }
 .install { display: flex; flex-direction: column; align-items: center; gap: 6px; margin-top: 6px; }
 .install-btn {
-  font: 600 0.8125rem var(--font-body);
+  font: 600 0.6875rem var(--font-body);
+  letter-spacing: 0.02em;
   color: var(--ink); background: transparent;
   border: 1px solid var(--ink); border-radius: 999px;
-  min-height: 30px; padding: 0 14px; cursor: pointer;
+  min-height: 24px; padding: 0 10px; cursor: pointer;
 }
 .install-btn:hover { background: var(--sheet); }
 .install-hint { margin: 0; font-size: 0.8125rem; color: var(--band-muted); max-width: 30em; text-wrap: balance; }
@@ -387,7 +388,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       <p class="flag" lang="en">The Literary Morning</p>
       <div class="nameplate-sub">매일 아침 9시 무렵 발행되는 문학 소식</div>
       <div class="install" id="install" hidden>
-        <button type="button" class="install-btn" id="install-btn">홈 화면에 추가</button>
+        <button type="button" class="install-btn" id="install-btn">Add to Home Screen</button>
         <p class="install-hint" id="install-hint" hidden></p>
       </div>
     </div>
