@@ -287,6 +287,30 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 }
 .analysis-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; color: var(--accent); }
 .analysis p { margin: 0; font-size: 0.9375rem; }
+.book { max-width: 40em; background: var(--sheet); border: 1px solid var(--grid-soft); border-radius: 3px; }
+.book summary {
+  list-style: none; cursor: pointer;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px;
+  padding: 9px 12px;
+}
+.book summary::-webkit-details-marker { display: none; }
+.book summary::after { content: "펼치기"; margin-left: auto; font-size: 0.75rem; font-weight: 600; color: var(--accent); }
+.book[open] summary::after { content: "접기"; }
+.book summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.book-label {
+  font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.04em;
+  color: var(--sheet); background: var(--accent);
+  padding: 0 6px; border-radius: 3px; line-height: 1.6;
+}
+.book-title { font-family: var(--font-display); font-weight: 600; }
+.book-by { font-size: var(--step--1); color: var(--muted); }
+.book-body { display: flex; flex-direction: column; gap: 6px; padding: 10px 12px 12px; border-top: 1px solid var(--grid-soft); }
+.book-h { margin: 4px 0 0; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; color: var(--accent); }
+.book-syn { margin: 0; font-size: 0.9375rem; }
+.book-meta, .book-note { margin: 0; font-size: var(--step--1); color: var(--muted); }
+.book-reviews { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.9375rem; }
+.book-reviews b { font-weight: 600; }
+.book-reviews a { margin-left: 6px; font-size: var(--step--1); color: var(--muted); white-space: nowrap; }
 .sources { display: inline-flex; flex-wrap: wrap; gap: 4px 10px; }
 .sources a { color: var(--muted); }
 .sources a:hover { color: var(--accent); }
@@ -537,6 +561,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       ab.appendChild(el("p", null, item.analysis));
       li.appendChild(ab);
     }
+    asArray(item.books).forEach(function (bk) { if (bk && bk.title) li.appendChild(renderBook(bk)); });
     var meta = el("div", "item-meta");
     asArray(item.tags).forEach(function (t) { if (t) meta.appendChild(el("span", "chip", t)); });
     var srcs = asArray(item.sources);
@@ -557,6 +582,45 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     }
     if (meta.childNodes.length) li.appendChild(meta);
     return li;
+  }
+
+  function renderBook(bk) {
+    var det = el("details", "book");
+    var sum = el("summary");
+    sum.appendChild(el("span", "book-label", "줄거리·평"));
+    sum.appendChild(el("span", "book-title", "『" + bk.title + "』"));
+    if (bk.author) sum.appendChild(el("span", "book-by", bk.author));
+    det.appendChild(sum);
+    var body = el("div", "book-body");
+    var metaBits = [];
+    if (bk.original) metaBits.push(bk.original);
+    if (bk.meta) metaBits.push(bk.meta);
+    if (metaBits.length) body.appendChild(el("p", "book-meta", metaBits.join(" · ")));
+    if (bk.synopsis) {
+      body.appendChild(el("p", "book-h", "줄거리"));
+      body.appendChild(el("p", "book-syn", bk.synopsis));
+    }
+    var revs = asArray(bk.reviews).filter(function (r) { return r && r.gist; });
+    if (revs.length) {
+      body.appendChild(el("p", "book-h", "평"));
+      var ul = el("ul", "book-reviews");
+      revs.forEach(function (r) {
+        var li = el("li");
+        if (r.source) li.appendChild(el("b", null, r.source));
+        li.appendChild(document.createTextNode(" " + r.gist));
+        var u = safeUrl(r.url);
+        if (u) {
+          var a = el("a", null, "원문 ↗");
+          a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer";
+          li.appendChild(a);
+        }
+        ul.appendChild(li);
+      });
+      body.appendChild(ul);
+    }
+    if (bk.note) body.appendChild(el("p", "book-note", bk.note));
+    det.appendChild(body);
+    return det;
   }
 
   function renderSections(issue, today) {
