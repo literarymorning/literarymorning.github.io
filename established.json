@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T23:50:00+09:00",
+ "updatedAt": "2026-10-26T09:31:00+09:00",
  "about": "전문을 무료로 읽을 수 있는 기성 작가 단편 목록. 국내는 웹진, 해외는 무료 공개 문예지. 링크만 걸고 본문은 옮기지 않는다.",
  "sources": [
   {
@@ -184,9 +184,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "나의 후쿠오카 가이드",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2172",
+   "url": "https://munjang.or.kr/board.es?act=view&bid=0003&list_no=2172&mid=a21300000000",
    "author": "장류진",
-   "year": 2019
+   "year": 2019,
+   "checked": "2026-10-26",
+   "featured": "2026-10-26"
   },
   {
    "id": "munjang-2179",
@@ -505,7 +507,11 @@
    "source": "Electric Literature",
    "title": "Bettering Myself",
    "author": "Ottessa Moshfegh",
-   "url": "https://electricliterature.com/bettering-myself/"
+   "url": "https://electricliterature.com/bettering-myself-ottessa-moshfegh/",
+   "checked": "2026-10-26",
+   "featured": "2026-10-26",
+   "year": 2013,
+   "originalLanguage": "영어"
   },
   {
    "id": "el-yours",
@@ -778,6 +784,36 @@
    "author": "Alisa Ganieva",
    "originalLanguage": "러시아어",
    "url": "https://wordswithoutborders.org/read/article/2023-02/a-village-fest-alisa-ganieva-will-firth/"
+  },
+  {
+   "id": "wwb-lifes-not-worth-a-thing-fernanda-melchor-sophie-hughes",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "Life's Not Worth a Thing",
+   "author": "Fernanda Melchor",
+   "originalLanguage": "스페인어",
+   "url": "https://wordswithoutborders.org/read/article/2022-06/lifes-not-worth-a-thing-fernanda-melchor-sophie-hughes/",
+   "year": 2022
+  },
+  {
+   "id": "wwb-story-of-a-sheet-alejandro-zambra-megan-mcdowell",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "Story of a Sheet",
+   "author": "Alejandro Zambra",
+   "originalLanguage": "스페인어",
+   "url": "https://wordswithoutborders.org/read/article/2019-04/april-2019-chile-story-of-a-sheet-alejandro-zambra-megan-mcdowell/",
+   "year": 2019
+  },
+  {
+   "id": "wwb-the-hearts-secret-moves-herrera-bunstead",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "The Heart's Secret Moves",
+   "author": "Yuri Herrera",
+   "originalLanguage": "스페인어",
+   "url": "https://wordswithoutborders.org/read/article/2012-02/the-hearts-secret-moves-herrera-bunstead/",
+   "year": 2012
   }
  ]
 }

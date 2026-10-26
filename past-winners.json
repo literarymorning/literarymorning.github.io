@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T23:40:00+09:00",
+ "updatedAt": "2026-10-26T09:31:00+09:00",
  "about": "2016~2026년 신문사 신춘문예 소설(단편·중편) 당선작 목록. 가작·장편은 넣지 않는다. 링크는 당선작이 실린 신문사 기사.",
  "range": [
   2016,
@@ -55,6 +55,11 @@
   {
    "year": 2017,
    "paper": "광주일보"
+  },
+  {
+   "year": 2024,
+   "paper": "한라일보",
+   "reason": "소설 부문은 당선작 없이 가작(「상구와 상순」 윤호준)만 냈다."
   }
  ],
  "entries": [
@@ -1564,7 +1569,10 @@
      "label": "심사평",
      "url": "https://www.ihalla.com/read.php3?aid=1704121200751333036"
     }
-   ]
+   ],
+   "status": "dead",
+   "checked": "2026-10-26",
+   "linkNote": "한라일보 지면에 소설 부문 가작으로 실려 목록 기준(가작 제외)에 맞지 않는다."
   },
   {
    "id": "2023-강원일보-단편소설",
@@ -2308,9 +2316,15 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "http://www.yeongnam.com/mnews/newsview.do?mode=newsView&newskey=20180102.010280952260001"
+     "url": "https://www.yeongnam.com/web/view.php?key=20180102.010280952260001"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://www.yeongnam.com/web/view.php?key=20180102.010280956390001"
     }
-   ]
+   ],
+   "checked": "2026-10-26",
+   "featured": "2026-10-26"
   },
   {
    "id": "2018-전북도민일보-단편소설",
