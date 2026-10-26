@@ -193,6 +193,19 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 @media (max-width: 560px) {
   .dateline { justify-content: center; text-align: center; }
 }
+/* 오늘의 문장: 날짜 줄 아래, 그날 소개하는 단편에서 한 문장 */
+.quote { margin: 4px auto 2px; max-width: 34em; text-align: center; display: flex; flex-direction: column; gap: 6px; }
+.quote blockquote {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--step-1);
+  line-height: 1.6;
+  color: var(--ink);
+  text-wrap: balance;
+}
+.quote figcaption { font-size: var(--step--1); color: var(--band-muted); }
+.quote figcaption a { color: inherit; }
 .headline {
   font-family: var(--font-display);
   font-weight: 700;
@@ -440,6 +453,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       </div>
     </div>
     <div class="dateline" id="dateline"><span>브리핑을 불러오는 중입니다</span></div>
+    <figure class="quote" id="quote" hidden><blockquote id="quote-text"></blockquote><figcaption id="quote-by"></figcaption></figure>
     <p class="since" id="since" hidden></p>
     <h1 class="headline" id="headline" hidden></h1>
     <p class="lede" id="lede" hidden></p>
@@ -542,8 +556,31 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     dl.appendChild(el("span", null, issue.issue ? "제" + issue.issue + "호" : ""));
     dl.appendChild(el("strong", null, longDate(issue.date)));
     var t = issue.generatedAt ? kstTime(issue.generatedAt) : null;
-    var right = [t ? t + " 발행" : "", issue.note || ""].filter(Boolean).join(" · ");
-    dl.appendChild(el("span", null, right));
+    dl.appendChild(el("span", null, t ? t + " 발행" : ""));
+  }
+
+  // 오늘의 문장: issue.quote = { text, author, work, url }
+  function renderQuote(issue) {
+    var box = $("quote"), q = issue.quote;
+    var text = q && typeof q === "object" ? String(q.text || "").trim() : "";
+    if (!text) { box.hidden = true; return; }
+    $("quote-text").textContent = "“" + text.replace(/^[“"']+|[”"']+$/g, "") + "”";
+    var by = $("quote-by");
+    by.replaceChildren();
+    var who = q.author ? String(q.author) : "";
+    var work = q.work ? "「" + String(q.work).replace(/^「|」$/g, "") + "」" : "";
+    var cap = [who, work].filter(Boolean).join(", ");
+    if (cap) {
+      by.appendChild(document.createTextNode("— "));
+      if (q.url && /^https?:\/\//.test(q.url)) {
+        var a = el("a", null, cap);
+        a.href = q.url; a.target = "_blank"; a.rel = "noopener";
+        by.appendChild(a);
+      } else {
+        by.appendChild(document.createTextNode(cap));
+      }
+    }
+    box.hidden = false;
   }
 
   function renderItem(item, today) {
@@ -904,6 +941,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     setDay(issue.date);
     var today = kstToday();
     renderDateline(issue);
+    renderQuote(issue);
     var h = $("headline");
     h.textContent = issue.headline || "";
     h.hidden = !issue.headline;
