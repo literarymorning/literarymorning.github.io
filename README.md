@@ -14,7 +14,7 @@
 `requests.json`의 `writers`에 요청을 하나 더하면 다음 날 아침 호 맨 앞에 그 작가 소개가 실린다. 하루에 한 사람씩, 먼저 들어온 요청부터 싣는다.
 
 ```json
-{"name": "작가 이름", "hint": "동명이인을 가를 단서(대표작, 국적 등, 없으면 생략)", "focus": "특히 궁금한 점(없으면 생략)", "requestedAt": "YYYY-MM-DD", "status": "pending"}
+{"name": "작가 이름", "hint": "동명이인을 가를 단서(대표작, 국적 등, 없으면 생략)", "focus": "특히 궁금한 점(없으면 생략)", "requestedAt": "YYYY-MM-DD", "notBefore": "이 날짜 전에는 싣지 않음(YYYY-MM-DD, 없으면 생략)", "status": "pending"}
 ```
 
 실리면 `status`가 `done`이 되고 `publishedIn`에 실린 날짜가 적힌다. 작가를 특정하지 못하면 `failed`와 `reason`이 적힌다.
