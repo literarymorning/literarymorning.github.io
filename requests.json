@@ -14,6 +14,20 @@
    "requestedAt": "2026-10-26",
    "status": "pending",
    "notBefore": "2026-10-29"
+  },
+  {
+   "name": "루크 케너드",
+   "hint": "Luke Kennard. 1981년생 영국 시인·소설가, 버밍엄 대학교 창작학 교수. 장편 『The Transition』 『The Answer to Everything』 『Black Bag』, 시집 『Notes on the Sonnets』(2021 포워드상)",
+   "focus": "『Black Bag』(2026 부커상 최종 후보, 수상작 발표 11월 9일)",
+   "requestedAt": "2026-10-27",
+   "status": "pending"
+  },
+  {
+   "name": "모건 토머스",
+   "hint": "Morgan Thomas. 미국 걸프 연안 출신 소설가, 소설집 『Manywhere』(2022), 첫 장편 『Mad Eden』(2026). 같은 이름의 다른 인물(배우·운동선수 등)과 혼동하지 않는다. 작가는 they/them 대명사를 쓴다",
+   "focus": "『Mad Eden』(2026 전미도서상 소설 부문 최종 후보, 수상작 발표 11월 18일)",
+   "requestedAt": "2026-10-27",
+   "status": "pending"
   }
  ]
 }
