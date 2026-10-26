@@ -7,6 +7,12 @@
    "focus": "국내에 번역된 책",
    "requestedAt": "2026-10-26",
    "status": "pending"
+  },
+  {
+   "name": "시그리드 누네즈",
+   "hint": "Sigrid Nunez. 미국 소설가, 『The Friend』(2018 전미도서상) 『What Are You Going Through』 『The Vulnerables』",
+   "requestedAt": "2026-10-26",
+   "status": "pending"
   }
  ]
 }
