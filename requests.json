@@ -1,0 +1,12 @@
+{
+ "about": "‘이 작가가 궁금하다’ 요청 대기열. 아침 발행 작업이 status가 pending인 요청 가운데 가장 오래된 한 건을 그날 호에 싣고 done으로 바꾼다.",
+ "writers": [
+  {
+   "name": "케이티 기타무라",
+   "hint": "Katie Kitamura. 미국 소설가, 『A Separation』 『Intimacies』 『Audition』",
+   "focus": "국내에 번역된 책",
+   "requestedAt": "2026-10-26",
+   "status": "pending"
+  }
+ ]
+}

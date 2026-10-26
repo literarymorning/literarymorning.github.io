@@ -351,6 +351,62 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 .sources a { color: var(--muted); }
 .sources a:hover { color: var(--accent); }
 
+/* 이 작가가 궁금하다: 요청이 있을 때만 싣는 비정기 스페셜. 맨 앞에, 지면 속 별지처럼 한 장으로. */
+.section-label .special-tag {
+  margin-left: auto;
+  font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.04em;
+  color: var(--sheet); background: var(--accent);
+  padding: 0 8px; border-radius: 999px; line-height: 1.7;
+}
+.writer {
+  margin-top: 12px;
+  background: var(--sheet);
+  border: 1.5px solid var(--grid);
+  border-top: 3px double var(--ink);
+  padding: 18px 18px 16px;
+  display: flex; flex-direction: column; gap: 16px;
+}
+@media (max-width: 420px) { .writer { padding: 14px 14px 12px; } }
+.writer-top { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; align-items: start; }
+.writer-top.has-photo { grid-template-columns: minmax(0, 1fr) 132px; }
+@media (max-width: 480px) { .writer-top.has-photo { grid-template-columns: minmax(0, 1fr) 92px; gap: 12px; } }
+.writer-photo { margin: 0; aspect-ratio: 4 / 5; overflow: hidden; background: var(--chip); border: 1px solid var(--grid-soft); }
+.writer-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; }
+.photo-credit { margin: 0; font-size: 0.6875rem; color: var(--muted); }
+.photo-credit a { color: inherit; }
+.writer-head { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.writer-name { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: var(--step-2); line-height: 1.3; }
+.writer-orig { display: block; margin-top: 2px; font-family: var(--font-body); font-size: var(--step--1); font-weight: 400; color: var(--muted); }
+.writer-line { margin: 0; font-size: 1.03125rem; max-width: 40em; }
+.writer-words { margin: 0; padding: 2px 0 2px 14px; border-left: 3px solid var(--grid); max-width: 38em; display: flex; flex-direction: column; gap: 2px; }
+.writer-words blockquote { margin: 0; font-family: var(--font-display); font-weight: 500; font-size: 1rem; line-height: 1.6; }
+.writer-words figcaption { font-size: 0.75rem; color: var(--muted); }
+.writer-words figcaption a { color: inherit; }
+.wblock { display: flex; flex-direction: column; gap: 4px; max-width: 40em; }
+.wblock > p { margin: 0; }
+.wh { margin: 0; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; color: var(--accent); }
+.works { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.works li { padding-block: 7px; border-bottom: 1px solid var(--grid-soft); }
+.works li:first-child { padding-top: 2px; }
+.works li:last-child { border-bottom: 0; padding-bottom: 0; }
+.works .wt { font-family: var(--font-display); font-weight: 600; }
+.works .wm { margin-left: 6px; font-size: var(--step--1); color: var(--muted); }
+.works .wl { margin: 2px 0 0; font-size: 0.9375rem; }
+.works .ko { margin: 3px 0 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; font-size: var(--step--1); color: var(--muted); }
+.works .ko-tag { padding: 0 6px; border-radius: 3px; font-size: 0.6875rem; font-weight: 600; line-height: 1.6; background: var(--accent); color: var(--sheet); }
+.works .ko-tag.none { background: transparent; color: var(--muted); border: 1px dashed var(--grid); }
+.works .ko a { color: var(--muted); white-space: nowrap; }
+.awards { margin: 0; padding-left: 1.1em; font-size: 0.9375rem; }
+.awards li + li { margin-top: 2px; }
+.start-list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.start-list b { font-family: var(--font-display); font-weight: 600; }
+.archive .sp {
+  align-self: flex-start;
+  margin-top: 2px; padding: 0 6px; border-radius: 3px;
+  border: 1px solid var(--accent); color: var(--accent);
+  font-size: 0.6875rem; font-weight: 600; line-height: 1.6;
+}
+
 /* 오른쪽 단 */
 .rail-title {
   font-size: var(--step--1);
@@ -753,6 +809,267 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     return det;
   }
 
+  function linkRow(list, cls) {
+    var seen = {};
+    var ok = asArray(list).filter(function (k) {
+      var u = k && safeUrl(k.url);
+      if (!u || seen[u]) return false;
+      seen[u] = true;
+      return true;
+    });
+    if (!ok.length) return null;
+    var row = el("div", cls || "item-links");
+    ok.forEach(function (k) {
+      var a = el("a", "link-btn", (k.label || "바로가기") + " ↗");
+      a.href = safeUrl(k.url); a.target = "_blank"; a.rel = "noopener noreferrer";
+      row.appendChild(a);
+    });
+    return row;
+  }
+  function wblock(title) {
+    var b = el("div", "wblock");
+    b.appendChild(el("p", "wh", title));
+    return b;
+  }
+  function boxed(label, node) {
+    var b = el("div", "analysis");
+    b.appendChild(el("span", "analysis-label", label));
+    b.appendChild(node);
+    return b;
+  }
+
+  // 작가 사진은 위키미디어 공용에 자유 이용 허락으로 올라온 것만, 찍은 사람과 라이선스를 밝혀 싣는다.
+  // photo = {"wiki": "en:Katie_Kitamura"}(그 위키백과 문서의 대표 사진) 또는 {"file": "File:이름.jpg"}(공용의 파일).
+  // 위키백과 문서의 사진이 공용이 아닌 곳(비자유 저작물)에 있으면 싣지 않는다.
+  function commonsFileFromUrl(u) {
+    var m = /^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^\/?#]+)/.exec(String(u || ""));
+    if (!m) return null;
+    try { return decodeURIComponent(m[1]); } catch (e) { return m[1]; }
+  }
+  function plainText(html) {
+    try {
+      var doc = new DOMParser().parseFromString(String(html || ""), "text/html");
+      return (doc.body.textContent || "").replace(/\s+/g, " ").trim();
+    } catch (e) { return ""; }
+  }
+  async function loadWriterPhoto(spec, name, top, credit) {
+    try {
+      var file = null;
+      if (typeof spec.file === "string" && spec.file) {
+        file = spec.file.replace(/^(File|파일):/i, "");
+      } else if (typeof spec.wiki === "string" && /^[a-z-]{2,12}:.+/.test(spec.wiki)) {
+        var lang = spec.wiki.split(":")[0];
+        var title = spec.wiki.slice(lang.length + 1).replace(/ /g, "_");
+        var r = await fetch("https://" + lang + ".wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(title));
+        if (!r.ok) return;
+        var s = await r.json();
+        file = commonsFileFromUrl((s && s.originalimage && s.originalimage.source) || (s && s.thumbnail && s.thumbnail.source));
+      }
+      if (!file) return;
+      var api = "https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=400&titles=" + encodeURIComponent("File:" + file);
+      var res = await fetch(api);
+      if (!res.ok) return;
+      var j = await res.json();
+      var pages = j && j.query && j.query.pages;
+      if (!pages) return;
+      var pg = pages[Object.keys(pages)[0]];
+      var info = pg && pg.imageinfo && pg.imageinfo[0];
+      if (!info || !/^https:\/\/upload\.wikimedia\.org\//.test(info.thumburl || "")) return;
+      var md = info.extmetadata || {};
+      var lic = md.LicenseShortName ? plainText(md.LicenseShortName.value) : "";
+      if (!lic) return;
+      var artist = md.Artist ? plainText(md.Artist.value) : "";
+      if (artist.length > 60) artist = artist.slice(0, 58) + "…";
+
+      var fig = el("figure", "writer-photo");
+      var img = el("img");
+      img.src = info.thumburl;
+      img.alt = name ? name + " 사진" : "작가 사진";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.addEventListener("error", function () { fig.remove(); top.classList.remove("has-photo"); credit.hidden = true; });
+      fig.appendChild(img);
+      top.appendChild(fig);
+      top.classList.add("has-photo");
+
+      credit.replaceChildren();
+      credit.appendChild(document.createTextNode("사진 · " + (artist ? artist + " · " : "") + lic + " · "));
+      var src = safeUrl(info.descriptionurl);
+      if (src) {
+        var a = el("a", null, "위키미디어 공용 ↗");
+        a.href = src; a.target = "_blank"; a.rel = "noopener noreferrer";
+        credit.appendChild(a);
+      } else {
+        credit.appendChild(document.createTextNode("위키미디어 공용"));
+      }
+      credit.hidden = false;
+    } catch (e) {}
+  }
+
+  // 이 작가가 궁금하다: section id "writer"의 항목 하나 = 작가 한 사람.
+  function renderWriter(w) {
+    var art = el("article", "writer");
+    var head = el("div", "writer-head");
+    if (w.origin) {
+      var fl = el("div", "item-flags");
+      fl.appendChild(el("span", "chip region", w.origin));
+      head.appendChild(fl);
+    }
+    var h = el("h3", "writer-name", w.name || "");
+    if (w.nameOriginal) h.appendChild(el("span", "writer-orig", w.nameOriginal));
+    head.appendChild(h);
+    if (w.line) head.appendChild(el("p", "writer-line", w.line));
+    var top = el("div", "writer-top");
+    top.appendChild(head);
+    art.appendChild(top);
+    var credit = el("p", "photo-credit");
+    credit.hidden = true;
+    if (w.photo) loadWriterPhoto(w.photo, w.name || "", top, credit);
+
+    var q = w.words;
+    if (q && q.text) {
+      var fig = el("figure", "writer-words");
+      fig.appendChild(el("blockquote", null, "“" + String(q.text).replace(/^[“"']+|[”"']+$/g, "") + "”"));
+      if (q.source) {
+        var cap = el("figcaption");
+        cap.appendChild(document.createTextNode("— "));
+        var u = safeUrl(q.url);
+        if (u) {
+          var a = el("a", null, q.source);
+          a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer";
+          cap.appendChild(a);
+        } else cap.appendChild(document.createTextNode(q.source));
+        fig.appendChild(cap);
+      }
+      art.appendChild(fig);
+    }
+
+    var abroad = /^해외/.test(String(w.origin || ""));
+    var debut = typeof w.debut === "string" ? { text: w.debut } : w.debut;
+    if (debut && debut.text) {
+      var db = wblock(abroad ? "첫 책" : "등단");
+      db.appendChild(el("p", null, debut.text));
+      var dl = linkRow(debut.links);
+      if (dl) db.appendChild(dl);
+      art.appendChild(db);
+    }
+
+    var works = asArray(w.works).filter(function (x) { return x && x.title; });
+    if (works.length) {
+      var wb = wblock(abroad ? "대표작과 국내 번역" : "대표작");
+      var ul = el("ul", "works");
+      works.forEach(function (x) {
+        var li = el("li");
+        var row = el("div");
+        row.appendChild(el("span", "wt", x.title));
+        var wm = [x.original, x.meta].filter(Boolean).join(" · ");
+        if (wm) row.appendChild(el("span", "wm", wm));
+        li.appendChild(row);
+        if (x.line) li.appendChild(el("p", "wl", x.line));
+        if (x.ko || abroad) {
+          var ko = el("p", "ko");
+          if (x.ko) {
+            ko.appendChild(el("span", "ko-tag", "국내판"));
+            ko.appendChild(document.createTextNode(x.ko));
+            var ku = safeUrl(x.koUrl);
+            if (ku) {
+              var ka = el("a", null, "책 소개 ↗");
+              ka.href = ku; ka.target = "_blank"; ka.rel = "noopener noreferrer";
+              ko.appendChild(ka);
+            }
+          } else {
+            ko.appendChild(el("span", "ko-tag none", "국내 미번역"));
+          }
+          li.appendChild(ko);
+        }
+        ul.appendChild(li);
+      });
+      wb.appendChild(ul);
+      art.appendChild(wb);
+    }
+
+    if (w.style) {
+      var sb = wblock("문체와 세계");
+      sb.appendChild(el("p", null, w.style));
+      art.appendChild(sb);
+    }
+
+    var revs = asArray(w.reception).filter(function (r) { return r && r.gist; });
+    if (revs.length) {
+      var rb = wblock("평단의 시선");
+      var rl = el("ul", "book-reviews");
+      revs.forEach(function (r) {
+        var li = el("li");
+        if (r.source) li.appendChild(el("b", null, r.source));
+        li.appendChild(document.createTextNode(" " + r.gist));
+        var u = safeUrl(r.url);
+        if (u) {
+          var a = el("a", null, "원문 ↗");
+          a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer";
+          li.appendChild(a);
+        }
+        rl.appendChild(li);
+      });
+      rb.appendChild(rl);
+      art.appendChild(rb);
+    }
+
+    var awards = asArray(w.awards).filter(Boolean);
+    if (awards.length) {
+      var ab = wblock("수상");
+      var al = el("ul", "awards");
+      awards.forEach(function (t) { al.appendChild(el("li", null, t)); });
+      ab.appendChild(al);
+      art.appendChild(ab);
+    }
+
+    if (w.recent) {
+      var nb = wblock("요즘");
+      nb.appendChild(el("p", null, w.recent));
+      art.appendChild(nb);
+    }
+
+    var start = asArray(w.start).filter(function (x) { return x && x.title; });
+    if (start.length) {
+      var sl = el("ul", "start-list");
+      start.forEach(function (x) {
+        var li = el("li");
+        li.appendChild(el("b", null, x.title));
+        if (x.why) li.appendChild(document.createTextNode(" " + x.why));
+        sl.appendChild(li);
+      });
+      art.appendChild(boxed("처음 읽는다면", sl));
+    }
+
+    if (w.craft) art.appendChild(boxed("쓰는 사람에게", el("p", null, w.craft)));
+
+    var lk = linkRow(w.links);
+    if (lk) art.appendChild(lk);
+    if (asArray(w.links).some(function (k) { return k && k.translate; })) {
+      art.appendChild(el("p", "item-note", "우리말로 읽으려면 원문을 연 뒤 브라우저 번역을 켜세요."));
+    }
+    if (w.note) art.appendChild(el("p", "item-note", w.note));
+    art.appendChild(credit);
+
+    var srcs = asArray(w.sources);
+    if (srcs.length) {
+      var meta = el("div", "item-meta");
+      var box = el("span", "sources");
+      srcs.forEach(function (s) {
+        var u = safeUrl(s && s.url);
+        var label = (s && s.name ? s.name : "원문") + (s && isDate(s.date) ? " " + Number(s.date.slice(5, 7)) + "." + Number(s.date.slice(8)) : "");
+        if (u) {
+          var a = el("a", null, label + " ↗");
+          a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer";
+          box.appendChild(a);
+        } else box.appendChild(el("span", null, label));
+      });
+      meta.appendChild(box);
+      art.appendChild(meta);
+    }
+    return art;
+  }
+
   // 지난 당선작(past)과 기성 작가 단편(established)을 '오늘의 단편' 한 꼭지로 묶는다.
   var SLOT_ORDER = ["신춘문예", "국내단편", "해외단편"];
   function slotOf(sectionId, it) {
@@ -787,6 +1104,8 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     var main = $("sections");
     main.replaceChildren();
     var sections = mergeShortStories(asArray(issue.sections).filter(function (s) { return s && asArray(s.items).length; }));
+    var special = sections.filter(function (s) { return s.id === "writer"; });
+    sections = special.concat(sections.filter(function (s) { return s.id !== "writer"; }));
     if (!sections.length) {
       var e = el("div", "empty");
       e.appendChild(el("strong", null, "이 호에는 실린 기사가 없습니다"));
@@ -799,15 +1118,22 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       sec.setAttribute("aria-label", s.label || "");
       var h = el("h2", "section-label");
       h.appendChild(document.createTextNode(s.label || ""));
-      h.appendChild(el("span", "count", asArray(s.items).length));
+      if (s.id === "writer") h.appendChild(el("span", "special-tag", "비정기 스페셜"));
+      else h.appendChild(el("span", "count", asArray(s.items).length));
       sec.appendChild(h);
       var NOTES = {
+        writer: "독자가 궁금해한 작가 한 사람을 골라 등단부터 대표작, 문체, 평단의 시선, 처음 읽을 책까지 한자리에 모았습니다. 요청이 있을 때만 싣습니다.",
         calls: "소설 부문 상금이 300만 원 이상인 공모만 싣습니다. 500만 원 이상은 진하게 표시하고, 기성·신인 응모 여부와 원고 매수, 도착분·소인 기준을 함께 적습니다.",
         results: "공모와 같은 기준으로 소설 부문 결과만 싣습니다. 심사평과 당선작이 온라인에 올라오면 바로가기와 심사 경향 분석을 붙입니다.",
         today: "매일 2016년 이후 신춘문예 소설 당선작 한 편과, 전문이 무료로 공개된 기성 작가 단편을 국내·해외 한 편씩 무작위로 골라 소개합니다. 한 번 소개한 작품은 다시 고르지 않습니다. 광고가 많은 페이지는 브라우저의 읽기 모드로, 해외 작품은 브라우저 번역으로 읽으세요.",
         world: "영미권·남미권·유럽·러시아·중국·일본·아시아(인도·동남아·중앙아시아 등)·제3세계(아프리카·중동) 소식을 현지 보도에서 찾아 우리말로 옮겨 싣습니다. 하루에 두세 권역씩 돌아가며 살피고, 큰 국제 문학상 발표는 그날 바로 싣습니다. 작품 제목 풀이는 국내 번역본이 없으면 직역입니다."
       };
       if (NOTES[s.id]) sec.appendChild(el("p", "section-note", NOTES[s.id]));
+      if (s.id === "writer") {
+        asArray(s.items).forEach(function (w) { if (w && w.name) sec.appendChild(renderWriter(w)); });
+        main.appendChild(sec);
+        return;
+      }
       var ul = el("ul", "items");
       var list = asArray(s.items).slice();
       if (s.id === "world") list.sort(function (a, b) { return regionRank(a) - regionRank(b); });
@@ -883,6 +1209,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       if (seenBefore && iss.date > seenBefore) dspan.appendChild(el("span", "new-dot", "새"));
       b.appendChild(dspan);
       b.appendChild(el("span", "h", iss.headline || "제목 없음"));
+      if (iss.special) b.appendChild(el("span", "sp", iss.special));
       b.addEventListener("click", function () { show(iss.id, true); });
       li.appendChild(b);
       ul.appendChild(li);
@@ -983,7 +1310,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     try {
       var j = await fetchJson("index.json");
       index = asArray(j && j.issues).filter(function (x) { return x && isDate(x.date); }).map(function (x) {
-        return { id: x.date, date: x.date, issue: x.issue, headline: x.headline };
+        return { id: x.date, date: x.date, issue: x.issue, headline: x.headline, special: typeof x.special === "string" ? x.special : null };
       }).sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
     } catch (e) {
       renderNoData("브리핑을 불러오지 못했습니다", "잠시 후 페이지를 새로 고쳐 주세요.");
