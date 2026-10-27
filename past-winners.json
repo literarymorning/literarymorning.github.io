@@ -1881,13 +1881,19 @@
    "paper": "세계일보",
    "category": "단편소설",
    "title": "수박",
-   "author": "박가람",
+   "author": "하가람",
    "links": [
     {
      "label": "당선작 읽기",
      "url": "https://www.segye.com/newsView/20221226516244"
+    },
+    {
+     "label": "당선 소감",
+     "url": "https://shinchun.segye.com/prize/prize_2023/novel_2023/novel_interview_2023"
     }
-   ]
+   ],
+   "checked": "2026-10-27",
+   "featured": "2026-10-27"
   },
   {
    "id": "2023-영남일보-단편소설",

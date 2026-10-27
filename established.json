@@ -177,7 +177,9 @@
    "title": "그 개와 혁명",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=99810",
    "author": "예소연",
-   "year": 2024
+   "year": 2024,
+   "checked": "2026-10-27",
+   "featured": "2026-10-27"
   },
   {
    "id": "munjang-2172",
@@ -727,7 +729,10 @@
    "source": "Electric Literature",
    "title": "Gondola",
    "author": "Etgar Keret",
-   "url": "https://electricliterature.com/gondola-by-etgar-keret/"
+   "url": "https://electricliterature.com/gondola-by-etgar-keret/",
+   "checked": "2026-10-27",
+   "featured": "2026-10-27",
+   "year": 2026
   },
   {
    "id": "el-the-cattleman-by-aaron-gwyn",
