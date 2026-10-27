@@ -1,5 +1,5 @@
 # /home/claude/today/meta.json 과 sections/*.json 을 합쳐 이달 호 파일과 index.json에 넣고, 여섯 데이터 파일 문법을 확인한다.
-import json, os, glob, subprocess
+import json, os, glob, subprocess, datetime
 R = os.environ.get('R', '/home/claude/site'); T = os.environ.get('T', '/home/claude/today')
 meta = json.load(open(f'{T}/meta.json'))
 order = ['writer', 'calls', 'results', 'past', 'established', 'craft', 'grants', 'books', 'columns', 'issues', 'world']
@@ -10,7 +10,9 @@ assert not bad, f'모르는 꼭지 id: {bad}'
 secs.sort(key=lambda s: order.index(s['id']))
 ids = [s['id'] for s in secs]
 assert len(ids) == len(set(ids)), f'꼭지 id 중복: {ids}'
-assert not ('writer' in ids and 'craft' in ids), 'writer와 craft가 같은 날 실림'
+wd = datetime.date.fromisoformat(meta['date']).isoweekday()
+if 'craft' in ids and wd not in (1, 3, 5):
+    assert not any(x in ids for x in ('calls', 'books', 'columns', 'issues')), '화·목·토·일의 쓰는 사람은 공모·신간·칼럼·이슈가 모두 빈 날에만 싣는다. sections/craft.json을 빼고 다시 실행'
 iss = {k: meta[k] for k in ('date', 'issue', 'generatedAt', 'quote', 'headline', 'lede') if k in meta}
 iss['sections'] = secs
 iss['calendar'] = sorted(meta.get('calendar', []), key=lambda c: c['date'])[:20]
