@@ -10,9 +10,9 @@ assert not bad, f'모르는 꼭지 id: {bad}'
 secs.sort(key=lambda s: order.index(s['id']))
 ids = [s['id'] for s in secs]
 assert len(ids) == len(set(ids)), f'꼭지 id 중복: {ids}'
+assert not ('writer' in ids and 'craft' in ids), 'writer와 craft가 같은 날 실림'
 wd = datetime.date.fromisoformat(meta['date']).isoweekday()
-if 'craft' in ids and wd not in (1, 3, 5):
-    assert not any(x in ids for x in ('calls', 'books', 'columns', 'issues')), '화·목·토·일의 쓰는 사람은 공모·신간·칼럼·이슈가 모두 빈 날에만 싣는다. sections/craft.json을 빼고 다시 실행'
+assert 'craft' not in ids or wd in (1, 3, 5), '쓰는 사람은 월·수·금에만 싣는다. sections/craft.json을 빼고 다시 실행'
 iss = {k: meta[k] for k in ('date', 'issue', 'generatedAt', 'quote', 'headline', 'lede') if k in meta}
 iss['sections'] = secs
 iss['calendar'] = sorted(meta.get('calendar', []), key=lambda c: c['date'])[:20]
