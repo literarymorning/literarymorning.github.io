@@ -1,20 +1,133 @@
 {
  "about": "'쓰는 사람' 꼭지(월·수·금, 그리고 공모·신간·칼럼·이슈 소식이 하나도 없는 화·목·토·일)의 출처 목록과 소개한 글 기록. outlets는 찾아볼 곳, featured는 이미 소개한 글(다시 싣지 않는다).",
  "outlets": [
-  {"id": "chyes", "side": "국내", "name": "채널예스", "domain": "ch.yes24.com", "kind": "인터뷰", "hint": "소설가 인터뷰 가운데 작업 방식·문장·구성·퇴고를 이야기하는 대목이 많은 글"},
-  {"id": "munjang", "side": "국내", "name": "문장웹진", "domain": "munjang.or.kr", "kind": "인터뷰·에세이", "hint": "작가 인터뷰 게시판, '모색'의 작가 에세이와 레지던시 일기, 편집위원 기획"},
-  {"id": "kr-press", "side": "국내", "name": "국내 신문·잡지 작가 인터뷰", "domain": "", "kind": "인터뷰", "hint": "신작을 낸 소설가 인터뷰 가운데 창작 과정을 깊이 다룬 것. 한겨레·경향·한국일보·동아·조선·국민·서울신문 등, 보그·하퍼스 바자 같은 잡지의 문학 인터뷰. hani.co.kr·donga.com·chosun.com은 도메인 제한 검색이 거절되니 도메인 없이 검색"},
-  {"id": "lithub", "side": "해외", "name": "Literary Hub", "domain": "lithub.com", "kind": "에세이", "hint": "Craft and Advice 분류. 작가가 자기 작업을 이야기한 에세이"},
-  {"id": "electriclit", "side": "해외", "name": "Electric Literature", "domain": "electricliterature.com", "kind": "에세이", "hint": "Craft 꼬리표가 붙은 에세이"},
-  {"id": "craftlit", "side": "해외", "name": "CRAFT", "domain": "craftliterary.com", "kind": "에세이·작가 노트", "hint": "창작 기술 전문 문예지. 크래프트 에세이, 또는 작품마다 붙는 작가 노트와 편집자 해설"},
-  {"id": "pw", "side": "해외", "name": "Poets & Writers", "domain": "pw.org", "kind": "에세이", "hint": "Craft Capsules 연재(소설 관련만)"},
-  {"id": "bomb", "side": "해외", "name": "BOMB", "domain": "bombmagazine.org", "kind": "인터뷰", "hint": "작가가 작가를 인터뷰한 글 가운데 소설가 인터뷰"},
-  {"id": "parisreview", "side": "해외", "name": "The Paris Review", "domain": "theparisreview.org", "kind": "인터뷰·에세이", "hint": "Daily의 Redux(무료로 풀린 Art of Fiction 인터뷰)와 창작 에세이. 본지 인터뷰는 대부분 유료라 전문이 열리는 것만"},
-  {"id": "larb", "side": "해외", "name": "Los Angeles Review of Books", "domain": "lareviewofbooks.org", "kind": "인터뷰", "hint": "신작을 낸 소설가 인터뷰"},
-  {"id": "whitereview", "side": "해외", "name": "The White Review", "domain": "thewhitereview.org", "kind": "인터뷰", "hint": "긴 작가 인터뷰. 최근 글이 없으면 아카이브의 명편도 가능"},
-  {"id": "newyorker", "side": "해외", "name": "The New Yorker", "domain": "", "kind": "인터뷰", "hint": "This Week in Fiction: 그 주 단편의 작가 문답. 도메인 제한 검색이 거절되니 도메인 없이 검색하고, 유료벽으로 본문이 열리지 않으면 쓰지 않는다"},
-  {"id": "webdoku", "side": "해외", "name": "WEB本の雑誌 「作家の読書道」", "domain": "webdoku.jp", "kind": "인터뷰", "hint": "월 1회 연재. 작가의 독서 이력과 소설을 쓰기 시작한 이야기. 일본어"},
-  {"id": "zenda", "side": "해외", "name": "Zenda", "domain": "zendalibros.com", "kind": "인터뷰·에세이", "hint": "Entrevistas와, 작가가 자기 책을 어떻게 썼는지 쓰는 Making of. 스페인어"}
+  {
+   "id": "chyes",
+   "side": "국내",
+   "name": "채널예스",
+   "domain": "ch.yes24.com",
+   "kind": "인터뷰",
+   "hint": "소설가 인터뷰 가운데 작업 방식·문장·구성·퇴고를 이야기하는 대목이 많은 글"
+  },
+  {
+   "id": "munjang",
+   "side": "국내",
+   "name": "문장웹진",
+   "domain": "munjang.or.kr",
+   "kind": "인터뷰·에세이",
+   "hint": "작가 인터뷰 게시판, '모색'의 작가 에세이와 레지던시 일기, 편집위원 기획"
+  },
+  {
+   "id": "kr-press",
+   "side": "국내",
+   "name": "국내 신문·잡지 작가 인터뷰",
+   "domain": "",
+   "kind": "인터뷰",
+   "hint": "신작을 낸 소설가 인터뷰 가운데 창작 과정을 깊이 다룬 것. 한겨레·경향·한국일보·동아·조선·국민·서울신문 등, 보그·하퍼스 바자 같은 잡지의 문학 인터뷰. hani.co.kr·donga.com·chosun.com은 도메인 제한 검색이 거절되니 도메인 없이 검색"
+  },
+  {
+   "id": "lithub",
+   "side": "해외",
+   "name": "Literary Hub",
+   "domain": "lithub.com",
+   "kind": "에세이",
+   "hint": "Craft and Advice 분류. 작가가 자기 작업을 이야기한 에세이"
+  },
+  {
+   "id": "electriclit",
+   "side": "해외",
+   "name": "Electric Literature",
+   "domain": "electricliterature.com",
+   "kind": "에세이",
+   "hint": "Craft 꼬리표가 붙은 에세이"
+  },
+  {
+   "id": "craftlit",
+   "side": "해외",
+   "name": "CRAFT",
+   "domain": "craftliterary.com",
+   "kind": "에세이·작가 노트",
+   "hint": "창작 기술 전문 문예지. 크래프트 에세이, 또는 작품마다 붙는 작가 노트와 편집자 해설"
+  },
+  {
+   "id": "pw",
+   "side": "해외",
+   "name": "Poets & Writers",
+   "domain": "pw.org",
+   "kind": "에세이",
+   "hint": "Craft Capsules 연재(소설 관련만)"
+  },
+  {
+   "id": "bomb",
+   "side": "해외",
+   "name": "BOMB",
+   "domain": "bombmagazine.org",
+   "kind": "인터뷰",
+   "hint": "작가가 작가를 인터뷰한 글 가운데 소설가 인터뷰"
+  },
+  {
+   "id": "parisreview",
+   "side": "해외",
+   "name": "The Paris Review",
+   "domain": "theparisreview.org",
+   "kind": "인터뷰·에세이",
+   "hint": "Daily의 Redux(무료로 풀린 Art of Fiction 인터뷰)와 창작 에세이. 본지 인터뷰는 대부분 유료라 전문이 열리는 것만"
+  },
+  {
+   "id": "larb",
+   "side": "해외",
+   "name": "Los Angeles Review of Books",
+   "domain": "lareviewofbooks.org",
+   "kind": "인터뷰",
+   "hint": "신작을 낸 소설가 인터뷰"
+  },
+  {
+   "id": "whitereview",
+   "side": "해외",
+   "name": "The White Review",
+   "domain": "thewhitereview.org",
+   "kind": "인터뷰",
+   "hint": "긴 작가 인터뷰. 최근 글이 없으면 아카이브의 명편도 가능"
+  },
+  {
+   "id": "newyorker",
+   "side": "해외",
+   "name": "The New Yorker",
+   "domain": "",
+   "kind": "인터뷰",
+   "hint": "This Week in Fiction: 그 주 단편의 작가 문답. 도메인 제한 검색이 거절되니 도메인 없이 검색하고, 유료벽으로 본문이 열리지 않으면 쓰지 않는다"
+  },
+  {
+   "id": "webdoku",
+   "side": "해외",
+   "name": "WEB本の雑誌 「作家の読書道」",
+   "domain": "webdoku.jp",
+   "kind": "인터뷰",
+   "hint": "월 1회 연재. 작가의 독서 이력과 소설을 쓰기 시작한 이야기. 일본어"
+  },
+  {
+   "id": "zenda",
+   "side": "해외",
+   "name": "Zenda",
+   "domain": "zendalibros.com",
+   "kind": "인터뷰·에세이",
+   "hint": "Entrevistas와, 작가가 자기 책을 어떻게 썼는지 쓰는 Making of. 스페인어"
+  }
  ],
- "featured": []
+ "featured": [
+  {
+   "date": "2026-10-27",
+   "side": "국내",
+   "outlet": "chyes",
+   "title": "[인터뷰] 김연수, 소설로 당신을 도울 수 있다면",
+   "url": "https://ch.yes24.com/article/details/83351"
+  },
+  {
+   "date": "2026-10-27",
+   "side": "해외",
+   "outlet": "lithub",
+   "title": "Will Maclean on F*cking Up a Notebook to Write a Novel",
+   "url": "https://lithub.com/will-maclean-on-fcking-up-a-notebook-to-write-a-novel/"
+  }
+ ]
 }
