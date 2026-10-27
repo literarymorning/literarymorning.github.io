@@ -309,7 +309,9 @@
    "title": "손상",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=100541",
    "author": "지강숙",
-   "year": 2024
+   "year": 2024,
+   "checked": "2026-10-28",
+   "featured": "2026-10-28"
   },
   {
    "id": "munjang-100540",
@@ -469,7 +471,11 @@
    "source": "Electric Literature",
    "title": "Cattle Haul",
    "author": "Jesmyn Ward",
-   "url": "https://electricliterature.com/cattle-haul/"
+   "url": "https://electricliterature.com/cattle-haul-jesmyn-ward/",
+   "checked": "2026-10-28",
+   "featured": "2026-10-28",
+   "year": 2012,
+   "originalLanguage": "영어"
   },
   {
    "id": "el-my-last-story",
