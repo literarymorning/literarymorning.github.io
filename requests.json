@@ -31,6 +31,12 @@
    "requestedAt": "2026-10-27",
    "notBefore": "2026-11-01",
    "status": "pending"
+  },
+  {
+   "name": "조지 손더스",
+   "hint": "George Saunders. 미국 소설가, 『Tenth of December』 『Lincoln in the Bardo』(2017 부커상) 『A Swim in a Pond in the Rain』",
+   "requestedAt": "2026-10-28",
+   "status": "pending"
   }
  ]
 }
