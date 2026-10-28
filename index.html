@@ -287,7 +287,8 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 .chip.submit.arrive { border-color: var(--ink); font-weight: 600; }
 .chip.submit.unknown, .chip.len.unknown { color: var(--muted); border-style: dashed; }
 .deadline .elig-mark { white-space: nowrap; }
-.section-note { margin: 2px 0 0; font-size: 0.75rem; color: color-mix(in srgb, var(--muted) 72%, var(--sheet)); }
+.section-note, .trans-note { margin: 2px 0 0; font-size: 0.75rem; color: color-mix(in srgb, var(--muted) 52%, var(--sheet)); }
+.trans-note { margin: 0; }
 .item-note { margin: 0; font-size: 0.8125rem; color: var(--muted); }
 .slot-label {
   margin: 0; display: flex; align-items: center; gap: 10px;
@@ -693,7 +694,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       });
       li.appendChild(lk);
       if (links.some(function (k) { return k.translate; })) {
-        li.appendChild(el("p", "item-note", "우리말로 읽으려면 원문을 연 뒤 브라우저 번역을 켜세요. 아이폰 사파리는 주소창의 가가 → 번역, 크롬과 삼성 인터넷은 주소창이나 메뉴의 번역 버튼입니다."));
+        li.appendChild(el("p", "trans-note", "우리말로 읽으려면 원문을 연 뒤 브라우저 번역을 켜세요. 아이폰 사파리는 주소창의 가가 → 번역, 크롬과 삼성 인터넷은 주소창이나 메뉴의 번역 버튼입니다."));
       }
     }
     var judges = asArray(item.judges).filter(function (j) { return j && j.name; });
@@ -1052,7 +1053,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     var lk = linkRow(w.links);
     if (lk) art.appendChild(lk);
     if (asArray(w.links).some(function (k) { return k && k.translate; })) {
-      art.appendChild(el("p", "item-note", "우리말로 읽으려면 원문을 연 뒤 브라우저 번역을 켜세요."));
+      art.appendChild(el("p", "trans-note", "우리말로 읽으려면 원문을 연 뒤 브라우저 번역을 켜세요."));
     }
     if (w.note) art.appendChild(el("p", "item-note", w.note));
     art.appendChild(credit);
