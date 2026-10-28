@@ -533,7 +533,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     </main>
 
     <aside class="rail-archive" aria-labelledby="ar-title">
-      <h2 class="rail-title" id="ar-title">지난 호 <span id="ar-count"></span></h2>
+      <h2 class="rail-title" id="ar-title">지난 호</h2>
       <ul class="archive" id="archive"></ul>
       <button type="button" class="more-btn" id="ar-more" hidden>이전 호 더 보기</button>
     </aside>
@@ -1203,7 +1203,6 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
   function renderArchive() {
     var ul = $("archive");
     ul.replaceChildren();
-    $("ar-count").textContent = index.length ? index.length + "호" : "";
     var currentPos = -1;
     for (var i = 0; i < index.length; i++) if (index[i].id === currentId) { currentPos = i; break; }
     if (currentPos >= archiveShown) archiveShown = Math.ceil((currentPos + 1) / ARCHIVE_STEP) * ARCHIVE_STEP;
