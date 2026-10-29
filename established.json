@@ -166,9 +166,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "씬짜오, 씬짜오",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2068",
+   "url": "https://webzine.munjang.or.kr/archives/13455",
    "author": "최은영",
-   "year": 2016
+   "year": 2016,
+   "checked": "2026-10-30",
+   "featured": "2026-10-30"
   },
   {
    "id": "munjang-99810",
@@ -246,7 +248,9 @@
    "title": "언두",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2242",
    "author": "성해나",
-   "year": 2020
+   "year": 2020,
+   "status": "dead",
+   "checked": "2026-10-30"
   },
   {
    "id": "munjang-103098",
@@ -804,7 +808,9 @@
    "author": "Fernanda Melchor",
    "originalLanguage": "스페인어",
    "url": "https://wordswithoutborders.org/read/article/2022-06/lifes-not-worth-a-thing-fernanda-melchor-sophie-hughes/",
-   "year": 2022
+   "year": 2022,
+   "checked": "2026-10-30",
+   "featured": "2026-10-30"
   },
   {
    "id": "wwb-story-of-a-sheet-alejandro-zambra-megan-mcdowell",
