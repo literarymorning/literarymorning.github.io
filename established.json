@@ -424,7 +424,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "오랍(奥拉)",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2362"
+   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2362",
+   "author": "이화경",
+   "year": 2022,
+   "checked": "2026-10-31",
+   "featured": "2026-10-31"
   },
   {
    "id": "munjang-2341",
@@ -798,7 +802,10 @@
    "title": "A Village Fest",
    "author": "Alisa Ganieva",
    "originalLanguage": "러시아어",
-   "url": "https://wordswithoutborders.org/read/article/2023-02/a-village-fest-alisa-ganieva-will-firth/"
+   "url": "https://wordswithoutborders.org/read/article/2023-02/a-village-fest-alisa-ganieva-will-firth/",
+   "year": 2023,
+   "checked": "2026-10-31",
+   "featured": "2026-10-31"
   },
   {
    "id": "wwb-lifes-not-worth-a-thing-fernanda-melchor-sophie-hughes",

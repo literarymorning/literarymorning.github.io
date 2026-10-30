@@ -974,7 +974,9 @@
      "label": "심사평",
      "url": "https://www.jjan.kr/article/20241226580372"
     }
-   ]
+   ],
+   "checked": "2026-10-31",
+   "featured": "2026-10-31"
   },
   {
    "id": "2025-조선일보-단편소설",
@@ -2157,7 +2159,9 @@
      "label": "당선작 읽기",
      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20180101.22028009405"
     }
-   ]
+   ],
+   "status": "dead",
+   "checked": "2026-10-31"
   },
   {
    "id": "2018-농민신문-단편소설",
