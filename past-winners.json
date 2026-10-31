@@ -1588,17 +1588,19 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "http://www.kwnews.co.kr/page/view/2023010113183509853"
+     "url": "https://www.kwnews.co.kr/article/202301011560421"
     },
     {
      "label": "당선 소감",
-     "url": "http://www.kwnews.co.kr/page/view/2022122517302715848"
+     "url": "https://www.kwnews.co.kr/page/view/2022122517302715848"
     },
     {
      "label": "심사평",
-     "url": "http://www.kwnews.co.kr/page/view/2022122518290079015"
+     "url": "https://www.kwnews.co.kr/page/view/2022122518290079015"
     }
-   ]
+   ],
+   "checked": "2026-11-01",
+   "featured": "2026-11-01"
   },
   {
    "id": "2023-경남신문-단편소설",
@@ -2448,7 +2450,9 @@
      "label": "당선작 읽기",
      "url": "http://www.ksilbo.co.kr/news/articleView.html?idxno=571634"
     }
-   ]
+   ],
+   "status": "dead",
+   "checked": "2026-11-01"
   },
   {
    "id": "2017-경인일보-단편소설",

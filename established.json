@@ -368,7 +368,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "마른 익사",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2189"
+   "url": "https://munjang.or.kr/board.es?act=view&bid=0003&c_page=&c_type=A&list_no=2189&mid=a21300000000&nPage=1&ord=B",
+   "author": "이수진",
+   "year": 2019,
+   "checked": "2026-11-01",
+   "featured": "2026-11-01"
   },
   {
    "id": "munjang-2379",
@@ -471,7 +475,9 @@
    "source": "Electric Literature",
    "title": "Birds in the Mouth",
    "author": "Samanta Schweblin",
-   "url": "https://electricliterature.com/birds-in-the-mouth-by-samanta-schweblin/"
+   "url": "https://electricliterature.com/birds-in-the-mouth-by-samanta-schweblin/",
+   "checked": "2026-11-01",
+   "featured": "2026-11-01"
   },
   {
    "id": "el-cattle-haul",
