@@ -354,7 +354,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "어둠 뒤에",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2207"
+   "url": "https://munjang.or.kr/board.es?act=view&bid=0003&c_page=&c_type=A&list_no=2207&mid=a21300000000&nPage=1&ord=B",
+   "author": "김멜라",
+   "year": 2019,
+   "checked": "2026-11-02",
+   "featured": "2026-11-02"
   },
   {
    "id": "munjang-2173",
@@ -629,7 +633,9 @@
    "source": "Electric Literature",
    "title": "The Bastard",
    "author": "Patrick deWitt",
-   "url": "https://electricliterature.com/the-bastard/"
+   "url": "https://electricliterature.com/the-bastard-patrick-dewitt/",
+   "checked": "2026-11-02",
+   "featured": "2026-11-02"
   },
   {
    "id": "el-to-revive-a-person-is-no-slight-thing",

@@ -2686,9 +2686,11 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "http://www.domin.co.kr/news/articleView.html?idxno=1135573"
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1135573"
     }
-   ]
+   ],
+   "checked": "2026-11-02",
+   "featured": "2026-11-02"
   },
   {
    "id": "2017-전북일보-단편소설",
