@@ -141,7 +141,9 @@
    "title": "하인즈",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=111799",
    "author": "박우연",
-   "year": 2026
+   "year": 2026,
+   "checked": "2026-11-03",
+   "featured": "2026-11-03"
   },
   {
    "id": "munjang-2075",
@@ -739,7 +741,11 @@
    "source": "Electric Literature",
    "title": "A Full-Service Shelter",
    "author": "Amy Hempel",
-   "url": "https://electricliterature.com/rick-moody-recommends-a-full-service-shelter-by-amy-hempel/"
+   "url": "https://electricliterature.com/rick-moody-recommends-a-full-service-shelter-by-amy-hempel/",
+   "year": 2019,
+   "originalLanguage": "영어",
+   "checked": "2026-11-03",
+   "featured": "2026-11-03"
   },
   {
    "id": "el-all-stories-by-kevin-wilson",

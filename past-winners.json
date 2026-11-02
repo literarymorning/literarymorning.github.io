@@ -713,17 +713,19 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20250101.22016010929&kid=k10"
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20250101.22016010929"
     },
     {
      "label": "당선 소감",
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20250101.22017010928&kid=k10"
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20250101.22017010928"
     },
     {
      "label": "심사평",
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20250101.22017010927&kid=k10"
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0500&key=20250101.22017010927"
     }
-   ]
+   ],
+   "checked": "2026-11-03",
+   "featured": "2026-11-03"
   },
   {
    "id": "2025-농민신문-단편소설",
