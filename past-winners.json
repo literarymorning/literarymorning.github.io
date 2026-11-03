@@ -2318,9 +2318,16 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "http://www.segye.com/newsView/20171231001300"
+     "url": "https://www.segye.com/newsView/20171231001300"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.segye.com/newsView/20171231001300",
+     "note": "당선작과 같은 기사에 실림"
     }
-   ]
+   ],
+   "checked": "2026-11-04",
+   "featured": "2026-11-04"
   },
   {
    "id": "2018-영남일보-단편소설",

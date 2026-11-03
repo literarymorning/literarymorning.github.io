@@ -277,9 +277,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "숲 바깥쪽으로",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=103095",
+   "url": "https://munjang.or.kr/board.es?act=view&bid=0003&list_no=103095&mid=a21300000000",
    "author": "김선재",
-   "year": 2024
+   "year": 2024,
+   "checked": "2026-11-04",
+   "featured": "2026-11-04"
   },
   {
    "id": "munjang-103094",
@@ -527,7 +529,10 @@
    "source": "Electric Literature",
    "title": "The Graveless Doll of Eric Mutis",
    "author": "Karen Russell",
-   "url": "https://electricliterature.com/the-graveless-doll-of-eric-mutis-by-karen-russell/"
+   "url": "https://electricliterature.com/the-graveless-doll-of-eric-mutis-by-karen-russell/",
+   "checked": "2026-11-04",
+   "featured": "2026-11-04",
+   "year": 2013
   },
   {
    "id": "el-bettering-myself",
