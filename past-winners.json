@@ -2005,17 +2005,15 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "https://www.hankookilbo.com/News/Read/A2022122713050000281"
-    },
-    {
-     "label": "당선 소감",
-     "url": "https://www.hankookilbo.com/News/Read/A2022122713030004867"
+     "url": "https://www.hankookilbo.com/news/article/A2022122713050000281"
     },
     {
      "label": "심사평",
-     "url": "https://www.hankookilbo.com/News/Read/A2022122713060002331"
+     "url": "https://www.hankookilbo.com/news/article/A2022122713060002331"
     }
-   ]
+   ],
+   "checked": "2026-11-05",
+   "featured": "2026-11-05"
   },
   {
    "id": "2023-한라일보-단편소설",
