@@ -161,7 +161,9 @@
    "title": "두 사람의 인터내셔널",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2348",
    "author": "김기태",
-   "year": 2022
+   "year": 2022,
+   "status": "dead",
+   "checked": "2026-11-06"
   },
   {
    "id": "munjang-2068",
@@ -509,7 +511,11 @@
    "source": "Electric Literature",
    "title": "My Last Story",
    "author": "Janet Frame",
-   "url": "https://electricliterature.com/my-last-story/"
+   "url": "https://electricliterature.com/my-last-story-janet-frame/",
+   "year": 2012,
+   "originalLanguage": "영어",
+   "checked": "2026-11-06",
+   "featured": "2026-11-06"
   },
   {
    "id": "el-north-of",
@@ -868,6 +874,17 @@
    "originalLanguage": "스페인어",
    "url": "https://wordswithoutborders.org/read/article/2012-02/the-hearts-secret-moves-herrera-bunstead/",
    "year": 2012
+  },
+  {
+   "id": "munjang-2301",
+   "side": "국내",
+   "source": "문장웹진",
+   "title": "프렌치프레스",
+   "author": "이서안",
+   "url": "https://munjang.or.kr/board.es?act=view&bid=0003&list_no=2301&mid=a21300000000",
+   "year": 2021,
+   "checked": "2026-11-06",
+   "featured": "2026-11-06"
   }
  ]
 }
