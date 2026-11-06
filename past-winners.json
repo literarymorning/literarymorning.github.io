@@ -1071,7 +1071,7 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "https://www.kwnews.co.kr/page/view/2024010116024968587"
+     "url": "https://www.kwnews.co.kr/article/202401010427902"
     },
     {
      "label": "당선 소감",
@@ -1079,9 +1079,11 @@
     },
     {
      "label": "심사평",
-     "url": "https://www.kwnews.co.kr/page/view/2024010116025013717"
+     "url": "https://www.kwnews.co.kr/article/202401010427895"
     }
-   ]
+   ],
+   "checked": "2026-11-07",
+   "featured": "2026-11-07"
   },
   {
    "id": "2024-경남신문-단편소설",
