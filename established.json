@@ -69,7 +69,9 @@
    "title": "암순응",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=113081",
    "author": "박선우",
-   "year": 2026
+   "year": 2026,
+   "status": "dead",
+   "checked": "2026-11-08"
   },
   {
    "id": "munjang-112498",
@@ -78,7 +80,9 @@
    "title": "사람 같은 이름을 지어 주면 오래 산다",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=112498",
    "author": "임아라",
-   "year": 2026
+   "year": 2026,
+   "checked": "2026-11-08",
+   "featured": "2026-11-08"
   },
   {
    "id": "munjang-112497",
@@ -870,7 +874,9 @@
    "author": "Alejandro Zambra",
    "originalLanguage": "스페인어",
    "url": "https://wordswithoutborders.org/read/article/2019-04/april-2019-chile-story-of-a-sheet-alejandro-zambra-megan-mcdowell/",
-   "year": 2019
+   "year": 2019,
+   "checked": "2026-11-08",
+   "featured": "2026-11-08"
   },
   {
    "id": "wwb-the-hearts-secret-moves-herrera-bunstead",
