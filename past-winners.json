@@ -1374,9 +1374,11 @@
     },
     {
      "label": "심사평",
-     "url": "https://www.busan.com/view/busan/view.php?code=2024010116334925409"
+     "url": "https://mobile.busan.com/view/busan/view.php?code=2024010116334925409"
     }
-   ]
+   ],
+   "checked": "2026-11-09",
+   "featured": "2026-11-09"
   },
   {
    "id": "2024-불교신문-단편소설",

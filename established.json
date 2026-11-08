@@ -305,7 +305,9 @@
    "title": "모로",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=103093",
    "author": "김영은",
-   "year": 2024
+   "year": 2024,
+   "checked": "2026-11-09",
+   "featured": "2026-11-09"
   },
   {
    "id": "munjang-100624",
@@ -722,7 +724,10 @@
    "source": "Electric Literature",
    "title": "Last Night",
    "author": "Laura van den Berg",
-   "url": "https://electricliterature.com/a-new-short-story-by-laura-van-den-berg-about-the-survivors-guilt-of-the-suicidal/"
+   "url": "https://electricliterature.com/a-new-short-story-by-laura-van-den-berg-about-the-survivors-guilt-of-the-suicidal/",
+   "year": 2018,
+   "checked": "2026-11-09",
+   "featured": "2026-11-09"
   },
   {
    "id": "el-love-after-the-sex-party-circuit",
