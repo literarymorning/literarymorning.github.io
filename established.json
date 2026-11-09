@@ -100,7 +100,9 @@
    "title": "그래도 우리는 그것을 찾아 계속 헤맬 거예요",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=112496",
    "author": "이승은",
-   "year": 2026
+   "year": 2026,
+   "status": "dead",
+   "checked": "2026-11-10"
   },
   {
    "id": "munjang-112383",
@@ -484,7 +486,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "등에 쓴 글자",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=101872"
+   "url": "https://munjang.or.kr/board.es?act=view&bid=0003&list_no=101872&mid=a21300000000",
+   "author": "천운영",
+   "year": 2024,
+   "checked": "2026-11-10",
+   "featured": "2026-11-10"
   },
   {
    "id": "munjang-103509",
@@ -652,7 +658,10 @@
    "source": "Electric Literature",
    "title": "If That's All There Is",
    "author": "Mona Awad",
-   "url": "https://electricliterature.com/if-thats-all-there-is/"
+   "url": "https://electricliterature.com/if-thats-all-there-is-mona-awad/",
+   "year": 2016,
+   "checked": "2026-11-10",
+   "featured": "2026-11-10"
   },
   {
    "id": "el-the-bastard",
