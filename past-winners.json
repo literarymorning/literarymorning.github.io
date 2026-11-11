@@ -2367,9 +2367,12 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "http://www.domin.co.kr/news/articleView.html?idxno=1179274"
+     "url": "https://www.domin.co.kr/news/articleView.html?idxno=1179274"
     }
-   ]
+   ],
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림",
+   "checked": "2026-11-12",
+   "featured": "2026-11-12"
   },
   {
    "id": "2018-전북일보-단편소설",

@@ -156,9 +156,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "웨딩드레스 44",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2075",
+   "url": "https://munjang.or.kr/board.es?mid=a20103000000&bid=0003&list_no=2075&act=view",
    "author": "정세랑",
-   "year": 2016
+   "year": 2016,
+   "checked": "2026-11-12",
+   "featured": "2026-11-12"
   },
   {
    "id": "munjang-2348",
@@ -815,7 +817,10 @@
    "source": "Electric Literature",
    "title": "The Cattleman",
    "author": "Aaron Gwyn",
-   "url": "https://electricliterature.com/the-cattleman-by-aaron-gwyn/"
+   "url": "https://electricliterature.com/the-cattleman-by-aaron-gwyn/",
+   "year": 2025,
+   "checked": "2026-11-12",
+   "featured": "2026-11-12"
   },
   {
    "id": "el-blood-makes-a-bad-dye-by-samantha-xiao-cody",
