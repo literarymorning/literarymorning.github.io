@@ -481,7 +481,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "첫사랑",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=2082"
+   "url": "https://munjang.or.kr/board.es?act=view&bid=0003&list_no=2082&mid=a21300000000",
+   "author": "최진영",
+   "year": 2016,
+   "checked": "2026-11-14",
+   "featured": "2026-11-14"
   },
   {
    "id": "munjang-101872",
@@ -620,7 +624,11 @@
    "source": "Electric Literature",
    "title": "The Lady of the House of Love",
    "author": "Angela Carter",
-   "url": "https://electricliterature.com/the-lady-of-the-house-of-love/"
+   "url": "https://electricliterature.com/the-lady-of-the-house-of-love-angela-carter/",
+   "year": 1979,
+   "originalLanguage": "영어",
+   "checked": "2026-11-14",
+   "featured": "2026-11-14"
   },
   {
    "id": "el-the-swan-as-metaphor-for-love",
