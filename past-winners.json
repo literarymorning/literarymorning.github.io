@@ -613,9 +613,15 @@
     {
      "label": "당선작 읽기",
      "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1017440"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1017440"
     }
    ],
-   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림",
+   "checked": "2026-11-16",
+   "featured": "2026-11-16"
   },
   {
    "id": "2025-경인일보-단편소설",
