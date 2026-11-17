@@ -1785,17 +1785,19 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "http://news.imaeil.com/page/view/2022121916491832539"
+     "url": "https://www.imaeil.com/page/view/2022121916491832539"
     },
     {
      "label": "당선 소감",
-     "url": "http://news.imaeil.com/page/view/2022121917182673733"
+     "url": "https://www.imaeil.com/page/view/2022121917182673733"
     },
     {
      "label": "심사평",
-     "url": "http://news.imaeil.com/page/view/2022121614335249003"
+     "url": "https://www.imaeil.com/page/view/2022121614335249003"
     }
-   ]
+   ],
+   "checked": "2026-11-18",
+   "featured": "2026-11-18"
   },
   {
    "id": "2023-무등일보-단편소설",
