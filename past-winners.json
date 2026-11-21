@@ -1545,9 +1545,15 @@
     {
      "label": "당선작 읽기",
      "url": "https://www.kbulgyonews.com/news/articleView.html?idxno=42441"
+    },
+    {
+     "label": "심사평",
+     "url": "https://www.kbulgyonews.com/news/articleView.html?idxno=42441"
     }
    ],
-   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림",
+   "checked": "2026-11-22",
+   "featured": "2026-11-22"
   },
   {
    "id": "2024-한국일보-소설",
