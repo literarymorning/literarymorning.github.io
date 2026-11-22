@@ -471,6 +471,36 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 }
 .more-btn:hover { background: var(--chip); }
 
+/* 지난 호 쪽수와 검색 */
+.ar-search { display: flex; flex-direction: column; gap: 6px; margin: 0 0 14px; }
+.ar-search input {
+  width: 100%; box-sizing: border-box; min-height: 38px; padding: 0 12px;
+  border: 1px solid var(--grid); border-radius: 3px;
+  background: var(--sheet); color: var(--ink);
+  font: 400 0.9375rem var(--font-body);
+}
+.ar-search input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.ar-search .hint { margin: 0; font-size: 0.75rem; color: var(--muted); }
+.results { list-style: none; margin: 0 0 14px; padding: 0; display: flex; flex-direction: column; }
+.results button {
+  all: unset; cursor: pointer; display: flex; flex-direction: column; gap: 2px;
+  width: 100%; box-sizing: border-box; padding: 8px 0; border-bottom: 1px solid var(--rule);
+}
+.results .d { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); }
+.results .h { font-size: 0.875rem; line-height: 1.5; font-weight: 600; }
+.results .s { font-size: 0.8125rem; line-height: 1.5; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.results mark { background: var(--chip); color: var(--accent); padding: 0 1px; }
+.results button:hover .h { color: var(--accent); }
+.pager { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 10px; }
+.pager .more-btn { margin-top: 0; }
+.pager .more-btn:disabled { opacity: 0.35; cursor: default; }
+.pager .pg { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.jump-btn { display: none; align-self: flex-start; }
+@media (max-width: 899px) { .jump-btn { display: inline-flex; align-items: center; } }
+.flash { animation: flash 2.4s ease-out 1; }
+@keyframes flash { 0%, 30% { background: var(--chip); } 100% { background: transparent; } }
+
+
 .empty {
   background: var(--sheet);
   border: 1.5px dashed var(--grid);
@@ -514,6 +544,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     <p class="since" id="since" hidden></p>
     <h1 class="headline" id="headline" hidden></h1>
     <p class="lede" id="lede" hidden></p>
+    <button type="button" class="more-btn jump-btn" id="jump">지난 호 · 기사 검색 ↓</button>
   </header>
 </div>
 
@@ -534,9 +565,18 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     </main>
 
     <aside class="rail-archive" aria-labelledby="ar-title">
-      <h2 class="rail-title" id="ar-title">지난 호</h2>
+      <h2 class="rail-title" id="ar-title">지난 호 · 검색</h2>
+      <div class="ar-search" role="search">
+        <input type="search" id="q" placeholder="작품, 작가, 상, 기사 검색" aria-label="지난 호 기사와 작품 검색" autocomplete="off" enterkeyhint="search">
+        <p class="hint" id="q-hint" hidden></p>
+      </div>
+      <ul class="results" id="results" hidden></ul>
       <ul class="archive" id="archive"></ul>
-      <button type="button" class="more-btn" id="ar-more" hidden>이전 호 더 보기</button>
+      <div class="pager" id="pager" hidden>
+        <button type="button" class="more-btn" id="pg-prev">‹ 최근 호</button>
+        <span class="pg" id="pg-num"></span>
+        <button type="button" class="more-btn" id="pg-next">이전 호 ›</button>
+      </div>
     </aside>
   </div>
 
@@ -1198,16 +1238,22 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     });
   }
 
-  var ARCHIVE_STEP = 30;
-  var archiveShown = ARCHIVE_STEP;
+  var ARCHIVE_PAGE = 10;
+  var archivePage = 0;
+  var archivePinned = null;
 
   function renderArchive() {
     var ul = $("archive");
     ul.replaceChildren();
-    var currentPos = -1;
-    for (var i = 0; i < index.length; i++) if (index[i].id === currentId) { currentPos = i; break; }
-    if (currentPos >= archiveShown) archiveShown = Math.ceil((currentPos + 1) / ARCHIVE_STEP) * ARCHIVE_STEP;
-    index.slice(0, archiveShown).forEach(function (iss) {
+    var pages = Math.max(1, Math.ceil(index.length / ARCHIVE_PAGE));
+    if (archivePinned !== currentId) {
+      var currentPos = 0;
+      for (var i = 0; i < index.length; i++) if (index[i].id === currentId) { currentPos = i; break; }
+      archivePage = Math.floor(currentPos / ARCHIVE_PAGE);
+      archivePinned = currentId;
+    }
+    archivePage = Math.min(Math.max(0, archivePage), pages - 1);
+    index.slice(archivePage * ARCHIVE_PAGE, (archivePage + 1) * ARCHIVE_PAGE).forEach(function (iss) {
       var li = el("li");
       var b = el("button");
       b.type = "button";
@@ -1221,11 +1267,129 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       li.appendChild(b);
       ul.appendChild(li);
     });
-    var more = $("ar-more");
-    var rest = index.length - archiveShown;
-    more.hidden = rest <= 0;
-    if (rest > 0) more.textContent = "이전 호 " + Math.min(rest, ARCHIVE_STEP) + "개 더 보기";
+    $("pager").hidden = pages <= 1;
+    $("pg-prev").disabled = archivePage === 0;
+    $("pg-next").disabled = archivePage >= pages - 1;
+    $("pg-num").textContent = (archivePage + 1) + " / " + pages;
   }
+
+  /* 검색: 처음 입력할 때 모든 달의 호를 불러와 기사·작품·작가를 찾는다 */
+  var searchDocs = null;
+  function textOf(v) { return typeof v === "string" ? v : ""; }
+  function collectText(it) {
+    var parts = [it.title, it.name, it.nameOriginal, it.origin, it.body, it.line, it.style, it.recent, it.note, it.craft, it.takeaway, it.reviewGist, it.prizeNote, it.region];
+    asArray(it.tags).forEach(function (t) { parts.push(t); });
+    asArray(it.books).forEach(function (b) { if (b) parts.push(b.title, b.author, b.original, b.synopsis); });
+    asArray(it.candidates).forEach(function (c) { if (c) parts.push(c.title, c.author, c.original, c.line); });
+    asArray(it.works).forEach(function (w) { if (w) parts.push(w.title, w.original, w.line, w.ko); });
+    asArray(it.judges).forEach(function (j) { if (j) parts.push(j.name); });
+    asArray(it.sources).forEach(function (x) { if (x) parts.push(x.name); });
+    return parts.map(textOf).join(" ");
+  }
+  async function buildSearch() {
+    if (searchDocs) return searchDocs;
+    var ms = {};
+    index.forEach(function (i) { ms[i.date.slice(0, 7)] = true; });
+    var docs = [];
+    var all = await Promise.all(Object.keys(ms).map(function (m) { return loadMonth(m).catch(function () { return {}; }); }));
+    all.forEach(function (issues) {
+      Object.keys(issues).forEach(function (date) {
+        var iss = issues[date];
+        if (!iss || !index.some(function (i) { return i.id === date; })) return;
+        asArray(iss.sections).forEach(function (sec) {
+          var label = sec.id === "past" || sec.id === "established" ? "오늘의 단편" : (sec.label || "");
+          asArray(sec.items).forEach(function (it) {
+            if (!it) return;
+            var title = textOf(it.title) || textOf(it.name);
+            if (!title) return;
+            var full = collectText(it);
+            docs.push({ date: date, issue: iss.issue, label: label, title: title, snip: textOf(it.body) || textOf(it.line) || textOf(it.synopsis), hay: full.toLowerCase() });
+          });
+        });
+        if (iss.quote && iss.quote.text) {
+          docs.push({ date: date, issue: iss.issue, label: "오늘의 문장", title: "「" + textOf(iss.quote.work) + "」 " + textOf(iss.quote.author), snip: iss.quote.text, hay: (iss.quote.text + " " + iss.quote.work + " " + iss.quote.author).toLowerCase(), quote: true });
+        }
+      });
+    });
+    docs.sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+    searchDocs = docs;
+    return docs;
+  }
+  function marked(text, terms) {
+    var frag = document.createDocumentFragment();
+    if (!terms.length) { frag.appendChild(document.createTextNode(text)); return frag; }
+    var low = text.toLowerCase(), pos = 0;
+    while (pos < text.length) {
+      var best = -1, len = 0;
+      terms.forEach(function (t) { var k = low.indexOf(t, pos); if (k >= 0 && (best < 0 || k < best)) { best = k; len = t.length; } });
+      if (best < 0) { frag.appendChild(document.createTextNode(text.slice(pos))); break; }
+      if (best > pos) frag.appendChild(document.createTextNode(text.slice(pos, best)));
+      frag.appendChild(el("mark", null, text.slice(best, best + len)));
+      pos = best + len;
+    }
+    return frag;
+  }
+  function snippet(text, terms) {
+    if (!text) return "";
+    var low = text.toLowerCase(), at = -1;
+    terms.forEach(function (t) { var k = low.indexOf(t); if (k >= 0 && (at < 0 || k < at)) at = k; });
+    if (at < 40) return text;
+    return "…" + text.slice(at - 30);
+  }
+  var searchToken = 0;
+  async function runSearch() {
+    var q = $("q").value.trim();
+    var res = $("results"), hint = $("q-hint");
+    var token = ++searchToken;
+    if (q.length < 2) {
+      res.hidden = true; res.replaceChildren();
+      hint.hidden = q.length === 0; hint.textContent = "두 글자 이상 입력하세요.";
+      $("archive").hidden = false; renderArchive();
+      return;
+    }
+    hint.hidden = false; hint.textContent = "찾는 중…";
+    var docs;
+    try { docs = await buildSearch(); } catch (e) { hint.textContent = "검색 자료를 불러오지 못했습니다."; return; }
+    if (token !== searchToken) return;
+    var terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+    var hits = docs.filter(function (d) { return terms.every(function (t) { return d.hay.indexOf(t) >= 0; }); });
+    res.replaceChildren();
+    hits.slice(0, 40).forEach(function (d) {
+      var li = el("li"), b = el("button");
+      b.type = "button";
+      b.appendChild(el("span", "d", shortDate(d.date) + (d.issue ? " · 제" + d.issue + "호" : "") + " · " + d.label));
+      var h = el("span", "h"); h.appendChild(marked(d.title, terms)); b.appendChild(h);
+      var sn = snippet(d.snip, terms);
+      if (sn) { var s2 = el("span", "s"); s2.appendChild(marked(sn, terms)); b.appendChild(s2); }
+      b.addEventListener("click", function () { openHit(d); });
+      li.appendChild(b); res.appendChild(li);
+    });
+    hint.textContent = hits.length ? "검색 결과 " + hits.length + "건" + (hits.length > 40 ? " (최근 40건만 보여 줍니다)" : "") : "찾는 기사가 없습니다. 다른 낱말로 찾아보세요.";
+    res.hidden = !hits.length;
+    $("archive").hidden = true; $("pager").hidden = true;
+  }
+  async function openHit(d) {
+    await show(d.date, false);
+    try { if (location.hash.slice(1) !== d.date) history.replaceState(null, "", "#" + d.date); } catch (e) {}
+    var target = null;
+    if (d.quote) target = $("quote");
+    else {
+      var nodes = document.querySelectorAll("#sections .item-title, #sections .writer-name");
+      for (var i = 0; i < nodes.length; i++) {
+        if (nodes[i].textContent.indexOf(d.title) === 0) { target = nodes[i].closest("li, article") || nodes[i]; break; }
+      }
+    }
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      target.classList.remove("flash"); void target.offsetWidth; target.classList.add("flash");
+    } else window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  var searchTimer = null;
+  $("q").addEventListener("input", function () { clearTimeout(searchTimer); searchTimer = setTimeout(runSearch, 180); });
+  $("q").addEventListener("keydown", function (e) { if (e.key === "Escape") { $("q").value = ""; runSearch(); } });
+  $("pg-prev").addEventListener("click", function () { archivePage--; renderArchive(); });
+  $("pg-next").addEventListener("click", function () { archivePage++; renderArchive(); });
+  $("jump").addEventListener("click", function () { $("ar-title").scrollIntoView({ behavior: "smooth", block: "start" }); });
 
   var index = [];
   var months = {};
@@ -1284,7 +1448,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     l.hidden = !issue.lede;
     renderSections(issue, today);
     renderDeadlines(today);
-    renderArchive();
+    if (!($("q").value.trim().length >= 2)) renderArchive();
     if (fromClick) {
       try { if (location.hash.slice(1) !== issue.id) location.hash = issue.id; } catch (e) {}
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1341,10 +1505,6 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     show(hit || index[0].id, false);
   }
 
-  $("ar-more").addEventListener("click", function () {
-    archiveShown += ARCHIVE_STEP;
-    renderArchive();
-  });
   var SEEN_KEY = "tlm.lastSeen";
   var seenBefore = null;
   try { var sv = localStorage.getItem(SEEN_KEY); if (isDate(sv)) seenBefore = sv; } catch (e) {}
