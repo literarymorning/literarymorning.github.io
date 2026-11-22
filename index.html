@@ -25,7 +25,8 @@ img{max-width:100%}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700&family=Archivo:wght@800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@800&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
 /* Layout: 조간 지면 한 장. 원고지 칸에 앉힌 제호, 본문 단 하나, 넓은 화면에서는 오른쪽에 마감 달력과 지난 호. */
 :root {
@@ -42,8 +43,8 @@ img{max-width:100%}
   --rule: #d7dfd7;
   --alert: #b2432c;
   --font-flag: "Archivo", "Helvetica Neue", Arial, "Apple SD Gothic Neo", sans-serif;
-  --font-display: "Hahmlet", "Nanum Myeongjo", "AppleMyungjo", "Batang", serif;
-  --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-display: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-body: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
   --step--1: 0.8125rem;
   --step-0: 0.96875rem;
@@ -530,6 +531,10 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
   main.fresh { animation: settle .35s ease-out; }
   @keyframes settle { from { opacity: .55; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 }
+
+/* 본문 양쪽 정렬 */
+main p, main blockquote, .lede, .results .s { text-align: justify; text-justify: inter-character; }
+.quote, .quote blockquote, .quote figcaption, .empty, .empty * { text-align: center; }
 </style>
 </head>
 <body>
