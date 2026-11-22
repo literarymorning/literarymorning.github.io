@@ -2,7 +2,7 @@
 import json, os, glob, subprocess, datetime
 R = os.environ.get('R', '/home/claude/site'); T = os.environ.get('T', '/home/claude/today')
 meta = json.load(open(f'{T}/meta.json'))
-order = ['writer', 'calls', 'results', 'past', 'established', 'craft', 'grants', 'books', 'columns', 'issues', 'world']
+order = ['writer', 'feature', 'calls', 'results', 'past', 'established', 'craft', 'grants', 'books', 'columns', 'issues', 'world']
 secs = [json.load(open(f)) for f in glob.glob(f'{T}/sections/*.json')]
 secs = [s for s in secs if s.get('items')]
 bad = [s['id'] for s in secs if s['id'] not in order]
@@ -21,8 +21,13 @@ mf['issues'][d] = iss
 open(mp, 'w').write(json.dumps(mf, ensure_ascii=False))
 ip = f'{R}/index.json'; idx = json.load(open(ip))
 ent = {'date': d, 'issue': iss['issue'], 'headline': iss['headline']}
+sp = []
 if 'writer' in ids:
-    ent['special'] = '이 작가가 궁금하다 · ' + secs[0]['items'][0]['name']
+    sp.append('이 작가가 궁금하다 · ' + secs[0]['items'][0]['name'])
+if 'feature' in ids:
+    sp.append([s for s in secs if s['id'] == 'feature'][0].get('label', '특집'))
+if sp:
+    ent['special'] = ' / '.join(sp)
 idx['issues'] = [ent] + [x for x in idx['issues'] if x['date'] != d]
 idx['updatedAt'] = iss['generatedAt']
 open(ip, 'w').write(json.dumps(idx, ensure_ascii=False, indent=1) + '\n')

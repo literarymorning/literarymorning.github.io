@@ -1,4 +1,4 @@
-# 오늘 호 판단에 필요한 것만 요약해 보여 준다: 오늘 호 유무, 다음 호 번호, 최근 세 호 기사·링크, 최근 7호 해외 문학, 직전 호 달력, 오늘 실을 스페셜 요청, 쓰는 사람 최근 출처.
+# 오늘 호 판단에 필요한 것만 요약해 보여 준다: 오늘 호 유무, 다음 호 번호, 최근 세 호 기사·링크, 최근 7호 해외 문학, 직전 호 달력, 오늘 실을 스페셜·특집 요청, 쓰는 사람 최근 출처.
 import json, os, subprocess
 R = os.environ.get('R', '/home/claude/site')
 today = subprocess.run(['date', '+%F'], env={**os.environ, 'TZ': 'Asia/Seoul'}, capture_output=True, text=True).stdout.strip()
@@ -41,6 +41,14 @@ if os.path.exists(rq):
     print('== 오늘 실을 수 있는 스페셜 요청', len(ok), '건')
     for x in sorted(ok, key=lambda x: x.get('requestedAt', ''))[:1]:
         print(' ', json.dumps(x, ensure_ascii=False))
+    fz = json.load(open(rq)).get('features', [])
+    fok = [x for x in fz if x.get('status') == 'pending' and x.get('notBefore', '') <= today]
+    print('== 오늘 실을 특집 요청', len(fok), '건 (처리법: tools/feature-guide.md)')
+    for x in sorted(fok, key=lambda x: x.get('requestedAt', ''))[:1]:
+        y = {k: v for k, v in x.items() if k != 'prepared'}
+        if x.get('prepared'):
+            y['prepared'] = f"미리 써 둔 원고 {len(x['prepared'].get('items', []))}꼭지 있음 — jtool get requests.json features topic \"{x['topic']}\" 로 본다"
+        print(' ', json.dumps(y, ensure_ascii=False))
 cl = f'{R}/craft-log.json'
 if os.path.exists(cl):
     c = json.load(open(cl))
