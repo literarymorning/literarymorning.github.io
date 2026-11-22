@@ -116,6 +116,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--step-0);
   line-height: 1.7;
+  letter-spacing: -0.012em;
   word-break: keep-all;
   overflow-wrap: anywhere;
 }
@@ -212,6 +213,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   font-weight: 700;
   font-size: var(--step-3);
   line-height: 1.32;
+  letter-spacing: -0.03em;
   text-wrap: balance;
   margin: 6px 0 0;
   max-width: 30em;
@@ -257,6 +259,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
   font-weight: 600;
   font-size: var(--step-1);
   line-height: 1.45;
+  letter-spacing: -0.022em;
   margin: 0;
   text-wrap: balance;
 }
@@ -533,7 +536,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 }
 
 /* 본문 양쪽 정렬 */
-main p, main blockquote, .lede, .results .s { text-align: justify; text-justify: inter-character; }
+main p, main blockquote, .lede, .results .s { text-align: justify; word-break: normal; line-break: strict; }
 .quote, .quote blockquote, .quote figcaption, .empty, .empty * { text-align: center; }
 </style>
 </head>
