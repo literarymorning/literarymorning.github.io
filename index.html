@@ -472,6 +472,10 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 .more-btn:hover { background: var(--chip); }
 
 /* 지난 호 쪽수와 검색 */
+.shorts-bar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.shorts-bar .more-btn { margin-top: 0; min-height: 30px; padding: 0 10px; font-size: 0.75rem; }
+.shorts-bar .more-btn[aria-pressed="true"] { background: var(--accent); color: var(--sheet); border-color: var(--accent); }
+
 .ar-search { display: flex; flex-direction: column; gap: 6px; margin: 0 0 14px; }
 .ar-search input {
   width: 100%; box-sizing: border-box; min-height: 38px; padding: 0 12px;
@@ -569,6 +573,15 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       <div class="ar-search" role="search">
         <input type="search" id="q" placeholder="작품, 작가, 상, 기사 검색" aria-label="지난 호 기사와 작품 검색" autocomplete="off" enterkeyhint="search">
         <p class="hint" id="q-hint" hidden></p>
+        <div class="shorts-bar">
+          <button type="button" class="more-btn" id="shorts-btn" aria-pressed="false">오늘의 단편 모아 보기</button>
+          <span id="shorts-filters" hidden>
+            <button type="button" class="more-btn" data-k="all" aria-pressed="true">전체</button>
+            <button type="button" class="more-btn" data-k="past" aria-pressed="false">신춘문예</button>
+            <button type="button" class="more-btn" data-k="dom" aria-pressed="false">국내</button>
+            <button type="button" class="more-btn" data-k="for" aria-pressed="false">해외</button>
+          </span>
+        </div>
       </div>
       <ul class="results" id="results" hidden></ul>
       <ul class="archive" id="archive"></ul>
@@ -1303,7 +1316,8 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
             var title = textOf(it.title) || textOf(it.name);
             if (!title) return;
             var full = collectText(it);
-            docs.push({ date: date, issue: iss.issue, label: label, title: title, snip: textOf(it.body) || textOf(it.line) || textOf(it.synopsis), hay: full.toLowerCase() });
+            var kind = sec.id === "past" ? "past" : sec.id === "established" ? (/^해외/.test(textOf(it.origin)) ? "for" : "dom") : null;
+            docs.push({ date: date, issue: iss.issue, label: label, title: title, origin: textOf(it.origin), kind: kind, snip: textOf(it.body) || textOf(it.line) || textOf(it.synopsis), hay: full.toLowerCase() });
           });
         });
         if (iss.quote && iss.quote.text) {
@@ -1384,8 +1398,50 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
       target.classList.remove("flash"); void target.offsetWidth; target.classList.add("flash");
     } else window.scrollTo({ top: 0, behavior: "smooth" });
   }
+  var shortsKind = null;
+  var SHORT_NAMES = { past: "신춘문예", dom: "국내 단편", "for": "해외 단편" };
+  async function renderShorts() {
+    var res = $("results"), hint = $("q-hint");
+    hint.hidden = false; hint.textContent = "불러오는 중…";
+    var docs;
+    try { docs = await buildSearch(); } catch (e) { hint.textContent = "자료를 불러오지 못했습니다."; return; }
+    if (!shortsKind) return;
+    var list = docs.filter(function (d) { return d.kind && (shortsKind === "all" || d.kind === shortsKind); });
+    var counts = { past: 0, dom: 0, "for": 0 };
+    docs.forEach(function (d) { if (d.kind) counts[d.kind]++; });
+    res.replaceChildren();
+    list.forEach(function (d) {
+      var li = el("li"), b = el("button");
+      b.type = "button";
+      b.appendChild(el("span", "d", shortDate(d.date) + (d.issue ? " · 제" + d.issue + "호" : "") + " · " + SHORT_NAMES[d.kind]));
+      b.appendChild(el("span", "h", d.title));
+      var org = d.origin.replace(/^(국내|해외)\s*·\s*/, "");
+      if (org) b.appendChild(el("span", "s", org));
+      b.addEventListener("click", function () { openHit(d); });
+      li.appendChild(b); res.appendChild(li);
+    });
+    hint.textContent = "지금까지 소개한 단편 " + (counts.past + counts.dom + counts["for"]) + "편 · 신춘문예 " + counts.past + " · 국내 " + counts.dom + " · 해외 " + counts["for"];
+    res.hidden = !list.length;
+    $("archive").hidden = true; $("pager").hidden = true;
+  }
+  function setShorts(kind) {
+    shortsKind = kind;
+    $("shorts-btn").setAttribute("aria-pressed", kind ? "true" : "false");
+    $("shorts-btn").textContent = kind ? "모아 보기 닫기" : "오늘의 단편 모아 보기";
+    $("shorts-filters").hidden = !kind;
+    Array.prototype.forEach.call($("shorts-filters").querySelectorAll("button"), function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-k") === kind ? "true" : "false"); });
+    if (kind) { $("q").value = ""; renderShorts(); }
+    else { $("results").hidden = true; $("results").replaceChildren(); $("q-hint").hidden = true; $("archive").hidden = false; renderArchive(); }
+  }
+  $("shorts-btn").addEventListener("click", function () { setShorts(shortsKind ? null : "all"); });
+  Array.prototype.forEach.call($("shorts-filters").querySelectorAll("button"), function (b) {
+    b.addEventListener("click", function () { setShorts(b.getAttribute("data-k")); });
+  });
   var searchTimer = null;
-  $("q").addEventListener("input", function () { clearTimeout(searchTimer); searchTimer = setTimeout(runSearch, 180); });
+  $("q").addEventListener("input", function () {
+    if (shortsKind) { shortsKind = null; $("shorts-btn").setAttribute("aria-pressed", "false"); $("shorts-btn").textContent = "오늘의 단편 모아 보기"; $("shorts-filters").hidden = true; }
+    clearTimeout(searchTimer); searchTimer = setTimeout(runSearch, 180);
+  });
   $("q").addEventListener("keydown", function (e) { if (e.key === "Escape") { $("q").value = ""; runSearch(); } });
   $("pg-prev").addEventListener("click", function () { archivePage--; renderArchive(); });
   $("pg-next").addEventListener("click", function () { archivePage++; renderArchive(); });
@@ -1448,7 +1504,7 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
     l.hidden = !issue.lede;
     renderSections(issue, today);
     renderDeadlines(today);
-    if (!($("q").value.trim().length >= 2)) renderArchive();
+    if (!shortsKind && !($("q").value.trim().length >= 2)) renderArchive();
     if (fromClick) {
       try { if (location.hash.slice(1) !== issue.id) location.hash = issue.id; } catch (e) {}
       window.scrollTo({ top: 0, behavior: "smooth" });
