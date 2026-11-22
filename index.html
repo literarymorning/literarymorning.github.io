@@ -542,6 +542,13 @@ main p, main blockquote, .lede, .results .s { text-align: justify; word-break: n
 /* 본문 단 너비 통일: 기사 본문, 상자, 책 카드의 좌우 끝을 단 너비에 맞춘다. 단 폭은 한 줄 40자 안팎 */
 main { max-width: 41rem; }
 main .item > *, main .item-body, main .analysis, main .book, main .writer > *, main .writer-line, main .wblock, main .writer-words, main .empty { max-width: none; box-sizing: border-box; }
+
+/* 한 단으로 쌓이는 화면(태블릿 세로 등): 본문·달력·지난 호와 머리기사를 같은 폭으로 가운데 모은다 */
+@media (max-width: 899px) {
+  .layout > * { width: 100%; max-width: 41rem; justify-self: center; }
+  .headline, .lede { width: 100%; max-width: 41rem; margin-inline: auto; box-sizing: border-box; }
+  .jump-btn { align-self: center; }
+}
 </style>
 </head>
 <body>
