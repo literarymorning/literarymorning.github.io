@@ -538,6 +538,9 @@ main { grid-area: main; min-width: 0; display: flex; flex-direction: column; gap
 /* 본문 양쪽 정렬 */
 main p, main blockquote, .lede, .results .s { text-align: justify; word-break: normal; line-break: strict; }
 .quote, .quote blockquote, .quote figcaption, .empty, .empty * { text-align: center; }
+
+/* 본문 단 너비 통일: 기사 본문, 상자, 책 카드의 좌우 끝을 단 너비에 맞춘다 */
+main .item > *, main .item-body, main .analysis, main .book, main .writer > *, main .writer-line, main .wblock, main .writer-words, main .empty { max-width: none; box-sizing: border-box; }
 </style>
 </head>
 <body>
