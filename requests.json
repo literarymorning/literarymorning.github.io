@@ -53,7 +53,7 @@
    ],
    "requestedAt": "2026-11-22",
    "notBefore": "2026-11-24",
-   "status": "pending",
+   "status": "done",
    "prepared": {
     "id": "feature",
     "label": "특집 · AI와 문학",
@@ -206,7 +206,8 @@
       ]
      }
     ]
-   }
+   },
+   "publishedIn": "2026-11-24"
   }
  ]
 }

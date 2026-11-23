@@ -513,7 +513,11 @@
    "side": "국내",
    "source": "문장웹진",
    "title": "반감기",
-   "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=103509"
+   "url": "https://munjang.or.kr/board.es?act=view&bid=0003&list_no=103509&mid=a21300000000",
+   "author": "이기호",
+   "year": 2024,
+   "checked": "2026-11-24",
+   "featured": "2026-11-24"
   },
   {
    "id": "el-birds-in-the-mouth-by-samanta-schweblin",
@@ -563,7 +567,10 @@
    "source": "Electric Literature",
    "title": "The Knowers",
    "author": "Helen Phillips",
-   "url": "https://electricliterature.com/the-knowers/"
+   "url": "https://electricliterature.com/the-knowers-helen-phillips/",
+   "year": 2013,
+   "checked": "2026-11-24",
+   "featured": "2026-11-24"
   },
   {
    "id": "el-the-graveless-doll-of-eric-mutis-by-karen-russell",
