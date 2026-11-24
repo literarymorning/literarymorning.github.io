@@ -13,3 +13,5 @@
 5. 같은 호의 다른 꼭지(이슈, 해외 문학 등)와 같은 기사를 겹쳐 싣지 않는다. 겹치면 특집 쪽에만 싣는다.
 6. 실을 때: {"id": "feature", "label": "특집 · <topic>", "items": [...]}를 /home/claude/today/sections/feature.json에 쓴다(publish.py가 이 작가가 궁금하다 다음, 공모·마감 앞에 놓고 index.json special에 label을 넣는다). lede 끝에 "오늘은 특집으로 ○○를 △△와 □□, ◇◇로 짚는다."처럼 한 문장을 더한다. 이 문장에는 특집 꼭지들이 다루는 갈래(출처·기획·주제 묶음)를 하나도 빠뜨리지 않고 모두 밝힌다. 쓴 뒤 특집 items를 하나씩 대조해, 소개 문장에 들어가지 않은 갈래가 있으면 더한다. prepared 원고나 요청에 lede 문장이 주어져 있으면 그 문장을 글자 그대로 쓴다. `python3 tools/jtool.py set requests.json features topic "<topic>" '{"status": "done", "publishedIn": "오늘"}'`로 바꾼다.
 7. 자료가 너무 적어 4꼭지도 채우지 못하면 싣지 않고 `"attempts"`를 1 늘려 pending으로 둔다. attempts가 2가 되면 "status": "failed", "reason": 이유 한 문장으로 바꾼다.
+
+8. 연재(요청에 "series"가 있는 것): 한 회씩 notBefore 날짜에 맞춰 싣는다. prepared를 글자 그대로 싣고, 2번의 '새 진전 덧붙이기'와 7번은 하지 않는다(새 진전 검색도 하지 않는다). lede에는 요청의 "lede" 문장을 글자 그대로 더한다. 같은 연재의 두 회가 한꺼번에 실을 수 있게 되면(앞 회가 빠진 경우) 번호가 작은 회 하나만 싣는다. 연재와 다른 특집 요청이 겹치면 연재를 먼저 싣고 다른 요청은 다음 호로 넘긴다.

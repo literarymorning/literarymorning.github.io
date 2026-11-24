@@ -208,6 +208,2117 @@
     ]
    },
    "publishedIn": "2026-11-24"
+  },
+  {
+   "topic": "금서 열전 ① 『로리타』",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 1,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 첫 회로 나보코프 『로리타』를 금지의 경위, 작가의 변론, 그린과 고든의 찬반, 미국·영국에서의 해금, 오늘의 읽기로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ① 『로리타』",
+    "items": [
+     {
+      "title": "미국 출판사들이 거절한 원고, 파리의 '외설 전문' 출판사에서 나와 금서가 되다",
+      "body": "블라디미르 나보코프(Vladimir Nabokov)는 『로리타』 원고를 미국 출판사 여러 곳에 보냈지만 1954년 모두 거절당했고, 결국 1955년 9월 파리의 올림피아 프레스(Olympia Press)가 영어 원문으로 5,000부를 찍었다. 모리스 지로디아(Maurice Girodias)가 이끈 이 출판사는 주네·베케트·밀러도 냈지만 주로 포르노그래피 목록으로 알려진 곳이었고, 코넬대 도서관 전시에 따르면 동료들은 출간을 말렸으며 아내 베라가 그를 밀어주었다. 작품은 유럽 출신 중년 남성이 열두 살 소녀에게 집착해 그 보호자가 되고 함께 미국을 떠도는 과정을 가해자 자신의 수기로 쓴 소설로, 아동 성학대를 화자의 자기변명 속에 놓아 독자가 그 말을 의심하게 만든다. 출간 뒤 파리 풍기단속반(Brigade mondaine) 경찰이 지로디아에게 『로리타』를 포함한 몇몇 책을 내놓으라고 요구했고, 프랑스 내무장관의 결정으로 금지됐다. 전기 작가 존 드 생 조르의 설명을 빌리면, 그 장관령이 기댈 수 있었던 근거는 원래 정치적 체제전복 출판물을 막으려던 법이었다. 영국에서는 소문이 퍼진 뒤 내무부가 들어오는 책을 모두 압수하라고 지시했고, 코넬대 전시는 이후 오스트레일리아·버마·벨기에·오스트리아 등에서도 금지됐다고 적는다.",
+      "note": "원저는 1955년 9월 파리 올림피아 프레스에서 두 권짜리 영어판으로 처음 나왔다.",
+      "tags": [
+       "프랑스",
+       "영국",
+       "음란물 규제",
+       "출판"
+      ],
+      "books": [
+       {
+        "title": "롤리타",
+        "author": "블라디미르 나보코프",
+        "original": "Lolita · 1955",
+        "meta": "장편소설 · Olympia Press(파리) · 국내 번역 김진준 옮김, 문학동네(2013)",
+        "synopsis": "유럽에서 건너온 문학 연구자 험버트 험버트가 미국 소도시에 하숙하며 집주인의 열두 살 딸 돌로레스 헤이즈에게 집착한다. 그는 소녀의 어머니와 결혼해 보호자의 자리를 얻고, 이어 소녀를 데리고 미국 곳곳의 모텔을 떠돈다. 소설은 처음부터 끝까지 험버트가 배심원에게 말하듯 쓴 수기여서, 독자는 그의 화려한 문장과 그가 가린 소녀의 고통 사이를 스스로 읽어 내야 한다.",
+        "reviews": [
+         {
+          "source": "The New York Times · 오빌 프레스콧(Orville Prescott)",
+          "gist": "미국판 출간 직후 이 소설을 지루하면서 역겨운 책이라고 혹평했다.",
+          "url": "https://lithub.com/sick-scandalous-spectacular-here-are-the-very-first-reviews-of-lolita/",
+          "date": "1958-08-11"
+         },
+         {
+          "source": "The New York Times · 엘리자베스 제인웨이(Elizabeth Janeway)",
+          "gist": "같은 신문 일요 서평에서 가장 웃기면서 가장 슬픈 책의 하나라고 상찬했다.",
+          "url": "https://lithub.com/sick-scandalous-spectacular-here-are-the-very-first-reviews-of-lolita/",
+          "date": "1958-08-17"
+         },
+         {
+          "source": "The Spectator · 킹즐리 에이미스(Kingsley Amis)",
+          "gist": "외설은 아니라고 인정하면서도, 과시적인 문체가 이야기를 짓누르고 화자의 도덕 감각이 마비돼 작품이 공허하다고 비판했다. 소녀는 욕망의 대상일 뿐 호기심의 대상이 되지 못한다고 보았다.",
+          "url": "https://archive.spectator.co.uk/article/6th-november-1959/23/books",
+          "date": "1959-11-06"
+         }
+        ]
+       }
+      ],
+      "sources": [
+       {
+        "name": "Cornell University Library · Publishing Lolita",
+        "url": "https://exhibits.library.cornell.edu/lolita/feature/publishing-lolita"
+       },
+       {
+        "name": "Literary Hub · Thomas Harding",
+        "url": "https://lithub.com/how-obscenity-laws-nearly-stopped-nabokovs-lolita-from-being-published",
+        "date": "2023-08-29"
+       },
+       {
+        "name": "The Nation · Lila Azam Zanganeh",
+        "url": "https://www.thenation.com/?p=71929",
+        "date": "2005-11-17"
+       },
+       {
+        "name": "Le Monde · Lila Azam Zanganeh, « Les sortilèges de Lolita »",
+        "url": "https://www.lazanganeh.com/pdfs/lemonde/32lolitalemonde.pdf",
+        "date": "2006-08-20"
+       }
+      ],
+      "region": "유럽"
+     },
+     {
+      "title": "\"내 책의 도덕적 변론은 책 자체\" — 나보코프는 법정 대신 예술의 자리를 주장했다",
+      "body": "나보코프의 공식 변론은 미국판에 늘 붙어 나오는 후기 「『로리타』라는 제목의 책에 대하여」(On a Book Entitled Lolita)다. 코넬대 전시에 따르면 1957년 6월 더블데이의 제이슨 엡스틴이 학자들의 호평을 모은 『앵커 리뷰』 특집으로 법정 다툼의 위험을 줄이자고 제안했고, 나보코프는 여기에 이 글을 보탰다. 그는 후기에서 자신은 교훈 소설을 읽지도 쓰지도 않으며 이 소설에 도덕적 메시지는 없고, 소설의 가치는 '미적 희열'을 주느냐에 달렸다고 주장했다(폴란드 철학 학술지 『Diametros』의 2021년 논문은 이 선언을 따져 묻는다). 예일대 강의에서 에이미 헝거퍼드는 그가 원고를 거절한 출판사들이 포르노그래피를 기대했다가 실망한 것이라고 꼬집었다는 점을 짚는다. 1957년 지로디아에게 보낸 편지에서 그는 법적 소동을 '롤리티게이션'이라 비꼬며 내 책의 도덕적 변론은 책 그 자체라고 썼고, 미국 출판사에는 지금 냈다가는 금지와 수만 달러의 소송비, 우편 광고 차단을 각오해야 한다며 서두르지 말자고 했다. 1964년 『플레이보이』 인터뷰(앨빈 토플러)에서는 1950~51년 원고를 태워 버릴 뻔했다고 털어놓고, 험버트는 혐오스러운 인물이며 미국을 '발명'해야 했기에 가장 쓰기 어려운 책이었다고 말했다.",
+      "tags": [
+       "작가 후기",
+       "예술 대 도덕",
+       "편지",
+       "인터뷰"
+      ],
+      "sources": [
+       {
+        "name": "The Marginalian · Maria Popova",
+        "url": "https://www.themarginalian.org/2014/09/24/lolitigation-nabokov-censorship/",
+        "date": "2014-09-24"
+       },
+       {
+        "name": "Diametros · Anna Głąb",
+        "url": "https://diametros.uj.edu.pl/diametros/en/article/download/1574/1548/4700?inline=1",
+        "date": "2021"
+       },
+       {
+        "name": "Open Yale Courses · ENGL 291 Lecture 7",
+        "url": "https://oyc.yale.edu/english/engl-291/lecture-7"
+       },
+       {
+        "name": "Playboy interview (1964) · University of Idaho",
+        "url": "https://www.webpages.uidaho.edu/eng258/nabokov%20Playboy%201964.html"
+       }
+      ],
+      "region": "영미권"
+     },
+     {
+      "title": "그린의 '올해의 책'과 고든의 '가장 더러운 책' — 신문 지면에서 시작된 찬반",
+      "body": "불을 붙인 것은 그레이엄 그린(Graham Greene)이었다. 그는 1955년 말 런던 『선데이 타임스』에서 『로리타』를 그해 최고의 소설 세 권 가운데 하나로 꼽았고, 『선데이 익스프레스』의 편집인 존 고든(John Gordon)은 내가 읽은 가장 더러운 책이라며 자제 없는 포르노그래피라고 맞받았다. 그린은 1956년 2월 10일 『스펙테이터』에 '존 고든 협회'를 만들어 가족용 책과 영화를 보급하고 검열위원단을 두자는 편지를 실어, 고든을 기리는 체하며 그의 도덕 단속을 비꼬았다. 1958년 미국판이 나오자 평단은 갈려, 『뉴욕 타임스』의 프레스콧과 에드먼드 윌슨은 거부감을 드러냈고 『시카고 트리뷴』은 포르노라며 서평을 거부했으며 『뉴리퍼블릭』은 자기 평자의 호평과 거리를 두는 사설까지 냈다. 반대편에서는 『애틀랜틱』의 찰스 롤로가 웃기는 진지한 소설이라 했고, 도로시 파커와 윌리엄 스타이런도 호평했다. 영국에서는 『스펙테이터』의 버나드 레빈이 출간을 옹호하자 한 독자가 이런 이야기는 경찰 법정에서 끝나야 한다고 항의했고, 레빈은 읽어 보지도 않고 단죄한다고 응수했다.",
+      "tags": [
+       "영국",
+       "미국",
+       "서평 논쟁",
+       "언론"
+      ],
+      "sources": [
+       {
+        "name": "The Spectator · 'The John Gordon Society' (10 Feb 1956)",
+        "url": "https://archive.spectator.co.uk/article/10th-february-1956/14/the-john-gordon-society",
+        "date": "1956-02-10"
+       },
+       {
+        "name": "The Nation · Lila Azam Zanganeh",
+        "url": "https://www.thenation.com/?p=71929",
+        "date": "2005-11-17"
+       },
+       {
+        "name": "TIME · Books: The Lolita Case",
+        "url": "https://time.com/archive/6613017/books-the-lolita-case/",
+        "date": "1958-11-17"
+       },
+       {
+        "name": "The Spectator · 'The Fuss About Lolita' (letters)",
+        "url": "https://archive.spectator.co.uk/article/16th-january-1959/19/the-fuss-about-lolita",
+        "date": "1959-01-16"
+       }
+      ],
+      "region": "영미권"
+     },
+     {
+      "title": "미국은 재판 없이 베스트셀러로, 영국은 새 음란물법과 함께 — 해금의 두 길",
+      "body": "프랑스에서는 지로디아가 긴 소송을 벌인 끝에 1958년 금지가 풀렸으나, 드골 집권 직후 올림피아판이 다시 묶였다가 약 1년 뒤에야 영어판이 완전히 풀려났다고 『르몽드』 기사는 전한다(그사이 갈리마르는 프랑스어 번역본을 냈다). 미국에서는 퍼트넘(Putnam)이 사장 월터 민턴의 결단으로 책을 냈고, 1958년 8월 18일 출간 첫날 약 2,600부 주문이 들어와 3주 만에 10만 부를 넘겼다. 『바람과 함께 사라지다』 이후 처음인 기록이었고 전국 단위의 금지는 없었지만, 신시내티 공공도서관이 9월 17일 비치를 거부하는 등 지역의 반발은 이어졌다. 영국에서는 조지 와이든펠드가 1958년 여름 판권을 구했고, 서른 곳 넘는 인쇄소가 거절하는 가운데 로이 젠킨스가 이끈 음란물 법안이 의회를 지나는 시기와 맞물렸다. 1959년 1월 23일 『더 타임스』에 문인들의 지지 서한이 실렸고, 11월 5일 검찰총장이 기소하지 않기로 하면서 책은 서점에 놓였다. 이 문학적 가치 논리는 이듬해 펭귄의 『채털리 부인의 연인』 무삭제판 출간으로 이어졌다.",
+      "tags": [
+       "미국",
+       "영국",
+       "출판의 자유",
+       "베스트셀러"
+      ],
+      "sources": [
+       {
+        "name": "Literary Hub · Thomas Harding",
+        "url": "https://lithub.com/how-obscenity-laws-nearly-stopped-nabokovs-lolita-from-being-published",
+        "date": "2023-08-29"
+       },
+       {
+        "name": "Le Monde · « Les sortilèges de Lolita »",
+        "url": "https://www.lazanganeh.com/pdfs/lemonde/32lolitalemonde.pdf",
+        "date": "2006-08-20"
+       },
+       {
+        "name": "Cornell University Library · Publishing Lolita",
+        "url": "https://exhibits.library.cornell.edu/lolita/feature/publishing-lolita"
+       },
+       {
+        "name": "Library of America · Reader's Almanac",
+        "url": "https://blog.loa.org/2010/08/vladimir-nabokov-lolita-first-published.html",
+        "date": "2010-08-18"
+       }
+      ],
+      "region": "영미권"
+     },
+     {
+      "title": "일흔 살의 『로리타』, 이제 논쟁은 '외설'이 아니라 '누구의 목소리인가'로",
+      "body": "오늘의 논쟁은 금지 여부보다 읽는 방법을 둘러싸고 있다. 사라 와인먼(Sarah Weinman)의 2018년 논픽션 『The Real Lolita』(진짜 롤리타, 직역)는 1948년 열한 살에 납치돼 2년 가까이 끌려다닌 샐리 호너 사건과 소설의 닮은 점을 추적했는데, 『아이리시 타임스』의 이언 맥너미는 소설의 반짝이는 문장과 실제 사건의 거친 공포를 맞세운 데서 이 책의 힘을 보았다. 『The Conversation』의 한 글은 2021년 에세이집 『Lolita in the Afterlife』(사후의 롤리타, 직역)가 미투 이후의 시선으로 작품과 그 영화화·패션 소비를 다시 따졌다고 소개하며, 소녀 이미지의 상품화야말로 소설이 그린 착취의 연장이라고 짚는다. 출간 70주년인 2025년 8월 WNYC 대담에서 시인·소설가 카베 아크바르는 이 소설을 타인의 내면을 보지 못하는 남자의 이야기이자, 매혹적인 언어가 잔혹함을 덮는 방식에 대한 경고로 읽자고 했다. 국내에서는 김진준이 옮긴 문학동네판(2013)이 220여 개의 주석과 연대기·여정 지도를 붙여 이 작품을 정교한 언어의 퍼즐로 읽도록 안내한다. 가해자의 목소리를 그만큼 아름답게 쓸 때, 작가는 피해자의 침묵을 어떻게 독자에게 들리게 할 수 있을까.",
+      "tags": [
+       "미투 이후",
+       "실화 연구",
+       "국내 번역",
+       "화자의 윤리"
+      ],
+      "sources": [
+       {
+        "name": "The Irish Times · Eoin McNamee",
+        "url": "https://www.irishtimes.com/culture/books/the-real-lolita-review-glittering-fiction-and-gritty-truths-1.3706746",
+        "date": "2018-12-01"
+       },
+       {
+        "name": "The Conversation",
+        "url": "https://theconversation.com/lolita-why-this-vivid-illicit-portrait-of-a-pervert-matters-at-a-time-of-endless-commodification-of-young-girls-189688"
+       },
+       {
+        "name": "WNYC · All Of It (Kaveh Akbar)",
+        "url": "https://www.wnycstudios.org/podcasts/all-of-it/articles/the-70th-anniversary-of-lolita-with-kaveh-akbar-classics-week",
+        "date": "2025-08-13"
+       },
+       {
+        "name": "왓챠피디아 · 『롤리타』(문학동네) 책 소개",
+        "url": "https://pedia.watcha.com/ko/contents/bolYNKy/book_description"
+       }
+      ],
+      "region": "영미권"
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-11-26",
+   "status": "pending"
+  },
+  {
+   "topic": "금서 열전 ② 『마담 보바리』와 『악의 꽃』",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 2,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 2회로 1857년 같은 검사대리가 기소한 플로베르 『마담 보바리』와 보들레르 『악의 꽃』을 기소의 경위, 두 작가의 '도덕적 의도' 변론, 신문과 문인의 공방, 엇갈린 판결과 92년 만의 복권, 오늘의 읽기로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ② 『마담 보바리』와 『악의 꽃』",
+    "items": [
+     {
+      "title": "한 해에 두 번, 같은 법정 — 제2제정의 '풍속' 기소가 소설과 시를 겨누다",
+      "body": "귀스타브 플로베르(Gustave Flaubert)의 첫 장편 『마담 보바리』는 1856년 10월 1일부터 레옹 로랑피샤가 이끄는 『르뷔 드 파리』에 연재됐는데, 검열을 걱정한 편집진이 일부를 잘라 내자 작가는 12월 15일 호에 항의 메모를 실었고, 이 다툼이 사법 당국의 눈길을 끌었을 것으로 본다. 플로베르와 로랑피샤, 인쇄인은 1819년 5월 17일 법에 따라 공중도덕·종교도덕과 미풍양속을 해친 혐의로 기소됐고, 1857년 1월 29일 센 경범재판소 제6부에서 재판이 열렸다. 작품은 시골 의사의 아내 엠마가 낭만 소설에서 배운 사랑을 꿈꾸다 불륜과 빚으로 빠져드는 과정을 냉정하게 그린 소설이다. 같은 해 6월 21일 풀레말라시와 드 브루아즈가 낸 샤를 보들레르(Charles Baudelaire)의 시집 『악의 꽃』은 7월 5일 『피가로』의 공격, 공공안전총국의 보고를 거쳐 7월 17일 판매가 중지됐다. 공중도덕과 종교도덕을 해친 혐의로 8월 20일 같은 제6부 법정에 섰고, 두 사건 모두 검사대리(substitut) 에르네스트 피나르(Ernest Pinard)가 논고를 맡았다. 『리브르 엡도』의 에마뉘엘 피에라는 피나르가 흔히 '검사장'으로 잘못 불린다고 짚는다.",
+      "note": "『악의 꽃』이라는 제목은 1855년 『르뷔 데 되 몽드』에 실린 18편의 시 묶음에서 먼저 쓰였다.",
+      "tags": [
+       "프랑스",
+       "제2제정",
+       "미풍양속",
+       "출판 검열"
+      ],
+      "books": [
+       {
+        "title": "마담 보바리",
+        "author": "귀스타브 플로베르",
+        "original": "Madame Bovary · 1857",
+        "meta": "장편소설 · Revue de Paris 연재(1856) 뒤 Michel Lévy 단행본 · 국내 번역 김화영 옮김, 민음사",
+        "synopsis": "연애 소설 속 사랑을 꿈꾸던 엠마는 노르망디 시골 의사 샤를 보바리와 결혼하지만 단조로운 일상에 금세 실망한다. 그녀는 소설 속 정열을 찾아 다른 남자들에게 마음을 주고, 불어나는 빚에 점점 궁지에 몰린다. 작가는 어느 인물 편도 들지 않는 서술로 시골 부르주아 사회의 허영과 권태를 해부한다.",
+        "reviews": [
+         {
+          "source": "L'Artiste · 샤를 보들레르",
+          "gist": "아름다움에 대한 남다른 집념을 높이 사며, 도덕을 대변하는 인물이 없다는 비판에 진정한 예술 작품은 논고가 필요 없다고 맞섰다.",
+          "url": "https://kartable.fr/ressources/litterature/cours/le-proces-et-la-reception/25685",
+          "date": "1857-10-18"
+         },
+         {
+          "source": "Le Pays · 쥘 바르베 도르비이(Jules Barbey d'Aurevilly)",
+          "gist": "문학적 재능은 인정하면서도, 작가가 감정 없는 기계처럼 인물을 다룬다고 비판했다.",
+          "url": "https://kartable.fr/ressources/litterature/cours/le-proces-et-la-reception/25685",
+          "date": "1857-10-06"
+         }
+        ]
+       },
+       {
+        "title": "악의 꽃",
+        "author": "샤를 보들레르",
+        "original": "Les Fleurs du mal · 1857",
+        "meta": "시집 · Poulet-Malassis et de Broise(알랑송) · 국내 번역 황현산 옮김, 난다(2023)",
+        "synopsis": "권태와 이상, 사랑과 죽음, 근대 도시 파리의 군중과 뒷골목을 오가며 인간의 죄와 아름다움을 한자리에 놓은 시집이다. 초판은 테오필 고티에에게 바쳐졌다.",
+        "reviews": [
+         {
+          "source": "Le Figaro · 귀스타브 부르댕(Gustave Bourdin)",
+          "gist": "출간 직후 시들을 썩은 것들이라 부르며 거칠게 공격했고, 이 신문의 연이은 공세가 기소로 이어졌다는 해석이 많다.",
+          "url": "https://www.fabula.org/acta/document3616.php",
+          "date": "1857-07-05"
+         },
+         {
+          "source": "쥘 바르베 도르비이",
+          "gist": "재판 무렵 시집을 옹호하는 글을 썼고, 보들레르는 이를 소책자 『Articles justificatifs』(변론 기사 모음, 직역)에 다시 실었다.",
+          "url": "https://www.fabula.org/acta/document3616.php"
+         }
+        ]
+       }
+      ],
+      "sources": [
+       {
+        "name": "Fondation Napoléon · Le procès Flaubert (janvier 1857)",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/dossiers-thematiques/le-proces-flaubert-janvier-1857/"
+       },
+       {
+        "name": "Livres Hebdo · Emmanuel Pierrat",
+        "url": "https://www.livreshebdo.fr/article/six-grands-proces-16-laffaire-bovary-ou-lobsession-de-la-censure",
+        "date": "2016-11-10"
+       },
+       {
+        "name": "Ministère de la Justice · Quand les Fleurs faillirent faner",
+        "url": "https://www.justice.gouv.fr/actualites/actualite/quand-fleurs-faillirent-faner",
+        "date": "2007-07-24"
+       },
+       {
+        "name": "Actu-Juridique · Les tribulations des Fleurs du mal",
+        "url": "https://www.actu-juridique.fr/culture/les-tribulations-des-fleurs-du-mal/"
+       }
+      ],
+      "region": "유럽"
+     },
+     {
+      "title": "두 작가의 변론은 같았다 — \"이 책은 도덕적이다\"",
+      "body": "플로베르는 처음에 공화파 성향의 『르뷔 드 파리』를 노린 정치 사건이라고 여겼다. 1월 31일 형 아실에게 보낸 편지에서는 검찰이 곤란해하는 모습을 반기면서도, 책의 성공이 예술이 아니라 법정 소동에서 비롯된다는 데 씁쓸해했다고 『리브르 엡도』는 전한다. 그는 작품이 부적절한 교육이 낳는 위험을 보여 준다는 도덕적 목적을 내세웠고, 판결문도 이 주장을 받아들였다. 역사학자 크리스틴 헤인스의 연구를 소개한 『JSTOR Daily』에 따르면 그는 검열 제도 자체에 맞서기보다, 책이 도덕적이며 자신 같은 부르주아 작가가 기소될 이유가 없다는 쪽으로 싸웠다. 보들레르도 악을 그리는 것은 그 끔찍함을 보여 주기 위해서라고 주장했고, 판결 뒤에는 이 모든 것이 끔찍한 오해라고 말했다. 1857년 11월 6일 외제니 황후에게 보낸 편지에서는 판결문이 자신의 선의를 인정했다는 점을 들어, 가난한 시인이 감당할 수 없는 벌금을 줄여 달라고 청했다.",
+      "tags": [
+       "작가의 변론",
+       "편지",
+       "예술과 도덕"
+      ],
+      "sources": [
+       {
+        "name": "Livres Hebdo · Emmanuel Pierrat",
+        "url": "https://www.livreshebdo.fr/article/six-grands-proces-16-laffaire-bovary-ou-lobsession-de-la-censure",
+        "date": "2016-11-10"
+       },
+       {
+        "name": "JSTOR Daily · Erin Blakemore",
+        "url": "https://daily.jstor.org/what-madame-bovary-revealed-about-the-freedom-of-the-press/",
+        "date": "2016-12-16"
+       },
+       {
+        "name": "Ministère de la Justice · Quand les Fleurs faillirent faner",
+        "url": "https://www.justice.gouv.fr/actualites/actualite/quand-fleurs-faillirent-faner",
+        "date": "2007-07-24"
+       },
+       {
+        "name": "Fondation Napoléon · Lettre de Charles Baudelaire à l'Impératrice Eugénie",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/objets/lettre-de-charles-baudelaire-limperatrice-eugenie/"
+       }
+      ],
+      "region": "유럽"
+     },
+     {
+      "title": "\"규칙 없는 예술은 예술이 아니다\" 대 보쉬에와 몰리에르 — 법정과 신문의 공방",
+      "body": "피나르는 『마담 보바리』의 음탕함을 몰아붙이며 예술도 규칙에 따라야 한다는 논리를 폈다. 1848년 내무장관을 지낸 변호인 쥘 세나르는 보쉬에, 마시용, 몽테스키외에서 더 아슬아슬한 대목을 찾아 읽으며 검찰의 논리를 뒤집었고, 『악의 꽃』의 변호인 셰 데스탕주도 몰리에르, 단테, 뮈세, 라블레, 라퐁텐, 볼테르 같은 풍자의 전통을 끌어왔다. 신문 지면에서 『피가로』는 1855년부터 굴달, 부르댕, 아방 같은 기자들이 보들레르를 모욕적인 언사로 공격했고, 아슬리노·바르베 도르비이·뒬라몽·티에리가 첫 옹호자로 나섰다. 『마담 보바리』에는 1857~58년 서른 편 넘는 평이 쏟아졌는데, 라마르틴과 뒤마, 위고가 찬사를 보낸 반면 비판자들은 도덕을 대변하는 인물이 없는 '사실주의'의 부도덕을 문제 삼았다. 재판은 오히려 판매를 키워, 6월까지 7,000부가 팔렸다.",
+      "tags": [
+       "법정 공방",
+       "신문 비평",
+       "사실주의 논쟁"
+      ],
+      "sources": [
+       {
+        "name": "Livres Hebdo · Emmanuel Pierrat",
+        "url": "https://www.livreshebdo.fr/article/six-grands-proces-16-laffaire-bovary-ou-lobsession-de-la-censure",
+        "date": "2016-11-10"
+       },
+       {
+        "name": "Ministère de la Justice · Quand les Fleurs faillirent faner",
+        "url": "https://www.justice.gouv.fr/actualites/actualite/quand-fleurs-faillirent-faner",
+        "date": "2007-07-24"
+       },
+       {
+        "name": "Acta fabula · Matthieu Vernet, « Le siècle de Baudelaire »",
+        "url": "https://www.fabula.org/acta/document3616.php",
+        "date": "2007-11-13"
+       },
+       {
+        "name": "Kartable · Le procès et la réception",
+        "url": "https://kartable.fr/ressources/litterature/cours/le-proces-et-la-reception/25685"
+       }
+      ],
+      "region": "유럽"
+     },
+     {
+      "title": "소설은 '엄중한 꾸짖음'으로 풀려나고, 시 여섯 편은 92년을 갇혀 있었다",
+      "body": "1857년 2월 7일 재판부는 『마담 보바리』의 몇몇 대목이 좋은 취향에 어긋난다고 보면서도, 공들여 쓴 작품이고 문제 된 부분이 전체에 비해 적으며 작가의 의도가 도덕적이라는 이유로 세 피고인 모두 무죄를 선고했다. 판결문은 '엄중한 견책'을 받을 만하다고 적었지만 처벌은 없었고, 책은 4월 미셸 레비에서 두 권으로 나와 변호인 세나르에게 바쳐졌다. 『악의 꽃』은 8월 20일 당일 판결에서 종교도덕 혐의는 기각됐지만 공중도덕 침해가 인정돼 보들레르는 벌금 300프랑, 두 출판인은 각각 100프랑을 선고받았고 시 여섯 편을 빼야 했다. 황후의 개입으로 보들레르의 벌금은 50프랑으로 줄었고, 1861년 재판(再版)은 여섯 편을 뺀 대신 35편을 새로 넣어 1,500부를 찍었다. 1949년 5월 31일 파기원 형사부는 문인협회(Société des gens de lettres) 회장의 재심 청구를 받아들여, 1857년 판결이 상징적 의미를 무시한 자의적 판단이었다며 시인과 두 출판인의 명예를 회복시켰다. 피나르는 35년 뒤 낸 『Mon Journal』(나의 일기, 직역)에서 판사는 문학 비평가가 아니며 자신은 임무를 했을 뿐이라고 돌아봤다.",
+      "tags": [
+       "무죄와 유죄",
+       "재심",
+       "파기원",
+       "출판"
+      ],
+      "sources": [
+       {
+        "name": "Fondation Napoléon · Jugement du 7 février 1857",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/articles/jugement-rendu-lors-du-proces-flaubert-le-7-fevrier-1857/"
+       },
+       {
+        "name": "Actu-Juridique · Les tribulations des Fleurs du mal",
+        "url": "https://www.actu-juridique.fr/culture/les-tribulations-des-fleurs-du-mal/"
+       },
+       {
+        "name": "Fondation Napoléon · Lettre de Charles Baudelaire à l'Impératrice Eugénie",
+        "url": "https://www.napoleon.org/histoire-des-2-empires/objets/lettre-de-charles-baudelaire-limperatrice-eugenie/"
+       },
+       {
+        "name": "Livres Hebdo · Emmanuel Pierrat, « Mai 1949 : Baudelaire libéré »",
+        "url": "https://www.livreshebdo.fr/article/mai-1949-baudelaire-libere-12",
+        "date": "2019-06-07"
+       }
+      ],
+      "region": "유럽"
+     },
+     {
+      "title": "재판 기록도 다시 읽힌다 — 출판 제도, 여성의 욕망, 그리고 두 판본",
+      "body": "연구는 두 재판을 작가 한 사람의 용기 이야기로만 보지 않는다. 크리스틴 헤인스의 2005년 논문은 제2제정이 작가보다 출판인과 인쇄인을 도덕의 '보초'로 묶어 둔 면허 제도에 주목해, 『마담 보바리』 기소가 출판 산업 통제의 문제였다고 다시 읽었다. 앙드레 귀요의 『악의 꽃』 수용사 연구를 다룬 『Acta fabula』 서평은 우리가 아는 피나르의 논고가 1885년에 재구성된 것이어서 법정에서 그대로 나온 말인지 장담할 수 없다고 짚는다. 2024년 플레야드 총서의 새 보들레르 전집(귀요·안드레아 스켈리노 책임편집)은 『악의 꽃』을 1857년판과 1861년판으로 나란히 실었고, 미국 펜(PEN America)의 한 글은 피나르가 엠마를 단죄한 방식을 욕망이 지나친 여성을 단속하는 오늘의 시선과 겹쳐 본다. 국내에서는 2018년 세상을 떠나기 직전까지 매달린 황현산 번역의 『악의 꽃』(난다, 2023)이 금지됐던 여섯 편과 『표류물』을 함께 실었고, 김화영이 옮긴 『마담 보바리』는 서울대 추천 도서로 소개되며 '보바리즘'이라는 말과 함께 읽혀 왔다. 판사가 '도덕적 의도'를 따져 묻는다면, 쓰는 사람은 그 의도를 작품 밖에서 변명해야 할까, 아니면 작품 안에서만 증명해야 할까.",
+      "tags": [
+       "수용사",
+       "플레야드",
+       "국내 번역",
+       "젠더"
+      ],
+      "sources": [
+       {
+        "name": "JSTOR Daily · Erin Blakemore",
+        "url": "https://daily.jstor.org/what-madame-bovary-revealed-about-the-freedom-of-the-press/",
+        "date": "2016-12-16"
+       },
+       {
+        "name": "Fabula · Baudelaire au grand complet",
+        "url": "https://www.fabula.org/actualites/120165/baudelaire-au-grand-complet.html",
+        "date": "2024-05-16"
+       },
+       {
+        "name": "PEN America · On Gustave Flaubert's Madame Bovary",
+        "url": "https://pen.org/on-gustave-flauberts-madame-bovary/"
+       },
+       {
+        "name": "왓챠피디아 · 『악의 꽃』(난다) 책 소개",
+        "url": "https://pedia.watcha.com/ko/contents/bolM1xy/book_description"
+       }
+      ],
+      "region": "유럽"
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-11-28",
+   "status": "pending"
+  },
+  {
+   "topic": "금서 열전 ③ 『율리시스』",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 3,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 3회로 조이스 『율리시스』를 『리틀 리뷰』 연재 압수와 1921년 유죄, 편지에 남은 작가의 태도, 갈라진 당대 비평, 불태워진 초판과 1933년 울지 판결, 백 년 뒤의 읽기와 국내 번역으로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ③ 『율리시스』",
+    "items": [
+     {
+      "title": "우편으로 부친 잡지 한 호가 법정에 섰다 — 『리틀 리뷰』 연재와 1921년 유죄",
+      "body": "조이스의 『율리시스』는 1918년 3월부터 뉴욕의 문예지 『리틀 리뷰(The Little Review)』에 모두 23회로 나뉘어 실렸고, 1919~1920년 사이 미국 우정 당국은 음란물의 우편 발송을 금한 1873년 컴스톡법을 들어 이 잡지 네 호를 압수했다. 결정타는 1920년 7·8월 합본호에 실린 제13장 '나우시카'였는데, 레오폴드 블룸이 소녀 거티 맥도웰을 바라보며 자위하는 장면이 문제가 됐다. 존 S. 섬너가 이끌던 뉴욕 악덕추방협회가 고발했고, 편집인 마거릿 앤더슨과 제인 힙이 피고석에 앉았다. 1921년 2월 뉴욕 특별치안법원의 판사 세 명은 문제의 대목이 '타락시키고 부패시키는 경향'이 있는지만 따진 끝에 두 사람에게 유죄를 선고하고, 지문을 찍게 하고, 각 50달러 벌금과 연재 중단을 명했다. 책이 완성되기도 전에 미완의 연재본이 먼저 음란 판정을 받은 셈이다.",
+      "tags": [
+       "미국",
+       "컴스톡법",
+       "문예지",
+       "음란 재판"
+      ],
+      "region": "영미권",
+      "note": "단행본 초판은 1922년 2월 2일 파리 셰익스피어 앤드 컴퍼니에서 나왔다.",
+      "sources": [
+       {
+        "name": "The Morgan Library & Museum · Ulysses in the Little Review",
+        "url": "https://themorgan.org/book/export/html/1379581"
+       },
+       {
+        "name": "Harry Ransom Center Magazine · Women and the Making of Joyce's Ulysses",
+        "url": "https://sites.utexas.edu/ransomcentermagazine/2022/06/22/women-and-the-making-of-joyces-ulysses-a-history-in-ten-objects-8",
+        "date": "2022-06-22"
+       },
+       {
+        "name": "University of Michigan · The Little Review: The Trial",
+        "url": "https://umsi580.lsait.lsa.umich.edu/s/the-little-review-literary-magazine/page/thetrial"
+       },
+       {
+        "name": "Library of Congress · In Custodia Legis",
+        "url": "https://blogs.loc.gov/law/2016/02/james-joyce-ulysses-and-the-meaning-of-obscenity/",
+        "date": "2016-02"
+       }
+      ],
+      "books": [
+       {
+        "title": "율리시스",
+        "author": "제임스 조이스",
+        "original": "Ulysses · 1922",
+        "meta": "장편소설 · Shakespeare and Company(파리) · 국내 번역 이종일 옮김, 문학동네(2023, 전 2권)",
+        "synopsis": "1904년 6월 16일 하루, 더블린 거리를 광고 외판원 레오폴드 블룸과 젊은 시인 스티븐 디덜러스가 각자 떠돈다. 도시를 지나는 동안 두 사람의 생각과 기억, 블룸의 아내 몰리를 향한 복잡한 감정이 겹겹이 펼쳐진다. 호메로스의 『오디세이아』를 뼈대로 빌려 장마다 문체와 기법을 바꾸며, 인물의 머릿속을 그대로 따라가는 서술로 평범한 하루를 서사시로 만든다.",
+        "reviews": [
+         {
+          "source": "The New Republic · 에드먼드 윌슨",
+          "gist": "지루하게 늘어지는 대목과 억지스러운 『오디세이아』 대응 구조를 흠으로 짚으면서도, 평범한 인간 의식을 가장 충실하게 비춘 '고도의 천재의 작품'이라고 평가했다.",
+          "url": "https://newrepublic.com/article/114325/james-joyces-ulysses-reviewed-edmund-wilson",
+          "date": "1922-07-05"
+         },
+         {
+          "source": "The Sporting Times (런던 주간지) · 무서명",
+          "gist": "'율리시스의 추문'이라는 제목 아래 이 책을 쓰레기를 미화한 변소 문학이자 지독히 따분한 책이라고 공격했다. 1922년 4월 1일자 광고 포스터가 남아 있다.",
+          "url": "https://www.themorgan.org/exhibitions/online/ulysses/scandal-ulysses"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "조이스는 침묵 대신 고쳐 썼다 — 편지와 전보로 남긴 작가의 태도",
+      "body": "조이스는 공개 변론문을 내지 않았고, 그의 생각은 주로 편지에 남아 있다. 1918년 에즈라 파운드가 「칼립소」 장에서 스무 줄가량을 잘라내자 조이스는 반발하며 앞으로 실릴 부분은 손대지 말라고 못 박았다. 1921년 4월 3일 후원자 해리엇 쇼 위버에게 보낸 편지에서는 2월 21일 재판이 끝났는데도 뉴욕에서 누구 하나 소식을 전해 주지 않았다고 불평했고, 미국 출판인 벤 휴브시가 삭제를 요구하자 변호사 존 퀸에게 전보를 쳐 원고를 회수하고 미국 출간 계약을 접게 했다. 그해 8월 16일 친구 프랭크 버전에게는 마지막 장 「페넬로페」가 앞의 어느 장보다 음란할지 모르지만 지극히 온전한 정신의 글이라고 썼다. 유죄 판결 뒤 그는 오히려 '나우시카'를 뉴욕 법정이 단죄한 판본보다 더 솔직하게 고쳐 단행본에 넣었고, 1933년 울지 판결 소식을 듣고는 영어권의 절반이 항복했으니 나머지 절반도 따라올 것이라고 응수했다.",
+      "tags": [
+       "아일랜드",
+       "작가의 편지",
+       "검열과 개작"
+      ],
+      "region": "영미권",
+      "sources": [
+       {
+        "name": "The Paris Review · Ezra Pound to James Joyce, 1918",
+        "url": "https://www.theparisreview.org/blog/?p=86714"
+       },
+       {
+        "name": "Century Ireland (RTÉ) · Daniel Mulhall, Ulysses annotated reading",
+        "url": "https://centuryireland.rte.ie/centuryireland/images/uploads/further-reading/Ed223-Mulhall-Ulysses2-Annotated.pdf"
+       },
+       {
+        "name": "Harry Ransom Center Magazine · Women and the Making of Joyce's Ulysses",
+        "url": "https://sites.utexas.edu/ransomcentermagazine/2022/06/22/women-and-the-making-of-joyces-ulysses-a-history-in-ten-objects-8",
+        "date": "2022-06-22"
+       },
+       {
+        "name": "Famous Trials (Douglas O. Linder) · The Two Ulysses Trials: An Account",
+        "url": "https://famous-trials.com/ulysses/2664-the-ulysses-trials-an-account"
+       }
+      ]
+     },
+     {
+      "title": "'변소 문학'과 '고도의 천재' 사이 — 갈라진 비평과 법정의 변론",
+      "body": "공격은 매서웠다. 런던의 『스포팅 타임스』는 1922년 봄 이 책을 오물 예찬으로 몰았고, 가톨릭 지식인 셰인 레슬리는 같은 해 10월 『쿼털리 리뷰』에 혹평을 실었으며, 하버드의 어빙 배빗은 정신이 해체된 상태에서나 쓸 수 있는 책이라고 했다. 버지니아 울프는 일기에 처음 몇 장은 흥미로웠으나 곧 짜증과 환멸을 느꼈다며 이 책을 'illiterate, underbred book'이라고 적었다. 반대편에서는 에드먼드 윌슨이 『뉴 리퍼블릭』에서 천재의 작품이라 불렀고, 『뉴욕 타임스』의 조지프 콜린스는 해설 없이는 읽기 어렵다면서도 20세기 소설에 대한 가장 중요한 기여로 꼽았으며, T. S. 엘리엇은 읽고 압도당해 주변에 이 책을 알렸다. 1921년 법정에서 변호인 존 퀸은 책이 너무 난해해 읽을 사람이 적고, 이해한다 해도 흥분보다 분노를 일으킨다는 논리를 폈지만 통하지 않았다. 흥미롭게도 위버와 실비아 비치는 혹평까지 오려 모았고, 조이스는 『스포팅 타임스』의 '지독히 따분하다'는 구절을 골라 직접 홍보 전단에 넣었다.",
+      "tags": [
+       "영국",
+       "미국",
+       "비평",
+       "모더니즘"
+      ],
+      "region": "영미권",
+      "sources": [
+       {
+        "name": "The Morgan Library & Museum · Scandal of Ulysses",
+        "url": "https://www.themorgan.org/exhibitions/online/ulysses/scandal-ulysses"
+       },
+       {
+        "name": "JSTOR Daily · Censoring Ulysses",
+        "url": "https://daily.jstor.org/censoring-ulysses"
+       },
+       {
+        "name": "The New Republic · Virginia Woolf on Joyce",
+        "url": "https://newrepublic.com/article/129040/remember-virginia-woolf-called-james-joyce-queasy-undergraduate-scratching-pimples"
+       },
+       {
+        "name": "Open Culture · The Very First Reviews of James Joyce's Ulysses",
+        "url": "https://www.openculture.com/2013/10/the-very-first-reviews-of-joyces-ullyses.html",
+        "date": "2013-10"
+       }
+      ]
+     },
+     {
+      "title": "불태워진 500부에서 울지 판결까지 — '전체로, 보통 사람의 눈으로' 읽기",
+      "body": "1922년 2월 2일 조이스의 마흔 번째 생일에 파리의 실비아 비치가 1,000부(저자 서명본 100부 포함)로 계획한 초판을 냈고, 같은 해 10월 위버의 에고이스트 출판사가 2,000부를 찍었다. 그러나 12월 미국 세관이 미국행 물량 최대 500부를 압수했고, 대신 찍은 500부는 영국 세관이 항구에서 폐기했으며, 영국 내무부는 검찰총장이 40쪽쯤 읽고 '순전한 오물'이라 한 판단에 따라 수입을 막았다. 1932년 랜덤하우스의 베넷 서프와 변호사 모리스 에른스트는 일부러 한 권을 들여와 세관에 압수되게 하는 시험 소송을 꾸몄고, 1933년 12월 6일 연방지방법원 존 M. 울지 판사는 책을 끝까지 읽고 두 문인에게 따로 의견을 들은 뒤, 보통의 성적 본능을 가진 사람에게 이 책은 때로 구역질은 날지언정 최음제는 아니라며 반입을 허용했다. 1934년 연방 제2순회항소법원은 오거스터스 핸드와 러니드 핸드의 다수의견으로 이를 2 대 1로 확정했는데(마틴 맨턴 반대), 가장 취약한 독자를 기준으로 삼던 1868년 영국 '히클린 기준'을 버리고 작품 전체를 보는 이 논리는 1957년 로스 판결의 길을 닦은 것으로 평가된다. 랜덤하우스판은 1934년 1월 나왔고, 영국의 금지는 1936년 소리 없이 풀렸다.",
+      "tags": [
+       "미국",
+       "영국",
+       "판례",
+       "히클린 기준"
+      ],
+      "region": "영미권",
+      "sources": [
+       {
+        "name": "Wake Forest University ZSR Library · Rare Book of the Month: Ulysses",
+        "url": "https://www.zsr.wfu.edu/2011/rare-book-of-the-month-ulysses-by-james-joyce-1922/",
+        "date": "2011"
+       },
+       {
+        "name": "The Morgan Library & Museum · Egoist copy saved from the fire",
+        "url": "https://www.themorgan.org/exhibitions/online/ulysses/egoist-copy-saved-fire"
+       },
+       {
+        "name": "JSTOR Daily · The Ulysses Obscenity Decision, Annotated",
+        "url": "https://daily.jstor.org/ulysses-obscenity-decision-annotated"
+       },
+       {
+        "name": "Free Speech Center, Middle Tennessee State University · United States v. One Book Called Ulysses",
+        "url": "https://firstamendment.mtsu.edu/article/ulysses/"
+       }
+      ]
+     },
+     {
+      "title": "백 년 뒤의 『율리시스』 — 금서의 역사는 '용기의 서사'로, 검열의 질문은 현재형으로",
+      "body": "케빈 버밍엄의 『가장 위험한 책(The Most Dangerous Book)』(2014)은 이 소설을 빅토리아 시대의 성적·사회적 속박을 깨려는 모더니즘의 싸움으로 그리며, 벌금과 투옥을 무릅쓴 여성 편집인·출판인들의 용기와 함께 검열하던 쪽의 논리도 공정하게 다뤘다는 평을 받았다. 『아이리시 타임스』는 2021년 사설에서 울지가 '최음제였다면 음란'이라는 선 자체는 인정했다는 점을 짚으며, 오늘의 온라인 표현 규제도 훗날 비슷한 웃음거리가 될 수 있다고 경고했다. 정작 아일랜드는 이 책을 공식 금지한 적이 없지만 출간 뒤 수십 년간 서점에 들이지 않았다. 국내에는 1968년 처음 소개됐고, 2023년 이종일 세종대 교수가 옮긴 두 권 1,420쪽의 문학동네판이 꼭 필요한 주석만 남겨 독자가 중도에 포기하지 않게 하겠다며 나왔다. 2022년 출간 100주년을 맞아서도 학자들은 이 책의 난해함을 인정하면서 줄거리부터 잡고 놓치는 것을 받아들이라고 권한다. 미완의 연재 한 장으로 단죄된 이 소설은, 작품을 '전체로' 읽어 달라는 요구가 쓰는 사람에게 무엇을 허락하고 무엇을 요구하는지 묻는다.",
+      "tags": [
+       "아일랜드",
+       "한국 수용",
+       "검열 담론",
+       "100주년"
+      ],
+      "region": "영미권",
+      "sources": [
+       {
+        "name": "Kirkus Reviews · The Most Dangerous Book",
+        "url": "https://www.kirkusreviews.com/book-reviews/kevin-birmingham/the-most-dangerous-book"
+       },
+       {
+        "name": "The Irish Times · Editorial: lessons on censorship",
+        "url": "https://www.irishtimes.com/opinion/editorial/the-irish-times-view-on-the-banning-of-ulysses-lessons-on-censorship-1.4490015",
+        "date": "2021-02-19"
+       },
+       {
+        "name": "Library of Congress · In Custodia Legis",
+        "url": "https://blogs.loc.gov/law/2016/02/james-joyce-ulysses-and-the-meaning-of-obscenity/",
+        "date": "2016-02"
+       },
+       {
+        "name": "서울신문 · 오경진, 문학동네판 『율리시스』 출간 기사",
+        "url": "https://m.seoul.co.kr/news/2023/12/17/20231217500006",
+        "date": "2023-12-17"
+       }
+      ]
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-11-30",
+   "status": "pending"
+  },
+  {
+   "topic": "금서 열전 ④ 『채털리 부인의 연인』",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 4,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 4회로 로런스 『채털리 부인의 연인』을 영국 펭귄 재판과 일본 채털리 재판의 기소 경위, 로런스의 편지와 이토 세이의 법정 투쟁, 증인과 배심의 반응, 런던의 무죄와 도쿄의 유죄, 오늘의 읽기로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ④ 『채털리 부인의 연인』",
+    "items": [
+     {
+      "title": "값싼 문고본이 문제였다 — 1960년 영국 펭귄 기소와 1950년 일본 번역본 기소",
+      "body": "D. H. 로런스(D. H. Lawrence)의 마지막 장편은 1928년 피렌체에서 영어 한정판으로, 이듬해 파리에서 사가판으로 나왔지만 영국과 미국에서는 오랫동안 온전한 형태로 팔 수 없었다. 영국은 문학적 가치를 '공익' 항변으로 인정한 1959년 음란출판물법이 생기자 펭귄북스가 20만 부를 찍었고, 1960년 8월 무삭제본을 경찰에 넘겨 시험대에 올렸으며, 이 법으로 문학작품이 기소된 첫 사례가 되어 10월 20일 재판이 열렸다. 일본에서는 이토 세이(伊藤整)의 완역본이 1950년 오야마쇼텐(小山書店)에서 두 권으로 나와 몇 달 만에 15만 부가 팔렸고, 같은 해 9월 검찰은 번역자와 발행인 오야마 히사지로(小山久二郎)를 형법 175조 음란문서 판매 혐의로 기소했다. 두 나라 모두 성행위 묘사와 비속어가 표면의 쟁점이었지만, 영국 검찰이 줄곧 문제 삼은 것은 누구나 살 수 있는 싼 값이었다. 작품은 귀족 부인과 사냥터지기의 관계를 통해 탄광과 기계가 지배하는 산업 사회에서 몸과 감정이 어떻게 메말라 가는지를 묻는다.",
+      "tags": [
+       "영국",
+       "일본",
+       "음란출판물법",
+       "형법 175조"
+      ],
+      "region": "영미권",
+      "note": "1928년 피렌체 한정판이 원저 초판이며, 로런스는 1930년 결핵으로 세상을 떠났다.",
+      "sources": [
+       {
+        "name": "Encyclopaedia Britannica · Lady Chatterley's Lover",
+        "url": "https://britannica.com/topic/Lady-Chatterleys-Lover"
+       },
+       {
+        "name": "Penguin · D. H. Lawrence and the Lady Chatterley's Lover trial",
+        "url": "https://www.penguin.co.uk/discover/articles/d-h-lawrence-lady-chatterleys-lover-trial"
+       },
+       {
+        "name": "文春オンライン · チャタレー事件",
+        "url": "https://bunshun.jp/articles/-/1716"
+       },
+       {
+        "name": "新潮社 · 武藤浩史『あなたの知らないロレンスとチャタレー』",
+        "url": "https://www.shinchosha.co.jp/ebook/E621521/",
+        "date": "2009-04-17"
+       }
+      ],
+      "books": [
+       {
+        "title": "채털리 부인의 연인",
+        "author": "D. H. 로런스",
+        "original": "Lady Chatterley's Lover · 1928",
+        "meta": "장편소설 · 피렌체 사가 한정판 · 국내 번역 이인규 옮김, 민음사 세계문학전집(2003)",
+        "synopsis": "잉글랜드 중부의 부유한 지주이자 작가·지식인인 클리퍼드 채털리 경과 결혼한 콘스턴스(코니)는 메마른 결혼 생활 속에서 시들어 간다. 그녀는 남편 영지의 교양 있는 사냥터지기 올리버 멜러즈와 가까워지고, 두 사람의 관계는 계급과 관습의 벽에 부딪친다. 소설은 돈과 기계, 차가운 이성이 지배하는 산업 문명 한복판에서 몸의 감각을 되찾으려는 모색으로 이 사랑을 그린다.",
+        "reviews": [
+         {
+          "source": "John Bull · 무서명 논평",
+          "gist": "'유명 소설가의 수치스러운 책'이라는 제목을 달아, 출간 직후 이 소설을 이름난 작가의 추문으로 낙인찍었다.",
+          "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9780203195116-99/75-unsigned-comment-famous-novelist-shameful-book-john-bull-draper",
+          "date": "1928-10-20"
+         },
+         {
+          "source": "The New Republic · 스탠리 카우프먼",
+          "gist": "사냥터지기의 인물 형상과 반유대적 대목 등 흠을 짚으면서도, 성 묘사는 결함이 아니라 의도된 예술적 목표이며 작가의 헌신이 결점을 넘어선다고 평했다.",
+          "url": "https://newrepublic.com/article/61541/lady-chatterly-last",
+          "date": "1959-05-25"
+         },
+         {
+          "source": "New Statesman · 월터 앨런",
+          "gist": "재판에서 증언한 비평가로서, 이 소설이 성보다 산업 사회를 다룬 작품이며 가장 강력한 도덕적 우화의 하나라고 옹호했다.",
+          "url": "https://www.newstatesman.com/long-reads/2020/11/ns-archive-view-witness-box",
+          "date": "1960-11-12"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "\"말에 놀라기엔 너무 오래 살았다\" — 로런스의 편지와 이토 세이의 법정 투쟁",
+      "body": "로런스는 출판 대리인 낸시 펀에게 이 소설은 연재에 전혀 맞지 않으며 세상은 매우 부적절하다고 여기겠지만, 자신은 성 관계를 생생하고 귀한 것으로 만들고 싶었다고 썼다. 1928년 12월 29일 방돌에서 조지 콘웨이 부부에게 보낸 편지에서는 'We have lived too long to be shocked by words any more'라며 선입견 없이 읽어 달라고 청하고, 몇몇은 크게 분개했지만 많은 이가 제대로 받아들였다고 전하며 미국 세관의 압수를 비꼬았다. 뒤에 낸 소책자 『「채털리 부인의 연인」에 부쳐(A Propos of Lady Chatterley's Lover)』(직역)에서 그는 감정이 머리에서 아래로 길들여진 탓에 오늘의 사랑과 성이 가짜가 되었다고 진단하며 몸에 대한 서구 문화의 오랜 두려움을 비판했다. 일본의 이토 세이는 법정에서 끈질기게 싸웠는데, 피고 측은 검찰이 전전(戰前) 검열의 '풍속 괴란' 개념을 되살려 전후 헌법의 표현의 자유를 침해한다고 맞섰고, 최고재판소 상고에서는 헌법 21조와 경세(警世)의 의도를 내세웠다. 이토는 자신을 희화화한 유머 에세이로 여론을 끌어들이는 한편 기소의 부당함을 따진 기록문학 『재판(裁判)』을 남겼다.",
+      "tags": [
+       "영국",
+       "일본",
+       "작가의 편지",
+       "표현의 자유"
+      ],
+      "region": "영미권",
+      "sources": [
+       {
+        "name": "Christie's · Lady Chatterley's Lover, Paris 1929, with Lawrence–Titus letter",
+        "url": "https://www.christies.com.cn/lot/lot-3984076"
+       },
+       {
+        "name": "Biblio · D. H. Lawrence letter to George Conway, 29 December 1928",
+        "url": "https://biblio.co.uk/book/great-letter-dh-lawrence/d/1420605449"
+       },
+       {
+        "name": "Cambridge Core · Love and Sex in D. H. Lawrence, ch. 6 'A propos' (Liverpool University Press)",
+        "url": "https://cambridge.org/core/product/identifier/CBO9781942954033A012/type/BOOK_PART",
+        "date": "2015"
+       },
+       {
+        "name": "小樽商科大学 · 亀井秀雄「伊藤整生誕百年」案内",
+        "url": "https://www.otaru-uc.ac.jp/hsyomu1/hermes/10go/4.pdf",
+        "date": "2005"
+       }
+      ]
+     },
+     {
+      "title": "\"아내나 하인에게 읽히겠는가\" — 증인 35명과 웃음 터진 배심, 불태운 독자",
+      "body": "영국 재판에서 변호인 제럴드 가디너는 E. M. 포스터, 리베카 웨스트, 세실 데이루이스, 리처드 호가트 등 35명의 증인을 세웠고, 울리치 주교 존 로빈슨은 로런스가 성을 본질적으로 신성한 것으로 그린다고 증언했다. 검찰은 나서 줄 전문가를 거의 구하지 못했고, 검사 머빈 그리피스존스가 배심에게 던진 아내나 하인에게 읽히고 싶은 책이냐는 질문에 하인을 둘 리 없는 교사·부두 노동자·운전사 등으로 이뤄진 배심원들은 웃음을 터뜨렸다. 주요 언론과 여론 주도층은 대체로 펭귄 편이었지만 에든버러에서는 한 여성이 서점 앞에서 책을 불태웠고, 사우스웨일스의 도서관 직원들은 이 책을 다루지 않게 해 달라고 요청했다. 판결 뒤 포일스 서점은 1960년 11월 10일 첫 300부를 15분 만에 팔았고, 판결 한 달 안에 약 200만 부가 팔렸다. 일본에서도 검찰 측 증인들조차 작품의 예술적·사상적 가치는 인정하면서 출판에는 반대하는 엇갈린 태도를 보였고, 책은 이미 베스트셀러였다.",
+      "tags": [
+       "영국",
+       "일본",
+       "계급",
+       "배심 재판"
+      ],
+      "region": "영미권",
+      "sources": [
+       {
+        "name": "New Statesman · Dominic Sandbrook, How Penguin set Chatterley free",
+        "url": "https://www.newstatesman.com/long-reads/2010/11/penguin-free-chatterley",
+        "date": "2010-11"
+       },
+       {
+        "name": "JSTOR Daily · Would You Let Your Servant Read This Book?",
+        "url": "https://daily.jstor.org/would-you-let-your-servant-read-this-book"
+       },
+       {
+        "name": "Penguin · John Self, The book that changed Britain",
+        "url": "https://www.penguin.co.uk/articles/2020/10/d-h-lawrence-lady-chatterleys-lover-trial",
+        "date": "2020-10-19"
+       },
+       {
+        "name": "文春オンライン · チャタレー事件",
+        "url": "https://bunshun.jp/articles/-/1716"
+       }
+      ]
+     },
+     {
+      "title": "런던은 무죄, 도쿄는 유죄 — 같은 소설이 남긴 정반대의 판례",
+      "body": "1960년 11월 2일 여성 3명·남성 9명의 배심은 세 시간 남짓 숙의한 끝에 만장일치로 펭귄에 무죄를 평결했고, 이후 영국에서는 문학적 가치가 있는 작품을 음란죄로 처벌하기가 사실상 어려워져 『북회귀선』과 『네이키드 런치』는 기소되지 않았고 『브루클린으로 가는 마지막 비상구』의 유죄는 항소심에서 뒤집혔다. 『스펙테이터』의 버나드 레빈은 뒤늦은 신원(伸寃)이라 반기면서도 판사 로런스 번이 '공익' 조항을 너무 좁게 읽어 의회의 자유화 취지를 깎았다고 비판했다. 일본에서는 1952년 1월 도쿄지방재판소가 예술성이 성적 묘사를 승화했다며 이토 세이에게 무죄를, 발행인에게는 출판·광고 방식을 이유로 벌금을 선고했으나, 같은 해 12월 10일 도쿄고등재판소는 예술성과 음란성이 양립한다며 두 사람 모두 유죄로 뒤집고 이토에게 벌금 10만 엔을 매겼다. 1957년 3월 13일 최고재판소 대법정은 상고를 기각하며 음란을 '공연히 성욕을 자극하고 보통 사람의 성적 수치심을 해치며 선량한 성적 도의 관념에 반하는 것'으로 정의하고, 성행위 비공연성의 원칙과 작가의 주관적 의도와 무관한 객관적 판단, 표현의 자유도 공공복리로 제한된다는 논리를 세웠다. 마노 쓰요시(真野毅) 재판관은 음란이 시대에 따라 변하는 상대적 개념이라며 이토에 대한 유죄 절차를 문제 삼는 의견을 냈지만, 이 기준은 오랫동안 일본 법원의 음란 판단을 지배했다.",
+      "tags": [
+       "영국",
+       "일본",
+       "판례",
+       "음란의 정의"
+      ],
+      "region": "일본",
+      "sources": [
+       {
+        "name": "The Conversation · The Chatterley trial 60 years on",
+        "url": "https://theconversation.com/the-chatterley-trial-60-years-on-a-court-case-that-secured-free-expression-in-1960s-britain-149197",
+        "date": "2020"
+       },
+       {
+        "name": "The Spectator Archive · Bernard Levin, The Lady's Not for Burning",
+        "url": "https://archive.spectator.co.uk/article/4th-november-1960/5/the-ladys-not-for-burning",
+        "date": "1960-11-04"
+       },
+       {
+        "name": "文春オンライン · チャタレー事件",
+        "url": "https://bunshun.jp/articles/-/1716"
+       },
+       {
+        "name": "裁判所 · 最高裁大法廷 昭和32年3月13日判決（昭和28(あ)1713）",
+        "url": "https://www.courts.go.jp/hanrei/51271/detail2/index.html",
+        "date": "1957-03-13"
+       }
+      ],
+      "note": "최고재판소 판결 전문(昭和28(あ)1713)은 일본 재판소 웹사이트에 공개돼 있다."
+     },
+     {
+      "title": "누구에게 읽힐 것인가의 문제 — 판사 부인의 메모, 39년 만의 완역, 한국의 '무금지'",
+      "body": "역사학자 크리스토퍼 힐리어드는 2013년 『미국역사학보』 논문에서 위험한 책을 아이·여성·노동계급에게서만 떼어 두던 영국의 오랜 '가변적 음란' 관행을 짚으며, 이 재판의 핵심을 표현의 자유보다 읽을 자격의 문제로 읽었다. 재판에 쓰인 번 판사의 책에는 주로 부인 도러시 번이 남긴 표시와 메모가 있는데, 2018년 경매에서 해외로 팔릴 뻔하다 수출 보류와 모금 끝에 2019년 브리스틀 대학이 사들여 펭귄 아카이브 곁에 두었다. 일본에서는 1964년 신초문고판이 일부를 삭제한 채 나왔고, 이토 세이 사후 아들 이토 레이(伊藤礼)가 보역해 1996년 11월 『완역 채털리 부인의 연인』을 냈는데, 최고재판소 판결 39년 만의 일이었다. 한국에서는 이 소설이 금지된 적이 없지만, 박지영은 2017년 논문에서 그 이유를 진보적 검열이 아니라 냉전기 서구 고전 장려 정책과 '유부녀 불륜' 소문에 기댄 부정확한 번역에서 찾고, 코니의 욕망이 번역에서 지워졌다고 지적했다. 국내에서는 2003년 민음사가 1993년 케임브리지판 무삭제 결정본을 옮긴 이인규 번역을 내며 그간 부정확한 제목의 판본이 많았다고 밝혔다. 같은 소설이 런던에서는 해방의 상징, 도쿄에서는 유죄의 판례, 서울에서는 소문 속 연애소설이 되었다면, 성을 쓰는 문장이 어디까지 번역되고 누구에게까지 닿아야 하는가는 지금도 쓰는 사람의 몫으로 남는다.",
+      "tags": [
+       "영국",
+       "일본",
+       "한국 수용",
+       "번역"
+      ],
+      "region": "일본",
+      "sources": [
+       {
+        "name": "JSTOR Daily · Would You Let Your Servant Read This Book?",
+        "url": "https://daily.jstor.org/would-you-let-your-servant-read-this-book"
+       },
+       {
+        "name": "The Conversation · The Chatterley trial 60 years on",
+        "url": "https://theconversation.com/the-chatterley-trial-60-years-on-a-court-case-that-secured-free-expression-in-1960s-britain-149197",
+        "date": "2020"
+       },
+       {
+        "name": "新潮社 · 『完訳 チャタレイ夫人の恋人』",
+        "url": "https://www.shinchosha.co.jp/book/207012/",
+        "date": "1996-11-22"
+       },
+       {
+        "name": "여성문학연구 42호 · 박지영, 「'음란(외설)' 시비의 이면」",
+        "url": "https://www.accesson.kr/femcritic/v.0/42/185/41864",
+        "date": "2017"
+       }
+      ]
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-12-02",
+   "status": "pending"
+  },
+  {
+   "topic": "금서 열전 ⑤ 『닥터 지바고』",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 5,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 5회로 파스테르나크 『닥터 지바고』를 소련에서 막힌 경위와 이탈리아 출간, 작가가 편지와 전보로 남긴 말, 모스크바와 서방의 찬반, 노벨상 수상과 거부 및 복권, 냉전 공작 문서와 한국 수용으로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ⑤ 『닥터 지바고』",
+    "items": [
+     {
+      "title": "법정이 아니라 잡지 편집부와 당이 막았다 — 모스크바에서 거절되고 밀라노에서 먼저 나온 소설",
+      "body": "『닥터 지바고』를 막은 것은 법조문이나 판결이 아니었다. 1956년 9월 문예지 『노비 미르(Новый мир)』 편집위원 다섯 명이 줄거리를 하나하나 짚은 거절 편지를 보냈고, 작가가 소비에트 사회에서 멀어져 반소적이라는 판단 아래 게재를 거부했다. 그보다 앞선 1956년 5월 20일, 파스테르나크(Борис Пастернак)는 페레델키노의 집에서 이탈리아 공산당원 세르조 단젤로(Sergio D'Angelo)에게 타자 원고를 건넸고, 원고는 일주일쯤 뒤 서베를린에서 밀라노의 출판인 잔자코모 펠트리넬리(Giangiacomo Feltrinelli)에게 넘어갔다. 소련 국영출판사 고슬리티즈다트가 소련판이 나올 1957년 9월까지 기다려 달라고 요청해 펠트리넬리는 한때 응했지만, 소련판은 끝내 나오지 않았고 이탈리아어판이 1957년 11월 15일 초판 3,000부로 세계 최초로 나왔다. 이 소설은 의사이자 시인인 유리 지바고가 혁명과 내전을 지나며 겪는 삶과 사랑을 따라가며, 거대한 역사가 한 사람의 내면을 어떻게 짓누르는지를 그린다. 1958년 10월 『프라우다』는 이 소설을 문학의 탈을 쓴 정치 풍자문이라고 몰아붙였다.",
+      "tags": [
+       "소련",
+       "러시아어",
+       "출판 금지",
+       "냉전"
+      ],
+      "sources": [
+       {
+        "name": "The New York Review of Books (Michael Scammell, \"The CIA's 'Zhivago'\")",
+        "url": "https://www.nybooks.com/articles/2014/07/10/cias-zhivago/",
+        "date": "2014-07-10"
+       },
+       {
+        "name": "Il Post",
+        "url": "https://www.ilpost.it/2015/10/28/la-storia-del-dottor-zivago-in-italia/",
+        "date": "2015-10-28"
+       },
+       {
+        "name": "FIRSTonline",
+        "url": "https://www.firstonline.info/en/il-dottor-zivago-e-la-cultura-del-dissenso/"
+       },
+       {
+        "name": "Seventeen Moments in Soviet History (Michigan State University)",
+        "url": "https://soviethistory.msu.edu/1956/literary-life-at-a-crossroads/literary-life-at-a-crossroads-texts/pravda-denounces-pasternak-and-the-nobel-award/",
+        "date": "1958-10-26"
+       }
+      ],
+      "region": "러시아",
+      "books": [
+       {
+        "title": "닥터 지바고",
+        "author": "보리스 파스테르나크",
+        "original": "Доктор Живаго · 1957",
+        "meta": "장편소설 · Feltrinelli(이탈리아어판 초판, 피에트로 츠베테레미치 옮김) · 국내 번역 홍대화 옮김, 열린책들(열린책들 세계문학)",
+        "synopsis": "모스크바의 의사이자 시인 유리 지바고는 제1차 세계대전과 1917년 혁명, 내전의 소용돌이 속으로 휩쓸려 들어간다. 가족과 함께 우랄 지방으로 떠난 그는 그곳에서 라라와 다시 만나고, 사랑과 의무, 개인의 양심과 혁명의 요구 사이에서 흔들린다. 소설은 한 사람의 생애와 그가 남긴 시를 통해 역사가 개인을 어떻게 들어 올리고 부수는지를 묻는다.",
+        "reviews": [
+         {
+          "source": "The New Republic · 어빙 하우(Irving Howe)",
+          "gist": "톨스토이 계열의 시선으로 정치적 압력 아래 평범한 삶을 그린 도덕적 증언이라며 경의를 표해야 할 대작으로 평가했다. 다만 혁명 부분은 앞부분만큼 풍부하지 않다고 보았다.",
+          "url": "https://newrepublic.com/article/115305/boris-pasternaks-doctor-zhivago-reviewed",
+          "date": "1958-09-08"
+         },
+         {
+          "source": "TIME · 서평",
+          "gist": "순문학적 잣대로는 비범하지만 위대하지는 않은 소설이라면서도, 도덕적 열정이 기술적으로 더 잘 만든 소설들보다 이 작품을 높이 올려놓는다고 썼다.",
+          "url": "https://time.com/archive/6613101/books-the-passion-of-yurii-zhivago",
+          "date": "1958-12-15"
+         },
+         {
+          "source": "Pravda · 다비드 자슬랍스키(Давид Заславский)",
+          "gist": "작가를 혁명과 집단을 등진 부르주아 개인주의자로 규정하고, 소설을 문학이 아닌 저급한 반동 정치 선전이라고 공격했다. 노벨상도 예술이 아니라 반소 태도에 준 상이라고 주장했다.",
+          "url": "https://soviethistory.msu.edu/1956/literary-life-at-a-crossroads/literary-life-at-a-crossroads-texts/pravda-denounces-pasternak-and-the-nobel-award/",
+          "date": "1958-10-26"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "처형식에 초대한다던 작가 — 출간을 밀어붙이면서도 몸을 사려야 했던 이중의 언어",
+      "body": "단젤로에게 원고를 넘기던 날 파스테르나크는 쓴웃음과 함께 그를 자기 처형식에 초대한다고 말했다고 전해진다. 그는 이 책을 '문명 세계에 보내는 마지막 말'이라 부르기도 했는데, 이는 그가 방문객 미리엄 베를린에게 한 말로 JSTOR Daily가 소개했다. 압박이 커지자 그는 연인 올가 이빈스카야의 요청과 단젤로의 설득으로 펠트리넬리에게 '큰 손질이 필요하다'며 원고를 돌려 달라는 전보를 쳤지만, 펠트리넬리는 이를 따르지 않았다. 이탈리아 일간 『일 포글리오(Il Foglio)』의 피에를루이지 바티스타는 2026년 2월 글에서 파스테르나크가 겉으로 내보일 편지는 러시아어로, 진짜 뜻은 프랑스어로 써서 검열을 피했다고 정리했고, 러시아 연구자 이반 톨스토이도 작가가 이탈리아어판, 이어 러시아어판을 먼저 내라고 은밀히 당부했다고 말한다. 한편 작가는 한 젊은 편집자에게 보낸 편지에서 이 소설을 쓰며 예술적 짜임새를 잃었다고 스스로 인정하기도 했다.",
+      "tags": [
+       "작가의 편지",
+       "자기 검열",
+       "러시아어",
+       "이탈리아어"
+      ],
+      "sources": [
+       {
+        "name": "The New York Review of Books",
+        "url": "https://www.nybooks.com/articles/2014/07/10/cias-zhivago/",
+        "date": "2014-07-10"
+       },
+       {
+        "name": "JSTOR Daily (Erin Blakemore)",
+        "url": "https://daily.jstor.org/why-boris-pasternak-rejected-his-nobel-prize",
+        "date": "2015-02-18"
+       },
+       {
+        "name": "Il Foglio (Pierluigi Battista)",
+        "url": "https://www.ilfoglio.it/cultura/2026/02/02/news/zivago-e-i-suoi-carnefici-8597974/",
+        "date": "2026-02-02"
+       },
+       {
+        "name": "Российская газета (Павел Басинский, интервью с Иваном Толстым)",
+        "url": "https://rg.ru/2015/02/10/nobel.html",
+        "date": "2015-02-10"
+       }
+      ],
+      "region": "러시아"
+     },
+     {
+      "title": "\"읽지 않았지만 규탄한다\" — 소련의 집단 규탄, 서방의 환호, 이탈리아 좌파의 분열",
+      "body": "소련 언론과 기관은 일제히 공격에 나섰다. 노벨상 발표 뒤 콤소몰 지도자 블라디미르 세미차스트니는 작가를 제 우리를 더럽히는 돼지에 빗대며 나라 밖으로 내쫓아야 한다고 말했다. 『리테라투르나야 가제타』에 실린 이른바 '근로자들의 편지'는 '읽지 않았지만 규탄한다'는 말을 유행어로 남겼는데, 규탄한 이들 가운데 소설을 실제로 읽은 사람은 거의 없었다. 지식인 사이에서도 평가는 갈렸다. 출간 전 원고를 본 코르네이 추콥스키는 낯설고 혼란스럽다고 했고 안나 아흐마토바는 '천재의 실패'라 불렀으며, 망명 작가 나보코프는 서툴고 진부한 멜로드라마라고 깎아내린 반면 미국 평론가 에드먼드 윌슨은 그 정치적·도덕적 내용을 높이 샀다. 이탈리아 공산당 문화위원회의 마리오 알리카타는 반혁명적이라고 판정했고, 칼비노·모라비아·포르티니 등은 저마다 다른 이유로 이 소설을 읽어 냈다. 미국에서는 1958년 12월 판테온판이 서점가 1위에 올라 34만 4,000부가 팔렸고, 43만 부 증쇄가 예정돼 있었다.",
+      "tags": [
+       "소련",
+       "이탈리아",
+       "여론",
+       "판매"
+      ],
+      "sources": [
+       {
+        "name": "The New York Review of Books",
+        "url": "https://www.nybooks.com/articles/2014/07/10/cias-zhivago/",
+        "date": "2014-07-10"
+       },
+       {
+        "name": "Эксмо (Литературная газета 1958 자료 소개)",
+        "url": "https://eksmo.ru/articles/kak-travili-borisa-pasternaka-02-25-ID15696411/"
+       },
+       {
+        "name": "FIRSTonline",
+        "url": "https://www.firstonline.info/en/il-dottor-zivago-e-la-cultura-del-dissenso/"
+       },
+       {
+        "name": "TIME",
+        "url": "https://time.com/archive/6613101/books-the-passion-of-yurii-zhivago",
+        "date": "1958-12-15"
+       }
+      ],
+      "region": "러시아"
+     },
+     {
+      "title": "받겠다던 노벨상을 엿새 만에 거부하다 — 작가동맹 제명에서 1987년 복권, 1989년 스톡홀름까지",
+      "body": "스웨덴 한림원은 1958년 10월 23일 현대 서정시와 러시아 서사 전통에서 이룬 업적을 들어 파스테르나크에게 노벨 문학상을 주었다. 그는 10월 25일 한없이 감사하다는 전보를 보냈지만, 소련 작가동맹이 10월 말 그를 제명하고 지도부에 국외 추방까지 건의하자 10월 29일 '내가 속한 사회에서 이 상이 띤 의미'를 들어 상을 거부한다는 전보를 다시 보냈다. 이어 흐루쇼프에게 편지를 보내 조국을 떠나는 일은 자신에게 죽음과 같다며 추방만은 면하게 해 달라고 호소했다. 그는 상금을 받지 못한 채 1960년 5월 세상을 떠났다. 소련 작가동맹은 1987년 2월 19일 제명 결정을 취소했고, 소설은 1988년 『노비 미르』에 전문이 실렸으며, 1989년 12월 아들 예브게니 파스테르나크가 스톡홀름에서 아버지 대신 메달을 받았다.",
+      "tags": [
+       "노벨문학상",
+       "소련",
+       "복권",
+       "작가동맹"
+      ],
+      "sources": [
+       {
+        "name": "Forward (PJ Grisar)",
+        "url": "https://forward.com/culture/412625/60-years-ago-pasternak-won-the-nobel-prize-and-the-soviet-union-broadsided",
+        "date": "2018-10"
+       },
+       {
+        "name": "Literary Hub (Corinne Segal)",
+        "url": "https://lithub.com/when-boris-pasternak-under-fire-from-soviet-authorities-turned-down-a-nobel-prize",
+        "date": "2020-10-29"
+       },
+       {
+        "name": "Рамблер/Суббота",
+        "url": "https://weekend.rambler.ru/items/36138986-30-let-so-dnya-reabilitatsii-borisa-pasternaka/",
+        "date": "2017-02-19"
+       },
+       {
+        "name": "Deseret News",
+        "url": "https://www.deseret.com/1989/12/10/18836102/son-of-author-collects-nobel-for-dr-zhivago/",
+        "date": "1989-12-10"
+       }
+      ],
+      "region": "러시아",
+      "note": "작가동맹 제명 날짜는 러시아 매체는 1958년 10월 27일, 미국 매체 Forward는 10월 28일로 적어 '10월 말'로 썼다."
+     },
+     {
+      "title": "CIA 문서가 드러낸 또 하나의 전쟁 — 그리고 반공 '증언문학'으로 먼저 읽힌 한국",
+      "body": "2014년 4월 공개된 CIA 문서 130건은 이 기관이 소설을 냉전 선전에 썼다는 사실을 보여 주었고, 당시 메모에는 소련 시민이 자기 정부에 무엇이 잘못됐는지 의문을 품게 할 기회라는 문장이 있었다. CIA는 러시아어판 수백 부를 찍어 1958년 브뤼셀 만국박람회의 바티칸관에서 소련 관광객에게 나눠 주었고, 이 경위는 피터 핀과 페트라 쿠베의 『The Zhivago Affair』(지바고 사건, 직역)에 담겼다. 한편 파올로 만코수가 펠트리넬리 재단에서 낸 『Inside the Zhivago Storm』은 작가와 출판인의 1956~1960년 편지 전부를 공개해 출판의 실제 경로를 따지게 했다. 한국에서는 1958년 말 저작권 협약 밖에서 여덟 출판사가 대부분 영어 중역으로 번역 경쟁을 벌였고, 이행선·양아람의 2017년 논문에 따르면 소설은 주로 반공문학이자 '증언문학'으로 읽혔으며 1959년 연극 공연은 공산권 작가 작품이라는 이유로 금지됐고 영화는 1968년 말에야 수입 추천을 받았다. 한 나라에서 금지된 책이 다른 나라에서는 정부가 권하는 책이 될 때, 작품을 지키는 일과 작품을 이용하는 일 사이의 경계를 작가는 어디에 그을 수 있을까.",
+      "tags": [
+       "냉전",
+       "CIA",
+       "한국 수용",
+       "번역"
+      ],
+      "sources": [
+       {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/news/cia-used-dr-zhivago-to-subvert-soviet-union-during-cold-war-newly-declassified-documents-show/",
+        "date": "2014-04-07"
+       },
+       {
+        "name": "NPR",
+        "url": "https://www.npr.org/2014/07/02/321063230/a-writer-who-defied-the-system-in-the-zhivago-affair",
+        "date": "2014-07-02"
+       },
+       {
+        "name": "Fondazione Giangiacomo Feltrinelli",
+        "url": "https://fondazionefeltrinelli.it/en/scopri/inside-the-zhivago-storm/"
+       },
+       {
+        "name": "『정신문화연구』 40권 3호 (이행선·양아람, 「보리스 파스테르나크의 한국적 수용과 '닥터 지바고'」)",
+        "url": "https://accesson.kr/ksq/assets/pdf/41032/journal-40-3-193.pdf",
+        "date": "2017"
+       }
+      ],
+      "region": "러시아"
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-12-04",
+   "status": "pending"
+  },
+  {
+   "topic": "금서 열전 ⑥ 『악마의 시』와 마흐푸즈",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 6,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 6회로 루슈디 『악마의 시』와 나지브 마흐푸즈 『우리 동네 아이들』을 파트와의 경위, 두 작가의 해명, 서방과 이슬람권의 찬반, 번역자·출판인·작가를 겨눈 습격, 2022년 이후의 오늘로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ⑥ 『악마의 시』와 마흐푸즈",
+    "items": [
+     {
+      "title": "한 나라의 수입 금지에서 한 성직자의 사형 선고로 — 『악마의 시』가 금서가 된 다섯 달",
+      "body": "살만 루슈디(Salman Rushdie)의 『악마의 시』는 1988년 9월 바이킹(Viking)에서 나왔고, 약 한 달 뒤 라지브 간디 정부의 인도가 이 책의 수입을 금지했다. 소설은 납치된 여객기 폭발에서 살아남은 봄베이 영화배우 지브릴 파리슈타와 영국에 사는 이민자 살라딘 참차가 천사와 악마 같은 존재로 변해 가는 이야기이고, 지브릴의 꿈속에서 '자힐리아'의 예언자 '마하운드'가 새 종교를 세우는 이야기가 펼쳐지는데, 이 대목을 두고 이슬람의 예언자를 모욕했다는 반발이 일었다. 같은 해 12월 영국 볼턴에서는 수천 명이 시위를 벌이며 책을 불태웠고, 파키스탄 이슬라마바드의 미국 문화원 습격에서는 6명이 숨졌다. 1989년 2월 14일 이란의 최고지도자 호메이니는 루슈디와 출판에 관여한 이들을 처형하라는 파트와(종교 법령)를 냈고, 이란의 한 종교 재단은 100만 달러, 이란인이 실행하면 300만 달러의 현상금을 걸었다. 결국 이 책은 인도를 포함해 20개국에서 금지됐다. 같은 시기 이집트의 노벨상 작가 나지브 마흐푸즈(نجيب محفوظ)는 이미 30년 전 신성모독 시비에 휘말린 소설 때문에 다시 표적으로 거론되기 시작했다.",
+      "tags": [
+       "인도",
+       "이란",
+       "신성모독",
+       "파트와"
+      ],
+      "sources": [
+       {
+        "name": "The Irish Times (Julian Borger, 원 게재 The Guardian)",
+        "url": "https://www.irishtimes.com/culture/books/2022/08/13/why-did-salman-rushdies-book-the-satanic-verses-make-him-a-target/",
+        "date": "2022-08-13"
+       },
+       {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2024/11/8/india-can-import-rushdies-satanic-verses-after-ban-proves",
+        "date": "2024-11-08"
+       },
+       {
+        "name": "Kirkus Reviews",
+        "url": "https://www.kirkusreviews.com/book-reviews/salman-rushdie/satanic-verses/"
+       }
+      ],
+      "region": "제3세계",
+      "note": "마흐푸즈 『우리 동네 아이들』(أولاد حارتنا, 1959년 『알아흐람』 연재)은 국내에 정성호 옮김(중원문화)과 민음사 세계문학전집(329·330)으로 나와 있다.",
+      "books": [
+       {
+        "title": "악마의 시",
+        "author": "살만 루슈디",
+        "original": "The Satanic Verses · 1988",
+        "meta": "장편소설 · Viking · 국내 번역 김진준 옮김, 문학동네(세계문학전집 217, 2022)",
+        "synopsis": "납치된 점보 여객기가 공중에서 폭발하고, 봄베이의 영화 스타 지브릴 파리슈타와 영국에 사는 이민자 살라딘 참차가 기적처럼 살아남는다. 두 사람은 각각 천사와 악마를 닮은 모습으로 변해 가지만 누가 어느 쪽인지 스스로도 확신하지 못한다. 지브릴의 꿈속에서는 자힐리아의 예언자 마하운드가 '복종하는 자들'의 종교를 세우는 이야기를 비롯한 여러 이야기가 겹쳐진다.",
+        "reviews": [
+         {
+          "source": "Kirkus Reviews · 서평",
+          "gist": "환각적이고 초현실적인 작품으로, 끝내 하나로 맞물리는지보다 읽는 즐거움이 더 중요한 최상의 의미의 오락이라고 평했다.",
+          "url": "https://www.kirkusreviews.com/book-reviews/salman-rushdie/satanic-verses/",
+          "date": "1988-01-15"
+         },
+         {
+          "source": "The Christian Science Monitor · 서평",
+          "gist": "정치적·영적으로 진지한 소설이며 출간 뒤의 사태를 예견한 듯하다고 높이 평가하면서도, 이슬람 전통 비판을 지나치게 영리하게 에두른 대목이 있다고 지적했다.",
+          "url": "https://csmonitor.com/1989/0302/dbsal.html",
+          "date": "1989-03-02"
+         },
+         {
+          "source": "The New York Times · 지미 카터(기고)",
+          "gist": "이 책이 무슬림에게 깊은 모욕이라고 보면서도, 사형 선고는 혐오스러운 대응이며 서방은 모욕에 동조하지 않고 작가의 생명과 출판의 권리를 지켜야 한다고 썼다.",
+          "url": "https://www.cartercenter.org/news/doc1381/",
+          "date": "1989-03-05"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "'가족 싸움'이라던 해명, 후회한 개종 선언, 3인칭 회고록 — 그리고 \"문제는 죽이는 자들\"",
+      "body": "루슈디는 은신 1년 뒤인 1990년 2월 에세이 「In Good Faith」(선의로, 직역)에서 자신은 종교가 없는 세속인이라고 밝히고, 이 논란을 일종의 '가족 싸움'으로, 소설은 비극적이고 고의적으로 오독됐다고 주장했으며, 이 글은 1991년 평론집 『Imaginary Homelands』에 실렸다. 그러나 1990년 12월에는 「Why I have embraced Islam」(나는 왜 이슬람을 받아들였나, 직역)을 발표하고 이슬람 학자들 앞에서 신앙을 고백하며 페이퍼백과 추가 번역을 멈췄는데, 2012년 회고록 『조지프 앤턴』에서 그는 이 일을 후회하는 것으로 그렸다. 『조지프 앤턴』은 그가 은신 중 쓴 가명, 곧 콘래드와 체호프의 이름을 딴 제목 아래 자신을 3인칭으로 서술한다. 2024년 피습 회고록 『나이프』에서는 『악마의 시』에 대해 더 보탤 말이 없다고 하면서, 표현의 자유를 좌파가 소홀히 했다고 비판했다. 마흐푸즈는 1994년 피습 뒤 『우리 동네 아이들』이 『칼릴라와 딤나』 같은 우화이며 신에 대한 믿음을 긍정하는 문학이라고 해명했고, 비판자보다 살해를 부추긴 파트와에 더 분노한다며 '문제는 죽이는 자들'이라고 말했다.",
+      "tags": [
+       "회고록",
+       "에세이",
+       "세속주의",
+       "영국"
+      ],
+      "sources": [
+       {
+        "name": "London Review of Books (Patrick Parrinder, \"Embracing Islam\")",
+        "url": "https://www.lrb.co.uk/v13/n07/patrick-parrinder/embracing-islam",
+        "date": "1991"
+       },
+       {
+        "name": "New Statesman (Colin MacCabe)",
+        "url": "https://www.newstatesman.com/long-reads/2012/09/salman-rushdie-versus-mullocracy",
+        "date": "2012-09-19"
+       },
+       {
+        "name": "NPR",
+        "url": "https://npr.org/2024/04/15/1244354113/salman-rushdie-memoir-knife",
+        "date": "2024-04-15"
+       },
+       {
+        "name": "ArabLit",
+        "url": "https://arablit.org/2019/10/14/a-look-back-naguib-mahfouz-on-october-14-1994/",
+        "date": "2019-10-14"
+       }
+      ],
+      "region": "영미권"
+     },
+     {
+      "title": "\"다른 편은 없다\"는 옹호와 \"깊은 모욕\"이라는 비판 — 작가들, 정치인, 그리고 마흐푸즈의 흔들린 자리",
+      "body": "책에 대한 비판과 거리 두기는 서방에서도 나왔다. 지미 카터는 1989년 3월 『뉴욕 타임스』 기고에서 책을 무슬림에 대한 깊은 모욕이라 하면서도 살해 위협은 단호히 규탄했고, 캔터베리 대주교 런시도 책을 개탄하는 쪽에 섰다. 옹호 쪽에서는 리사 아피냐네시와 사라 메이틀랜드가 1989년 7월 각계 반응을 모은 『The Rushdie File』(루슈디 파일)을 냈고, 크리스토퍼 히친스는 그해 10월 『런던 리뷰 오브 북스』에서 수전 손택·네이딘 고디머 등의 지지를 짚으며 문화상대주의로 폭력을 변명한 일부 좌파와 대처 총리·하우 외무장관의 대응을 함께 비판하고 이 문제에는 다른 편이 없다고 못박았다. 마흐푸즈의 자리는 미묘했다. 그는 1989년 파트와를 비이슬람적이라 비판하며 루슈디를 옹호했지만, 1992년에는 파트와는 용납할 수 없되 소설은 이슬람을 모욕한다는 쪽으로 물러섰다. 그 사이 1989년 이집트 성직자 오마르 압델 라흐만은 마흐푸즈와 루슈디를 함께 배교자로 몰았다.",
+      "tags": [
+       "영국",
+       "미국",
+       "이집트",
+       "표현의 자유"
+      ],
+      "sources": [
+       {
+        "name": "London Review of Books (Christopher Hitchens, \"Siding with Rushdie\")",
+        "url": "https://www.lrb.co.uk/v11/n20/christopher-hitchens/siding-with-rushdie",
+        "date": "1989-10-26"
+       },
+       {
+        "name": "The Carter Center (원 게재 The New York Times)",
+        "url": "https://www.cartercenter.org/news/doc1381/",
+        "date": "1989-03-05"
+       },
+       {
+        "name": "The Nation (Laila Lalami)",
+        "url": "https://www.thenation.com/article/archive/naguib-mahfouz-appreciation",
+        "date": "2006-08-31"
+       },
+       {
+        "name": "ArabLit",
+        "url": "https://arablit.org/2019/10/14/a-look-back-naguib-mahfouz-on-october-14-1994/",
+        "date": "2019-10-14"
+       }
+      ],
+      "region": "영미권"
+     },
+     {
+      "title": "번역자는 숨지고 출판인은 총에 맞았다 — 1991~1994년의 습격과 마흐푸즈의 목을 겨눈 칼",
+      "body": "1991년 7월 3일 이탈리아어판 번역자 에토레 카프리올로가 밀라노 자택에서 흉기에 찔렸다가 살아남았고, 7월 12일에는 일본어판 번역자인 쓰쿠바대 이가라시 히토시(五十嵐一, 44세) 조교수가 교내 복도에서 목과 얼굴을 여러 차례 찔린 채 발견됐다. 일본 경찰은 연인원 3만 4,000명을 투입하고도 범인을 찾지 못한 채 2006년 15년 공소시효를 맞았다. 1993년 7월 2일 튀르키예 시바스에서는 알레비파 문화 행사가 열린 호텔에 군중이 불을 질러 약 40명이 숨졌고, 행사에 참석한 튀르키예 작가 아지즈 네신은 사다리차로 빠져나왔다. 같은 해 10월 11일 노르웨이 출판인 윌리암 뉘고르는 오슬로 자택 앞에서 등에 세 발을 맞고 중상을 입었으며, 노르웨이 경찰은 공소시효 만료 직전인 2018년 10월 국외의 외국인 여러 명을 살인미수 혐의로 정식 지목했다. 이집트에서는 1994년 10월 14일 여든두 살의 마흐푸즈가 카이로에서 차에 오르다 이슬람주의 무장조직원에게 목을 찔렸고, 범인은 『우리 동네 아이들』 때문이라고 진술했으며, 마흐푸즈는 오른팔 신경이 상해 다시는 펜을 제대로 쥐지 못했다. 루슈디는 영국 정부 보호 아래 '조지프 앤턴'이라는 가명으로 숨어 지내다 2001년 9월에야 공개 활동을 재개했고, 1998년 하타미 대통령의 이란 정부가 파트와 지지에서 물러섰지만 2017년 하메네이는 그것이 여전히 유효하다고 말했다.",
+      "tags": [
+       "일본",
+       "이탈리아",
+       "노르웨이",
+       "이집트"
+      ],
+      "sources": [
+       {
+        "name": "The Japan Times",
+        "url": "https://www.japantimes.co.jp/news/2006/07/11/national/time-runs-out-on-finding-satanic-verses-killer/",
+        "date": "2006-07-11"
+       },
+       {
+        "name": "The Quint",
+        "url": "https://www.thequint.com/news/world/salman-rushdie-targeted-over-the-satanic-verses-william-nygaard-ettore-capriolo-aziz-nesin-hitoshi-igarashi"
+       },
+       {
+        "name": "The Times of Israel",
+        "url": "https://www.timesofisrael.com/norway-accuses-foreign-nationals-of-1993-satanic-verses-attack/",
+        "date": "2018-10"
+       },
+       {
+        "name": "ArabLit",
+        "url": "https://arablit.org/2019/10/14/a-look-back-naguib-mahfouz-on-october-14-1994/",
+        "date": "2019-10-14"
+       }
+      ],
+      "region": "제3세계",
+      "note": "파트와 이후 경과(1998년 하타미, 2017년 하메네이)와 루슈디의 은신 기간은 서울신문(2022-08-15)과 The Irish Times(2022-08-13) 보도로 확인했다."
+     },
+     {
+      "title": "무대 위의 칼, 사라진 금지 고시, 사후에야 나온 책 — 2022년 이후의 『악마의 시』와 『우리 동네 아이들』",
+      "body": "2022년 8월 12일 루슈디는 뉴욕주 셔터쿼 연구소의 강연 무대 위에서 하디 마타르에게 찔려 한쪽 눈을 잃었고, 마타르는 2025년 2월 2급 살인미수 유죄 평결을 받은 뒤 5월 최고형인 징역 25년을 선고받았으며 연방 테러 혐의 재판은 따로 남아 있다. 인도에서는 2019년 한 독자가 낸 소송에서 델리 고등법원이 2024년 11월, 정부가 1988년 수입 금지 고시를 찾지 못한다면 그런 고시는 없는 것으로 볼 수밖에 없다며 수입 길을 열었다. 『우리 동네 아이들』은 1959년 『알아흐람』 연재 때부터 종교계의 반발을 샀고, 이집트에서 단행본으로 나온 것은 마흐푸즈가 세상을 떠난 2006년 이후였다. 카이로 아메리칸대의 가브리엘레 코센티노는 2024년 『뉴라인스』 글에서 이 피습을 이집트 국가와 종교 권력의 관계 속에서 다시 읽는다. 국내에서는 『악마의 시』가 2022년 9월 문학동네 세계문학전집으로 김진준의 번역으로 나왔고, 서울신문은 피습 직후 '33년 쫓아다닌 파트와'를 짚으며 일본어·이탈리아어·노르웨이어판 관련자 피습 이력을 함께 전했다. 쓴 문장이 번역자와 출판인의 목숨까지 걸게 만들 수 있다면, 작가가 지켜야 할 것은 문장인가 그 문장을 함께 옮기는 사람들인가.",
+      "tags": [
+       "미국",
+       "인도",
+       "이집트",
+       "한국 수용"
+      ],
+      "sources": [
+       {
+        "name": "NPR",
+        "url": "https://www.npr.org/2025/05/16/g-s1-62464/rushdie-salman-attacker-guilty-sentence",
+        "date": "2025-05-16"
+       },
+       {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2024/11/8/india-can-import-rushdies-satanic-verses-after-ban-proves",
+        "date": "2024-11-08"
+       },
+       {
+        "name": "New Lines Magazine (Gabriele Cosentino)",
+        "url": "https://newlinesmag.com/essays/what-the-stabbing-of-a-nobel-prize-winning-novelist-tells-us-about-power-in-egypt/",
+        "date": "2024-12-06"
+       },
+       {
+        "name": "서울신문 (안동환)",
+        "url": "https://m.seoul.co.kr/news/2022/08/15/20220815014030",
+        "date": "2022-08-15"
+       }
+      ],
+      "region": "영미권"
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-12-06",
+   "status": "pending"
+  },
+  {
+   "topic": "금서 열전 ⑦ 응구기 와 티옹오",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 7,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 7회로 케냐 작가 응구기 와 티옹오를 연극 금지와 재판 없는 구금, 감옥에서 쓴 소설과 영어와의 결별, 국제 석방 운동과 언어 논쟁, 22년 망명, 별세 뒤의 재평가로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ⑦ 응구기 와 티옹오",
+    "items": [
+     {
+      "title": "마을 사람들의 기쿠유어 연극이 막히고, 작가는 재판 없이 감옥에 갇혔다",
+      "body": "1977년 리무루 근처 카미리투 마을의 노천 극장에서 응구기 와 티옹오(Ngũgĩ wa Thiong'o)와 응구기 와 미리(Ngũgĩ wa Mĩriĩ)가 함께 쓴 기쿠유어 연극 「Ngaahika Ndeenda」(내가 원할 때 결혼하겠다)가 농민과 노동자 배우들로 무대에 올랐다. 작은 땅을 지역 부호에게 빼앗기는 농민 가족을 통해 독립 뒤 케냐의 불평등을 겨눈 작품이었는데, 정부는 그해 공연 허가를 취소했고 몇 주 뒤 작가를 잡아갔다. 체포는 1977년 12월 30~31일 밤이었고, 구금 명령서에는 당시 부통령 대니얼 아랍 모이가 서명했다. 옛 헌법은 대통령이 재판 없이 구금할 수 있게 했으므로 기소도 재판도 없었고, 그는 카미티 최고보안교도소에서 'K6,77'이라는 번호로 약 1년을 보냈다. 거기서 화장지에 몰래 쓴 장편이 최초의 근대 기쿠유어 소설로 꼽히는 『십자가 위의 악마』다.",
+      "note": "『십자가 위의 악마』 기쿠유어 원저는 1980년 케냐에서, 작가 자신의 영어판은 1982년 헤인먼 '아프리카 작가 총서'로 나왔다.",
+      "tags": [
+       "케냐",
+       "기쿠유어",
+       "재판 없는 구금",
+       "연극 검열"
+      ],
+      "books": [
+       {
+        "title": "십자가 위의 악마",
+        "author": "응구기 와 티옹오",
+        "original": "Caitaani Mũtharaba-Inĩ · 1980",
+        "meta": "장편소설 · Heinemann Educational Books (East Africa) · 국내 번역 정소영 옮김, 창비(2016)",
+        "synopsis": "독립 뒤 나이로비에서 사랑과 일자리, 집을 잇달아 잃고 벼랑 끝에 선 젊은 여성 와링가가 낯선 이에게서 '악마의 잔치' 초대장을 받는다. 고향 일모로그에서 열리는 이 잔치는 지역 재계 인사들이 누가 가장 솜씨 좋은 도둑인지 겨루는 경연이다. 소설은 풍자와 우화, 구전 설화와 성경 비유를 뒤섞어 외국 자본과 손잡은 신흥 엘리트를 그린다.",
+        "reviews": [
+         {
+          "source": "London Review of Books · 빅토리아 브리튼",
+          "gist": "케냐 자본주의를 겨눈 풍자로 높이 평가하면서도, 주인공이 급진적 정비공으로 거듭나는 후반은 환상에 가까워 앞부분의 힘을 깎는다고 지적했다. 농민 독자를 위해 기쿠유어로만 쓰는 길이 바깥 세계와의 단절이 될 수 있다는 우려도 덧붙였다.",
+          "url": "https://lrb.co.uk/v04/n10/victoria-brittain/kenyas-dissident"
+         },
+         {
+          "source": "The New York Review of Books · 남왈리 서펠",
+          "gist": "펭귄 클래식판 서문을 고친 글에서, 이 소설의 예술은 정치를 넘어서는 게 아니라 정치로 움직인다고 보고 혼종적 형식을 신식민 체제의 부조리를 비춘 의도된 왜곡으로 읽었다.",
+          "url": "https://nybooks.com/?p=56861",
+          "date": "2017-04-12"
+         },
+         {
+          "source": "London Review of Books · 아데왈레 마자피어스",
+          "gist": "기쿠유어로 옮겨 간 뒤의 소설들은 초기 영어 소설의 인물 묘사를 잃고 노골적인 정치로 기울었다고 비판했다.",
+          "url": "https://www.lrb.co.uk/v38/n24/adewale-maja-pearce/sing-like-parrots"
+         }
+        ]
+       }
+      ],
+      "sources": [
+       {
+        "name": "The New York Review of Books (Namwali Serpell, \"Kenya in Another Tongue\")",
+        "url": "https://nybooks.com/?p=56861",
+        "date": "2017-04-12"
+       },
+       {
+        "name": "The Conversation",
+        "url": "https://theconversation.com/drama-that-shaped-ngugis-writing-and-activism-comes-home-to-kenya-184353",
+        "date": "2022"
+       },
+       {
+        "name": "London Review of Books (Victoria Brittain, \"Kenya's Dissident\")",
+        "url": "https://lrb.co.uk/v04/n10/victoria-brittain/kenyas-dissident",
+        "date": "1982"
+       },
+       {
+        "name": "University of Leeds, Leeds University Centre for African Studies (\"Publishing Ngũgĩ\")",
+        "url": "https://lucas.leeds.ac.uk/keyword/publishing/"
+       }
+      ],
+      "region": "제3세계"
+     },
+     {
+      "title": "\"감옥에서 나쁜 것이 펜에는 좋았다\" — 화장지 원고와 영어와의 결별",
+      "body": "응구기는 옥중기 『Detained』(구금, 직역)와 2018년 펭귄 빈티지에서 새로 낸 『Wrestling with the Devil』(악마와 씨름하기, 직역)에서 구금 생활과 집필을 되짚었다. 그는 배급받은 거친 화장지에 소설을 쓰는 일을 정신을 꺾으려는 국가에 맞선 저항으로 설명했고, 서펠이 전하듯 몸의 고통이 오히려 글을 단단하게 했다고 돌아봤다. 그가 밝힌 구금의 이유는 정부가 내세운 혐의가 아니라 언어였다. 훗날 그는 기쿠유어 희곡 한 편을 썼다고 갇혔으니 계속 기쿠유어로 쓰겠다고 말했고, 1986년 평론집 『마음의 탈식민지화』(Decolonising the Mind)에서는 영어를 창작 언어로 다시 쓰지 않겠다며 '영어와의 작별'을 선언했다. 정치 평론은 영어로 쓰되 소설은 기쿠유어로 쓰고 다른 아프리카 언어로 옮겨 '진정한 민족 문학'을 만들겠다는 구상이었다.",
+      "tags": [
+       "옥중기",
+       "모어 글쓰기",
+       "탈식민"
+      ],
+      "sources": [
+       {
+        "name": "Penguin Books UK (Wrestling with the Devil 소개)",
+        "url": "https://www.penguin.co.uk/books/1108477/wrestling-with-the-devil/"
+       },
+       {
+        "name": "The Christian Science Monitor",
+        "url": "https://www.csmonitor.com/1986/0905/bdeco-f.html",
+        "date": "1986-09-05"
+       },
+       {
+        "name": "Nation (Kenya)",
+        "url": "https://nation.africa/africa/news/banned-45-years-ago-ng%C5%A9g%C4%A9-s-play-comes-home-to-kenya-3844188",
+        "date": "2022"
+       },
+       {
+        "name": "The New York Review of Books (Namwali Serpell)",
+        "url": "https://nybooks.com/?p=56861",
+        "date": "2017-04-12"
+       }
+      ],
+      "region": "제3세계"
+     },
+     {
+      "title": "볼드윈·로스·핀터가 석방을 외쳤고, 언어 선택은 찬반으로 갈렸다",
+      "body": "구금 소식이 알려지자 1978년 6월 15일 자 『뉴욕 리뷰 오브 북스』에 제임스 볼드윈, 필립 로스, 해럴드 핀터, 에드나 오브라이언, 마거릿 드래블, 루스 퍼스트 등이 서명한 서한이 실렸다. 이들은 그가 안보에 위협이 된다는 말을 믿기 어렵다며 케냐 정부에 조속한 석방을 요구했고, '응구기 변호 위원회'가 서명을 모았다. 기쿠유어로의 전환에는 박수와 의심이 함께 쏟아졌다. 『크리스천 사이언스 모니터』는 그를 동아프리카 최초의 세계적 작가로 부르며 큰 희생이라고 평했지만, 치누아 아체베는 아프리카 작가가 영어를 자기 방식으로 쓰면 된다는 입장이었고 비평가 마자피어스는 그 대가로 예술성이 희생됐다고 봤다.",
+      "tags": [
+       "국제 연대",
+       "언어 논쟁",
+       "아체베"
+      ],
+      "sources": [
+       {
+        "name": "The New York Review of Books (\"Release Ngugi\" 서한)",
+        "url": "https://nybooks.com/?p=25952",
+        "date": "1978-06-15"
+       },
+       {
+        "name": "London Review of Books (Victoria Brittain)",
+        "url": "https://lrb.co.uk/v04/n10/victoria-brittain/kenyas-dissident",
+        "date": "1982"
+       },
+       {
+        "name": "The Christian Science Monitor",
+        "url": "https://www.csmonitor.com/1986/0905/bdeco-f.html",
+        "date": "1986-09-05"
+       },
+       {
+        "name": "London Review of Books (Adewale Maja-Pearce, \"Sing like parrots\")",
+        "url": "https://www.lrb.co.uk/v38/n24/adewale-maja-pearce/sing-like-parrots",
+        "date": "2016"
+       }
+      ],
+      "region": "제3세계"
+     },
+     {
+      "title": "풀려났으나 복직은 막혔고, 22년 망명과 소설 주인공 '수배'가 이어졌다",
+      "body": "그는 조모 케냐타 대통령이 숨진 뒤인 1978년 12월 12일 풀려났지만 나이로비대 교수직으로 돌아가지 못했다. 1982년 런던에서 옥중 작품들을 알리던 중 귀국하면 '레드카펫 대접'을 받을 거라는 암호 같은 경고를 받았고, 그해 쿠데타 미수 뒤 탄압이 거세지자 망명을 택했다. 같은 해 3월에는 카미리투 공동체가 준비한 새 음악극마저 허가를 받지 못한 끝에 경찰이 그 극장을 부쉈다. 1986년 기쿠유어 소설 『Matigari ma Njirũũngi』(마티가리)가 나오자 당국이 소설 속 주인공을 실존 인물로 여겨 찾았다는 이야기가 퍼졌고, 1987년에는 책이 서점에서 압수됐다. 다른 책들은 판금되지 않았지만 약 20년간 학교 교재에서 빠졌으며, 다당제가 회복된 뒤 2004년 8월 22년 만에 귀국한 그와 아내는 나이로비 숙소에서 무장 괴한들에게 습격당했다.",
+      "tags": [
+       "망명",
+       "모이 정권",
+       "『마티가리』 압수"
+      ],
+      "sources": [
+       {
+        "name": "Nation (Kenya)",
+        "url": "https://nation.africa/africa/news/banned-45-years-ago-ng%C5%A9g%C4%A9-s-play-comes-home-to-kenya-3844188",
+        "date": "2022"
+       },
+       {
+        "name": "The Star (Kenya)",
+        "url": "https://www.the-star.co.ke/news/2025-05-29-exile-and-return-ngugis-clash-with-moi-regime",
+        "date": "2025-05-29"
+       },
+       {
+        "name": "University of Leeds (\"Publishing Ngũgĩ\")",
+        "url": "https://lucas.leeds.ac.uk/keyword/publishing/"
+       },
+       {
+        "name": "UC Irvine News (\"Breaking the silence\")",
+        "url": "https://news.uci.edu/2005/06/07/breaking-the-silence",
+        "date": "2005-06-07"
+       }
+      ],
+      "region": "제3세계"
+     },
+     {
+      "title": "별세 뒤의 재평가 — '마음의 탈식민지화'는 지금도 유효한가",
+      "body": "응구기는 2025년 5월 28일 미국 조지아주에서 87세로 세상을 떠났고, 노벨문학상 후보로 자주 거론됐던 그를 두고 각국 매체가 '탈식민의 거인'이라는 부고를 냈다. 2022년에는 금지 45년 만에 「Ngaahika Ndeenda」가 나이로비 무대에 다시 올라 매진을 기록했다. 한편 2024년 3월 아들 무코마 와 응구기가 아버지가 세상을 떠난 어머니를 폭행했다고 공개해 논란이 일었는데, 응구기 쪽은 공식 대응을 내놓지 않았고 『브리틀 페이퍼』는 이를 아프리카 문학사가 작가의 아내들을 지워 온 방식을 돌아볼 계기로 삼자고 썼다. 국내에는 『십자가 위의 악마』(정소영 옮김, 창비)와 『피의 꽃잎들』, 『한 톨의 밀알』, 『울지 마, 아이야』가 나와 있는데, 창비는 이 소설이 김지하의 「오적」에서 영감을 받았다고 소개하고 영문학자 이효석은 이를 아프리카 문학의 정전으로 봐야 한다고 주장했다. 모어로 쓰는 일이 독자를 좁히는 것인지 넓히는 것인지, 나는 어떤 언어로 누구를 향해 쓰고 있는가.",
+      "tags": [
+       "재평가",
+       "번역",
+       "국내 수용",
+       "작가와 사생활"
+      ],
+      "sources": [
+       {
+        "name": "NPR",
+        "url": "https://www.npr.org/2025/05/29/nx-s1-5415596/ngugi-wa-thiongo-kenyan-writer-dead",
+        "date": "2025-05-29"
+       },
+       {
+        "name": "Brittle Paper (Ainehi Edoro)",
+        "url": "https://brittlepaper.com/2024/03/the-story-of-a-novelists-wife-mukoma-ngugi-nyambura-and-the-lessons-for-african-literature/",
+        "date": "2024-03-25"
+       },
+       {
+        "name": "창비 (『십자가 위의 악마』 도서 소개)",
+        "url": "https://www.changbi.com/books/68398?board_id=9884"
+       },
+       {
+        "name": "이효석, 「응구기의 『십자가의 악마』」, 『영미어문학』 92호",
+        "url": "https://scholar.kyobobook.co.kr/article/detail/4010022829541",
+        "date": "2009-09"
+       }
+      ],
+      "region": "제3세계"
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-12-08",
+   "status": "pending"
+  },
+  {
+   "topic": "금서 열전 ⑧ 루이페르디낭 셀린",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 8,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 8회로 '문제적 작가' 루이페르디낭 셀린을 반유대주의 팸플릿이라는 '금서 아닌 금서', 작가의 자기변호, 당대의 찬사와 경멸, 부역 혐의 망명과 재출간 논쟁, 미발표 원고의 귀환으로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ⑧ 루이페르디낭 셀린",
+    "items": [
+     {
+      "title": "걸작 데뷔작과 '금서 아닌 금서' — 저자가 스스로 묻어 둔 반유대주의 팸플릿",
+      "body": "본명이 루이페르디낭 데투슈(Louis-Ferdinand Destouches)인 의사 셀린(Céline)은 1932년 10월 드노엘 에 스틸 출판사에서 첫 장편 『밤 끝으로의 여행』을 내며 단숨에 이름을 얻었다. 이 회가 다루는 '금지'는 다른 회와 결이 다르다. 문제가 된 것은 소설이 아니라 1937~41년에 낸 『Bagatelles pour un massacre』(학살을 위한 하찮은 것들, 직역), 『L'École des cadavres』(시체들의 학교, 직역), 『Les Beaux Draps』(좋은 꼴, 직역) 세 권의 반유대주의 팸플릿으로, 합치면 1천 쪽이 넘는다. 이 책들은 법으로 금지된 적이 없지만 셀린 자신이 전후에 재출간을 반대했고, 미망인 뤼세트 데투슈가 그 뜻을 지켜 1961년 작가가 죽은 뒤에도 다시 찍히지 않았다. 그래서 프랑스에서는 오랫동안 구하기 어려운 책으로 남았고, 저작권 보호 기간이 50년인 퀘벡에서는 2011년 공유 저작물이 되어 2012년 주석판이 나왔다. 프랑스에서 공유 저작물이 되는 해는 2032년이다.",
+      "tags": [
+       "프랑스",
+       "반유대주의",
+       "자기검열",
+       "저작권"
+      ],
+      "books": [
+       {
+        "title": "밤 끝으로의 여행",
+        "author": "루이페르디낭 셀린",
+        "original": "Voyage au bout de la nuit · 1932",
+        "meta": "장편소설 · Denoël et Steele · 국내 번역 이형식 옮김, 동문선(2004), 오류를 바로잡은 개정판 최측의농간(2020)",
+        "synopsis": "의대생 페르디낭 바르다뮈가 제1차 세계대전에 자원했다가 전쟁의 광기에 환멸을 느끼고 부상당한 뒤, 아프리카 식민지 교역소와 뉴욕, 디트로이트의 포드 공장을 떠돈다. 프랑스로 돌아온 그는 파리 변두리 빈민가의 의사가 되어 가망 없는 환자들 사이에서 살아간다. 거친 구어체와 블랙 유머로 전쟁과 식민주의, 산업 노동과 가난을 그린 작품이다.",
+        "reviews": [
+         {
+          "source": "L'Humanité · 폴 니장",
+          "gist": "상당한 힘과 폭을 지닌 작품이라며 환상을 벗겨 낸 하층민 피카레스크로 평가했지만, 프롤레타리아까지 경멸하는 무정부적 태도에 혁명적 전망이 없고 200쪽쯤 길다고 꼬집었다.",
+          "url": "https://www.marxists.org/archive/nizan/1932/celine-review.htm",
+          "date": "1932-12-09"
+         },
+         {
+          "source": "레프 트로츠키 · 「Céline et Poincaré」",
+          "gist": "언어와 삶에 대한 남다른 감각으로 문학 관습을 깬 '소설의 혁명가'라 불렀으나, 희망 없는 비관이 체념으로 미끄러질 수 있다고 경고했다.",
+          "url": "https://www.marxists.org/francais/trotsky/livres/litterature/lt19330510.htm",
+          "date": "1933-05-10"
+         }
+        ]
+       }
+      ],
+      "sources": [
+       {
+        "name": "New Statesman (Andrew Hussey)",
+        "url": "https://www.newstatesman.com/long-reads/2018/02/literature-debate-tearing-apart-paris-should-c-lines-racist-pamphlets-be",
+        "date": "2018-02-11"
+       },
+       {
+        "name": "Paris Match Belgique",
+        "url": "https://www.parismatch.be/culture/litterature/2018/01/11/pourquoi-la-reedition-des-pamphlets-antisemites-de-celine-ne-se-fera-pas-LCRV5RF3FBCPZDOCRXKNLSKD7I/",
+        "date": "2018-01-11"
+       },
+       {
+        "name": "Britannica (Louis-Ferdinand Céline)",
+        "url": "https://www.britannica.com/biography/Louis-Ferdinand-Celine"
+       },
+       {
+        "name": "경인일보 (새로나온 책)",
+        "url": "https://www.kyeongin.com/view.php?key=20200430010006762",
+        "date": "2020-04-30"
+       }
+      ],
+      "region": "유럽"
+     },
+     {
+      "title": "\"나는 작가일 뿐\" — 문체는 '작은 음악', 팸플릿은 남의 일이었다는 변명",
+      "body": "셀린은 덴마크 망명 중 궐석 재판에 대비해 쓴 변론서에서 1937년 이후로 반유대주의 문장을 한 줄도 쓴 기억이 없다고 주장하고, 자신은 전쟁을 막으려던 애국적 평화주의자였으며 작가 외에 아무것도 아니라고 내세웠다고 앨리스 캐플런은 전한다. 그러나 1950년 재판에서 검찰이 전시에 쓴 글들을 내밀면서 이 주장은 무너졌다. 말년의 『파리 리뷰』 인터뷰(1964년 겨울·봄호 수록)에서 그는 자기 문학을 구어를 활자로 옮기는 고된 작업, 이른바 '작은 음악'으로 설명하며 감정이 언어보다 앞선다고 말했다. 같은 자리에서 그는 '유대인 문제'에 휘말린 것은 자기 일이 아니었다는 식으로 넘어갔다. 2023년 『피가로 리테레르』가 처음 공개한 1960년 인터뷰에서도 기자가 점령기 처신에 대한 반성을 끌어내려 했지만 그는 도발로 응수했을 뿐이었다.",
+      "tags": [
+       "자기변호",
+       "문체론",
+       "인터뷰"
+      ],
+      "sources": [
+       {
+        "name": "The New York Review of Books (Alice Kaplan, \"The Master of Blame\")",
+        "url": "https://www.nybooks.com/articles/2022/07/21/the-master-of-blame-louis-ferdinand-celine/",
+        "date": "2022-07-21"
+       },
+       {
+        "name": "Jewish Telegraphic Agency",
+        "url": "https://www.jta.org/archive/frenchman-who-aided-nazis-with-anti-semitic-propaganda-sentenced-in-absentia",
+        "date": "1950-02-24"
+       },
+       {
+        "name": "The Paris Review (The Art of Fiction No. 33)",
+        "url": "https://www.theparisreview.org/interviews/4502/the-art-of-fiction-no-33-louis-ferdinand-celine"
+       },
+       {
+        "name": "Livres Hebdo",
+        "url": "https://www.livreshebdo.fr/article/un-entretien-inedit-de-louis-ferdinand-celine-publie-par-le-figaro",
+        "date": "2023-04-20"
+       }
+      ],
+      "region": "유럽"
+     },
+     {
+      "title": "공쿠르 낙선 스캔들과 좌파의 환호, 그리고 팸플릿에 쏟아진 경멸",
+      "body": "『밤 끝으로의 여행』은 1932년 공쿠르상의 유력 후보였으나 아카데미 공쿠르가 외면했고, 곧이어 르노도상이 이 책을 골랐다. 니장은 공산당 기관지 『뤼마니테』에서 힘 있는 작품이라 하면서도 '우리 편은 아니다'라고 선을 그었고, 망명 중이던 트로츠키는 1933년 셀린을 소설의 혁명가로 불렀다. 1937년 첫 팸플릿 『Bagatelles pour un massacre』는 그해 약 7만 5천 부가 팔려 두 번째 소설 『외상 죽음』(Mort à crédit)보다 훨씬 많이 나갔다. 빅토르 세르주는 1938년 1월 이 책을 '400쪽짜리 포그롬'이라 부르며, 낡은 반유대 소문을 되풀이해 민중의 분노를 유대인 상인에게 돌리는 반동의 문학이라고 비판했다. 좌파가 소설을 반겼다가 팸플릿 앞에서 등을 돌린 이 궤적은 셀린 평가가 왜 지금까지도 둘로 갈리는지를 보여 준다.",
+      "tags": [
+       "공쿠르상",
+       "좌파 비평",
+       "판매"
+      ],
+      "sources": [
+       {
+        "name": "Livres Hebdo (Prix Renaudot 100년)",
+        "url": "https://www.livreshebdo.fr/article/prix-renaudot-un-siecle-daudace-litteraire-et-de-rivalite-avec-le-goncourt",
+        "date": "2026-11-02"
+       },
+       {
+        "name": "L'Humanité (Paul Nizan), marxists.org 수록",
+        "url": "https://www.marxists.org/archive/nizan/1932/celine-review.htm",
+        "date": "1932-12-09"
+       },
+       {
+        "name": "The New York Review of Books (Alice Kaplan)",
+        "url": "https://www.nybooks.com/articles/2022/07/21/the-master-of-blame-louis-ferdinand-celine/",
+        "date": "2022-07-21"
+       },
+       {
+        "name": "Victor Serge, 「Pogrome en quatre cents pages」, marxists.org 수록",
+        "url": "https://www.marxists.org/francais/serge/works/1936/00/chroniques_1938.htm",
+        "date": "1938-01"
+       }
+      ],
+      "region": "유럽"
+     },
+     {
+      "title": "시그마링겐과 덴마크 감옥, 궐석 유죄와 사면 — 그리고 되풀이된 '기념'과 '재출간' 논쟁",
+      "body": "노르망디 상륙 뒤인 1944년 6월 17일 레지스탕스의 살해 협박을 받은 셀린은 아내 뤼세트, 고양이 베베르와 함께 독일로 달아나 비시 정부가 옮겨 간 시그마링겐에 머물다 덴마크로 넘어갔고, 프랑스가 송환을 요구하는 동안 그곳에서 1년 넘게 수감됐다. 1950년 2월 그는 나치를 도운 반유대 선전 혐의로 궐석 재판에서 징역 1년과 벌금 5만 프랑, 시민권 박탈을 선고받았고, 1951년 프랑스 군사법원이 그를 사면해 귀국길이 열렸다. 그는 파리 근교 뫼동에서 의사로 일하며 독일 피난 경험을 담은 『D'un château l'autre』(성에서 성으로, 직역) 등을 쓰다 1961년 7월 1일 세상을 떠났다. 사후에도 논쟁은 이어져, 2011년 문화부 장관 프레데리크 미테랑은 세르주 클라르스펠드의 요구를 받아들여 그를 국가 기념 인물 명단에서 뺐고 필리프 솔레르스는 이를 검열이라 비난했다. 2018년 1월에는 갈리마르가 세 팸플릿을 묶은 『Écrits polémiques』(논쟁적 글들, 직역) 출간 계획을 거센 반대 속에 접으며 기억과 방법의 조건이 갖춰지지 않았다고 밝혔다.",
+      "tags": [
+       "부역 재판",
+       "사면",
+       "국가 기념",
+       "출판 윤리"
+      ],
+      "sources": [
+       {
+        "name": "The Irish Times (Lara Marlowe)",
+        "url": "https://www.irishtimes.com/culture/books/journey-to-the-end-of-celine-s-long-lost-manuscripts-1.4651096",
+        "date": "2021-09-04"
+       },
+       {
+        "name": "Jewish Telegraphic Agency (사면 보도)",
+        "url": "https://www.jta.org/archive/french-military-court-grants-amnesty-to-anti-semite-who-collaborated-with-nazis",
+        "date": "1951-05-15"
+       },
+       {
+        "name": "Livres Hebdo (2011년 국가 기념 철회)",
+        "url": "https://www.livreshebdo.fr/article/louis-ferdinand-celine-retire-des-celebrations-nationales-2011"
+       },
+       {
+        "name": "New Statesman (Andrew Hussey)",
+        "url": "https://www.newstatesman.com/long-reads/2018/02/literature-debate-tearing-apart-paris-should-c-lines-racist-pamphlets-be",
+        "date": "2018-02-11"
+       }
+      ],
+      "region": "유럽"
+     },
+     {
+      "title": "6천 쪽 원고의 귀환 — '반유대주의 이전의 셀린'이라는 환상을 경계하며",
+      "body": "2021년 8월 『르몽드』 보도로, 전직 『리베라시옹』 기자 장피에르 티보다가 약 15년 전 익명의 제보자에게서 '뤼세트 사후까지 비공개' 조건으로 받아 보관해 온 원고, 프랑스국립도서관이 진필로 확인한 6천 쪽 가까운 분량이 세상에 알려졌다. 상속인 측이 장물 보유로 고소하는 등 법적 다툼을 거친 끝에 갈리마르는 2022년 5월 『Guerre』(전쟁, 직역)를 8만 부 찍어 냈고, 같은 해 10월 『Londres』(런던, 직역), 2023년 4월 『La Volonté du roi Krogold』(크로골드 왕의 뜻, 직역)를 잇달아 펴냈다. 프랑스 언론은 대체로 '기적'이라 환호했지만, 캐플런은 『뉴욕 리뷰 오브 북스』에서 이를 '반유대주의 이전의 셀린'으로의 귀환으로 반기는 분위기를 경계하며 미학적 읽기와 도덕적 읽기를 함께 해야 한다고 썼고, 앞서 2017년 피에르앙드레 타기에프와 아닉 뒤라푸르도 1천 쪽이 넘는 『Céline, la race, le Juif』(셀린, 인종, 유대인, 직역)에서 그의 반유대주의를 '사고'가 아닌 핵심으로 봐야 한다고 주장했다. 국내에서는 2011년 『경향신문』 파리통신이 기념 철회 논란을 전하며 작품은 작품으로 평가하자는 쪽에 섰고, 『밤 끝으로의 여행』은 2020년 개정판으로 다시 독자를 만났다. 한 사람의 걸작과 증오의 글을 한 책장에 꽂을 때 우리는 무엇을 함께 읽어야 하는가.",
+      "tags": [
+       "미발표 원고",
+       "작가와 작품",
+       "국내 수용"
+      ],
+      "sources": [
+       {
+        "name": "The Irish Times (Lara Marlowe)",
+        "url": "https://www.irishtimes.com/culture/books/journey-to-the-end-of-celine-s-long-lost-manuscripts-1.4651096",
+        "date": "2021-09-04"
+       },
+       {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/culture/2022/05/04/manuscripts-of-pro-nazi-french-author-rediscovered-after-78-years-missing",
+        "date": "2022-05-04"
+       },
+       {
+        "name": "The Times of Israel (édition française, AFP)",
+        "url": "https://fr.timesofisrael.com/celine-antisemite-obsessionnel-et-genie-litteraire/",
+        "date": "2017-02-02"
+       },
+       {
+        "name": "경향신문 (목수정의 파리통신)",
+        "url": "https://www.khan.co.kr/article/201101281930505",
+        "date": "2011-01-28"
+       }
+      ],
+      "region": "유럽"
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-12-10",
+   "status": "pending"
+  },
+  {
+   "topic": "금서 열전 ⑨ 「분지」와 『태백산맥』",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 9,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 9회로 남정현 「분지」 반공법 사건과 조정래 『태백산맥』 국가보안법 고발을 문제가 된 경위, 두 작가의 말, 문단과 언론의 찬반, 선고유예와 11년 만의 무혐의, 오늘의 재평가로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ⑨ 「분지」와 『태백산맥』",
+    "items": [
+     {
+      "title": "북한 매체가 옮겨 실은 단편, 빨치산을 그린 대하소설 — 두 작품이 법정과 수사기관에 불려 간 까닭",
+      "body": "남정현의 단편 「분지」는 1965년 3월호 『현대문학』에 실렸을 때만 해도 별 반응이 없었지만, 그해 5월과 7월 북한의 『통일전선』·『조국통일』에 옮겨 실린 것이 사건의 발단으로 꼽힌다. 중앙정보부는 7월 9일 작가를 반공법 위반 혐의로 구속했고, 공소 요지는 작품이 반미 계급의식을 부추기고 북한의 대남 전략에 동조했다는 것이었다. 국가기록원 필화사건 자료는 그를 반공법으로 법정에 선 첫 작가로 기록한다. 조정래의 『태백산맥』은 1983년 9월 『현대문학』 연재로 시작해 1986년 한길사에서 첫 권이 나오고 1989년 10권으로 완간된, 여순사건 이후 벌교 일대를 무대로 한 분단 소설이다. 1994년 4월 이승만 전 대통령의 양자 이인수 명지대 교수와 한국전쟁참전총연맹 등 8개 단체가 작가와 발행인을 국가보안법 위반·명예훼손 혐의로 고발했다. 경찰이 문제 삼은 대목은 이승만 정부를 친일 세력 정권으로 그린 점, 소작쟁의 미화, 빨치산을 인민해방 투사로 묘사한 점, 6·25를 민족해방전쟁으로 서술한 점 네 가지였다.",
+      "books": [
+       {
+        "title": "분지",
+        "author": "남정현",
+        "original": "분지(糞地) · 1965",
+        "meta": "단편소설 · 『현대문학』 1965년 3월호 · 1987년 한겨레사 창작집 수록, 2017년 『편지 한 통』(도서출판 말) 재수록",
+        "synopsis": "홍길동의 10대손을 자처하는 홍만수가 죽은 어머니의 영전에 털어놓는 일인칭 독백이다. 해방 직후 어머니가 겪은 비극, 미군 상사의 현지처가 된 누이 분이의 처지, 미군 물자 장사로 살아가는 자신의 삶이 차례로 펼쳐진다. 상사의 본처가 한국에 오면서 벌어진 일로 홍만수는 미군에 쫓겨 향미산에 고립되는데, 그 '일'의 성격을 두고 검찰과 작가의 해석이 정면으로 갈렸다.",
+        "reviews": [
+         {
+          "source": "조선일보 · 사설(주간경향 원희복 기사 재인용)",
+          "gist": "사건 당시 반미 감정을 곧바로 불법으로 단정할 수는 없다고 맞섰다.",
+          "url": "https://weekly.khan.co.kr/article/201707111415451",
+          "date": "2017-07-11"
+         },
+         {
+          "source": "서울신문 · 임헌영(문학평론가)",
+          "gist": "채만식의 풍자를 넘어서는 알레고리이자 김지하 풍자문학에 앞선 성과로, 전후 문학을 한 단계 끌어올렸다고 평가했다.",
+          "url": "https://m.seoul.co.kr/news/1999/05/20/19990520015005",
+          "date": "1999-05-20"
+         },
+         {
+          "source": "프레시안 · 이재봉(원광대 교수)",
+          "gist": "1980년대 이전에 나온 가장 격렬한 반미소설로 보면서, 피해에 머물지 않고 맞서는 인물을 그린 점을 차이로 꼽았다.",
+          "url": "https://pressian.com/pages/articles/123381",
+          "date": "2015-01-21"
+         }
+        ]
+       },
+       {
+        "title": "태백산맥",
+        "author": "조정래",
+        "original": "태백산맥 · 1986~1989",
+        "meta": "대하소설(전 10권) · 『현대문학』 1983년 9월 연재 시작 · 한길사 1986~1989, 1995년부터 해냄",
+        "synopsis": "1948년 여순사건 직후부터 전쟁을 거쳐 이어지는 시기, 전남 벌교를 중심으로 지주와 소작인, 좌익과 우익, 그 사이에서 흔들리는 지식인들의 삶을 그린다. 빨치산과 토벌대, 마을 사람들이 각자의 이유로 이념의 소용돌이에 휘말리는 과정을 방대한 인물군으로 펼친다.",
+        "reviews": [
+         {
+          "source": "서울신문 · 박은호 기자",
+          "gist": "분단 소설의 정점이자 문단 설문에서 한국 최고의 소설로 꼽힌 작품이라는 평가가 지배적이라고 전했다.",
+          "url": "https://www.seoul.co.kr/news/1996/05/31/19960531023005",
+          "date": "1996-05-31"
+         },
+         {
+          "source": "경향신문 · 사설",
+          "gist": "연재 때부터 따라붙은 이적성 혐의를 벗겨 준 것은 수백만 독자였다고 평했다.",
+          "url": "https://www.khan.co.kr/article/200903040205275",
+          "date": "2009-03-04"
+         },
+         {
+          "source": "데일리안 · 조우석(문화평론가)",
+          "gist": "빨치산을 낭만적 전사로 바꾸고 우익을 부정적으로 그려 젊은 세대의 좌편향에 영향을 줬다고 비판했다.",
+          "url": "https://www.dailian.co.kr/news/view/388060/",
+          "date": "2013-09-29"
+         }
+        ]
+       }
+      ],
+      "tags": [
+       "한국",
+       "반공법",
+       "국가보안법",
+       "분단문학"
+      ],
+      "sources": [
+       {
+        "name": "서울신문 · 임헌영 「변혁으로서의 문학과 역사」 ②",
+        "url": "https://m.seoul.co.kr/news/1999/06/09/19990609014003",
+        "date": "1999-06-09"
+       },
+       {
+        "name": "서울신문 · 임헌영 「변혁으로서의 문학과 역사」 ③",
+        "url": "https://m.seoul.co.kr/news/1999/06/16/19990616014003",
+        "date": "1999-06-16"
+       },
+       {
+        "name": "국가기록원 필화사건 테마 · 인물",
+        "url": "https://theme.archives.go.kr/next/pen/viewIntro.do"
+       },
+       {
+        "name": "서울신문 「소설 태백산맥 법정 선다」",
+        "url": "https://www.seoul.co.kr/news/1996/05/31/19960531023005",
+        "date": "1996-05-31"
+       }
+      ],
+      "note": "「분지」 사건의 연도·날짜는 임헌영 연재(서울신문 1999)와 국가기록원 자료를, 『태백산맥』 연재·출간 연도는 주간경향(2009-03-10) 기사를 따랐다."
+     },
+     {
+      "title": "'풍자는 살아남는 방법'과 '독자의 힘' — 두 작가가 내세운 말",
+      "body": "남정현은 수사와 재판 내내 공소장이 주인공의 행위를 작품에 없는 범죄로 바꿔 읽었다고 반박하며, 작품의 요점은 오히려 주인공이 억울한 누명을 쓴다는 데 있다고 주장했다. 훗날 주간경향 인터뷰에서는 직설로 쓰면 화를 입기에 풍자와 해학을 택했다고 했고, 반미 감정의 뿌리로 5·16 쿠데타를 용인한 미국에 대한 분노를 꼽았다. 2011년 서울신문 인터뷰에서는 사건 뒤 수사당국에게서 다시 쓰면 손목을 자르겠다는 위협을 받아 사실상 붓을 꺾었다고 회고했다. 조정래는 1994년 고발 뒤 수사기관의 120개 질문에 답하는 자료를 만들어 냈고, 새벽마다 살해·폭파 협박 전화와 편지에 시달리며 유서를 남겼다고 주간경향 유인경 인터뷰에서 털어놓았다. 그는 무혐의 결정을 두고 연합뉴스에 법정까지 가지 않은 것은 독자의 힘 덕분이라고 했고, 경향신문에는 목에 감긴 쇠사슬을 푼 느낌이라는 소회를 밝혔다.",
+      "tags": [
+       "작가 진술",
+       "풍자",
+       "표현의 자유"
+      ],
+      "sources": [
+       {
+        "name": "서울신문 · 임헌영 「남정현의 분지 ③」",
+        "url": "https://m.seoul.co.kr/news/1999/06/16/19990616014003",
+        "date": "1999-06-16"
+       },
+       {
+        "name": "주간경향 · 원희복의 인물탐구 남정현",
+        "url": "https://weekly.khan.co.kr/article/201707111415451",
+        "date": "2017-07-11"
+       },
+       {
+        "name": "주간경향 · 유인경이 만난 사람 조정래",
+        "url": "https://weekly.khan.co.kr/article/8966",
+        "date": "2005-01-18"
+       },
+       {
+        "name": "연합뉴스 · 「'태백산맥' 200쇄 맞은 조정래」",
+        "url": "https://v.daum.net/v/20090302145616904",
+        "date": "2009-03-02"
+       }
+      ]
+     },
+     {
+      "title": "무료 변론과 사과문, 우익 단체의 고발과 수백만 독자 — 갈라진 당대",
+      "body": "「분지」 사건에서 한승헌·이항녕·김두현 변호사가 변론을 맡고 소설가 안수길이 특별변호인으로 나섰으며, 평론가 이어령이 변호인 측 증인으로 법정에 섰다. 검찰은 공산권문제연구소장과 구속 중인 간첩 등을 증인으로 세웠다. 『조선일보』 남재희 문화부장과 평론가 백낙청도 중앙정보부에 불려 가 조사를 받았고, 미국 『타임』은 1967년 3월 이 사건을 작가에 우호적인 논조로 다뤘다. 반면 『현대문학』은 1965년 8월호에 편집 부주의로 물의를 빚었다는 사과문을 실었고, 남정현의 이름은 이후 33년 동안 이 잡지에서 사라졌다. 『태백산맥』은 1994년 우익 단체들의 고발과 함께 임권택 감독의 영화화까지 의구심을 샀고, 감독은 빨치산을 미화하지 않는 인본주의 영화라고 해명해야 했다. 그 와중에도 소설은 1997년 3월 1권 100쇄를 찍어 한국 다권본 소설의 기록을 세웠다.",
+      "tags": [
+       "문단",
+       "언론",
+       "여론",
+       "영화"
+      ],
+      "sources": [
+       {
+        "name": "서울신문 · 임헌영 「남정현의 분지 ④」",
+        "url": "https://m.seoul.co.kr/news/1999/06/23/19990623014002",
+        "date": "1999-06-23"
+       },
+       {
+        "name": "프레시안 · 이재봉 「소설 속에 드러난 미군과 한인 여성의 삶」",
+        "url": "https://pressian.com/pages/articles/123381",
+        "date": "2015-01-21"
+       },
+       {
+        "name": "서울신문 「영화 태백산맥 제작진」",
+        "url": "https://www.seoul.co.kr/news/1994/06/14/19940614013001",
+        "date": "1994-06-14"
+       },
+       {
+        "name": "주간경향 「스테디셀러 '태백산맥' 누가 읽을까」",
+        "url": "https://weekly.khan.co.kr/article/19442",
+        "date": "2009-03-10"
+       }
+      ]
+     },
+     {
+      "title": "선고유예로 끝난 첫 반공법 문학재판, 법정에 서지 않고 11년 만에 끝난 고발",
+      "body": "남정현은 1965년 7월 14일 검찰에 송치됐다가 열흘 뒤 구속적부심으로 풀려났고, 1966년 7월 23일 불구속 기소됐다. 1966년 9월 6일부터 여덟 차례 공판 끝에 1967년 6월 28일 선고유예가 내려졌는데, 사실상 유죄를 인정한 판결이라는 비판이 즉각 나왔지만 변호인과 피고는 사법부 독립에 대한 회의로 상고를 포기했다. 그는 1974년 민청학련 사건으로 긴급조치 1호 위반 혐의를 받아 다시 갇혔고, 2020년 12월 87세로 세상을 떴다. 『태백산맥』은 1996년 5월 서울지검이 불구속 기소 방침을 정했다는 보도까지 나왔지만 끝내 재판으로 가지 않았다. 검찰은 450만 부 넘게 팔린 책에 사법 잣대를 대기 어렵다는 판단 아래 2005년 봄 무혐의로 사건을 닫았고, 고발에서 처분까지 11년이 걸렸다.",
+      "tags": [
+       "판결",
+       "선고유예",
+       "무혐의",
+       "긴급조치"
+      ],
+      "sources": [
+       {
+        "name": "서울신문 · 임헌영 「남정현의 분지 ④」",
+        "url": "https://m.seoul.co.kr/news/1999/06/23/19990623014002",
+        "date": "1999-06-23"
+       },
+       {
+        "name": "아시아경제 · Novelist Nam Jeong-hyun Passes Away at 87",
+        "url": "https://view.asiae.co.kr/en/article/2020122117172815157",
+        "date": "2020-12-21"
+       },
+       {
+        "name": "YTN 「검찰, '태백산맥'·'국정원 도청'」",
+        "url": "https://www.ytn.co.kr/_ln/0103_200503281913001474",
+        "date": "2005-03-28"
+       },
+       {
+        "name": "경향신문 「'태백산맥' 벌교 현장을 가다」",
+        "url": "https://www.khan.co.kr/article/200504111740421",
+        "date": "2005-04-11"
+       }
+      ]
+     },
+     {
+      "title": "재수록과 문학관, 200쇄와 되살아나는 이적 시비 — 오늘의 두 작품",
+      "body": "「분지」는 1998년 10월 『현대문학』의 회고 기획으로 33년 만에 같은 지면에 돌아왔고, 2017년에는 「편지 한 통」 등과 함께 『편지 한 통』(도서출판 말)에 묶였다. 『태백산맥』은 2009년 완간 20년 만에 200쇄, 700만 부를 넘겼으며 2000년대 중반 이후 30대가 주 독자층이라는 출판사 설명이 나왔다. 2008년 벌교에 문 연 태백산맥문학관은 2023년 개관 15주년까지 77만 명 넘는 관람객을 맞았고, 독자들이 열 권을 손으로 베껴 기증한 필사본 61건을 전시한다. 프랑스어·일본어 번역이 나와 있고 2012년에는 영어·러시아어 번역 계약 소식도 전해졌다. 다만 2013년에도 이 소설을 특정 정치 사건과 연결해 이적성을 다시 따지는 칼럼이 나오는 등 판정은 법 밖에서 여전히 진행 중이다. 국가가 '읽는 법'을 정해 주려 할 때, 소설가는 오독의 위험을 어디까지 감수하며 쓸 수 있는가.",
+      "tags": [
+       "재평가",
+       "수용",
+       "번역",
+       "분단"
+      ],
+      "sources": [
+       {
+        "name": "서울신문 · 임헌영 「남정현의 분지 ②」",
+        "url": "https://m.seoul.co.kr/news/1999/06/09/19990609014003",
+        "date": "1999-06-09"
+       },
+       {
+        "name": "비즈워치 「태백산맥 200쇄」",
+        "url": "https://news.bizwatch.co.kr/article/ceo/2015/03/02/0001",
+        "date": "2015-03-02"
+       },
+       {
+        "name": "KPI뉴스 「태백산맥문학관 개관 15주년」",
+        "url": "https://kpinews.kr/newsView/1065587392506180",
+        "date": "2023-10-29"
+       },
+       {
+        "name": "The Korea Times · Literary masterpiece translated into English, Russian",
+        "url": "https://www.koreatimes.co.kr/lifestyle/books/20120416/literary-masterpiece-translated-into-englsih-russian",
+        "date": "2012-04-16"
+       }
+      ]
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-12-12",
+   "status": "pending"
+  },
+  {
+   "topic": "금서 열전 ⑩ 『즐거운 사라』와 『내게 거짓말을 해봐』",
+   "request": "강작가 요청 연재 특집 '금서 열전'(10회, 2026-11-26~12-14 격일). 금지 사유, 작가의 말, 당대 반응, 그 뒤와 오늘을 총망라. 원고는 미리 써 둠.",
+   "series": {
+    "name": "금서 열전",
+    "no": 10,
+    "of": 10
+   },
+   "lede": "오늘은 특집 '금서 열전' 마지막 회로 마광수 『즐거운 사라』와 장정일 『내게 거짓말을 해봐』를 음란문서 기소의 경위, 두 작가의 항변, 갈라진 문단, 대법원 판례와 작가들이 치른 대가, 학교도서관 폐기 논란으로 이어진 오늘로 짚는다.",
+   "prepared": {
+    "id": "feature",
+    "label": "특집 · 금서 열전 ⑩ 『즐거운 사라』와 『내게 거짓말을 해봐』",
+    "items": [
+     {
+      "title": "강의실에서 체포된 교수, 파리에서 영장을 맞은 작가 — 형법 243·244조가 소설을 겨누다",
+      "body": "1992년 10월 29일 검찰은 연세대 국문과 마광수 교수를 강의 도중 연행해 소설 『즐거운 사라』를 펴낸 청하출판사 장석주 대표와 함께 구속했다. 적용 조항은 음란한 문서의 제조·반포를 처벌하는 형법 243·244조였고, 검찰은 이 소설을 포르노 영화를 문자로 옮긴 변태적 음란소설이라고 규정했다. 책은 1991년 처음 나왔다가 간행물윤리위원회의 제재를 받았고, 작가가 출판사를 옮겨 다시 펴낸 것이 문제가 됐다. 4년 뒤인 1996년 10월 김영사가 장정일의 장편 『내게 거짓말을 해봐』를 내자 간행물윤리위원회의 제재 건의와 문화체육부의 판매금지가 잇따랐고, 출판사는 재고를 절판하고 사과 광고를 냈다. 그럼에도 검찰은 11월 13일 김영사 대표 대행을 구속하고 파리에 머물던 작가에게 사전구속영장을 청구하겠다고 밝혔다. 두 사건은 '음란'이 어디서 시작되는지를 문학이 아닌 법정이 정하게 된 1990년대의 상징이 됐다.",
+      "books": [
+       {
+        "title": "즐거운 사라",
+        "author": "마광수",
+        "original": "즐거운 사라 · 1991",
+        "meta": "장편소설 · 1991년 첫 출간, 1992년 청하출판사 재출간",
+        "synopsis": "가족이 이민을 떠난 뒤 서울에 홀로 남은 여대생 사라가 여러 상대와 관계를 맺으며 자기 욕망을 숨기지 않고 살아가는 이야기다. 자신이 다니는 대학의 교수와 맺는 관계도 서사의 한 축을 이룬다. 성적 주체로서의 여성과 이를 바라보는 사회의 이중 잣대가 작품의 쟁점으로 거론돼 왔다.",
+        "reviews": [
+         {
+          "source": "서울신문 · 차정미(시인)",
+          "gist": "구속은 불행한 일이라면서도 작품이 남성 중심의 성차별적 세계관에 기대고 있다고 비판했다.",
+          "url": "https://www.seoul.co.kr/news/1992/11/05/19921105017002",
+          "date": "1992-11-05"
+         },
+         {
+          "source": "서울신문 · 김병익(문학평론가)",
+          "gist": "도주 우려 없는 문화적 사건의 구속 수사에 회의를 표하고, 형사처벌 대신 성인물 표식제를 시민사회가 맡자고 제안했다.",
+          "url": "https://m.seoul.co.kr/news/1992/11/27/19921127005003",
+          "date": "1992-11-27"
+         },
+         {
+          "source": "데일리안 · 하재근(문화평론가)",
+          "gist": "문학적 평가는 엇갈릴 수 있지만 한국 사회의 엄숙주의와 위선을 겨눈 저항이자 90년대 욕망 해금의 전위였다고 평했다.",
+          "url": "https://www.dailian.co.kr/news/view/659328/",
+          "date": "2017-09-07"
+         }
+        ]
+       },
+       {
+        "title": "내게 거짓말을 해봐",
+        "author": "장정일",
+        "original": "내게 거짓말을 해봐 · 1996",
+        "meta": "장편소설 · 김영사 1996(출간 직후 판매금지·회수)",
+        "synopsis": "중년의 남성과 고등학생인 여성 인물 사이의 가학·피학적 관계를 축으로 한 소설로, 노골적인 성 묘사와 미성년 인물 설정이 논란의 핵심이 됐다. 작가는 포르노의 형식을 빌려 위선적 질서와 자기모멸을 드러내려 했다는 평가와, 그 의도가 묘사를 정당화하지 못한다는 비판을 동시에 받았다.",
+        "reviews": [
+         {
+          "source": "매일신문 · 이인화(소설가)",
+          "gist": "아르토와 하이너 뮐러로 이어지는 절망의 문학 계보에 놓일 작품이라며, 성공 여부와 별개로 검열의 관용을 호소했다.",
+          "url": "https://www.imaeil.com/page/view/1996111515501631922",
+          "date": "1996-11-15"
+         },
+         {
+          "source": "서울신문 · 이세기 논설위원",
+          "gist": "일부에 예술성이 있어도 전체가 음란하면 음란물일 수 있고, 더 보편적인 표현을 택할 수 있었다고 지적했다.",
+          "url": "https://www.seoul.co.kr/news/1997/06/01/19970601004005",
+          "date": "1997-06-01"
+         }
+        ]
+       }
+      ],
+      "tags": [
+       "한국",
+       "음란",
+       "형법 243·244조",
+       "판매금지"
+      ],
+      "sources": [
+       {
+        "name": "서울신문 「마광수 문학, 예술·외설 한계 법원판결 주목」",
+        "url": "https://m.seoul.co.kr/news/1992/10/30/19921030017003",
+        "date": "1992-10-30"
+       },
+       {
+        "name": "서울신문 · 차정미 「사라이즘 파문」",
+        "url": "https://www.seoul.co.kr/news/1992/11/05/19921105017002",
+        "date": "1992-11-05"
+       },
+       {
+        "name": "서울신문 「장정일 외설시비, '제2 마광수 사태' 술렁」",
+        "url": "https://www.seoul.co.kr/news/1996/11/17/19961117011002",
+        "date": "1996-11-17"
+       },
+       {
+        "name": "매일신문 · 이인화 「문학 고사의 해」",
+        "url": "https://www.imaeil.com/page/view/1996111515501631922",
+        "date": "1996-11-15"
+       }
+      ]
+     },
+     {
+      "title": "'성 표현의 자유'와 '진지한 소설' — 두 작가의 항변과 침묵",
+      "body": "마광수는 구속 당시 성의 실상을 문학으로 형상화했을 뿐이라고 맞섰고, 문학작품이 검찰 수사 대상이 되는 현실 자체를 문화의 후진성이라고 비판했다. 대법원에 낸 상고이유보충서에서는 문학을 법으로 재단하지 말라면서도 결국 단죄로 나아간 감정인의 논리가 모순이라고 따졌다. 2006년 주간경향 인터뷰에서는 자신이 요구하는 것은 성행위가 아니라 성 표현의 자유이며, 외국 성문학은 명작으로 대접하면서 국산 성문학에만 다른 잣대를 대는 이중성을 문제 삼았다. 2016년 정년퇴임 때는 이 책이 삶에 큰 상처를 남겼고 학교에서 외로웠다고 털어놓았다. 장정일은 문제의 책이 음란문서가 아니라 진지한 소설이라고 여러 차례 밝혔다고 이인화는 전한다. 오랜 지인인 기자 남재일의 회고에 따르면 그는 금기를 넘었다는 지적에 '내가 판사라도 구속 안 시키겠습니까'라고 답할 만큼 처벌을 각오했고, 출소 뒤에는 사건을 좀처럼 입에 올리지 않았다.",
+      "tags": [
+       "작가 진술",
+       "표현의 자유",
+       "검열"
+      ],
+      "sources": [
+       {
+        "name": "주간경향 「마광수 '난 죽을 때까지 나잇값 안 할 거예요'」",
+        "url": "https://weekly.khan.co.kr/article/13315",
+        "date": "2006-12-12"
+       },
+       {
+        "name": "경향신문 「안경환 '즐거운 사라는 법적 폐기물'…마광수 '보수정권 눈치'」",
+        "url": "https://www.khan.co.kr/article/201706151529001",
+        "date": "2017-06-15"
+       },
+       {
+        "name": "The Korea Times · Ma Kwang-soo",
+        "url": "https://www.koreatimes.co.kr/www/nation/2017/09/251_236455.html",
+        "date": "2017-09-14"
+       },
+       {
+        "name": "프레시안 · 남재일 「정작 '장정일'은 누구인가」",
+        "url": "https://pressian.com/pages/articles/69695",
+        "date": "2001-12-21"
+       }
+      ]
+     },
+     {
+      "title": "침묵시위와 감정서 대결, PC통신의 찬반 — 문단은 둘로 갈렸다",
+      "body": "마광수 구속 나흘 뒤인 1992년 11월 2일 서울지검 앞에서는 문화인모임 회원과 연세대 국문과 학생 70여 명이 마스크를 쓰고 석방을 요구하는 침묵시위를 벌였지만, 서울신문은 주변의 관심이 크지 않았다고 전했다. 재판에서는 1차 감정인 민용태 교수와 소설가 하일지가 음란물이 아니라고 본 반면, 법학자 안경환은 헌법이 보호할 만한 예술적 가치가 부족하다는 감정서를 냈다. 변호를 맡은 한승헌은 훗날에도 무죄라고 믿는다고 했고, 보수 언론인 조갑제마저 판결에 의문을 표했다고 코리아타임스는 전한다. 1996년 장정일 사건 때는 침묵하던 문인들이 문학적 검증보다 사법처리가 앞섰다며 충격을 받았고, 김사인 민족문학작가회의 사무국장은 성 표현의 기준을 문단이 함께 논의할 계기로 삼자고 했다. 『세계의 문학』, 『리뷰』, 『오늘예감』 등 겨울호가 특집을 꾸렸고, PC통신에서는 청소년 성 모럴 파괴와 창작의 자유를 두고 찬반이 팽팽했다.",
+      "tags": [
+       "문단",
+       "여론",
+       "감정서",
+       "PC통신"
+      ],
+      "sources": [
+       {
+        "name": "서울신문 「쓸쓸한 마 교수 석방요구 시위」",
+        "url": "https://www.seoul.co.kr/news/1992/11/03/19921103022003",
+        "date": "1992-11-03"
+       },
+       {
+        "name": "경향신문 · 김원진·이유진 기자",
+        "url": "https://www.khan.co.kr/article/201706151529001",
+        "date": "2017-06-15"
+       },
+       {
+        "name": "서울신문 「장정일 외설시비」",
+        "url": "https://www.seoul.co.kr/news/1996/11/17/19961117011002",
+        "date": "1996-11-17"
+       },
+       {
+        "name": "서울신문 「PC통신 장정일 논쟁 후끈」",
+        "url": "https://www.seoul.co.kr/news/1997/01/10/19970110011003",
+        "date": "1997-01-10"
+       }
+      ]
+     },
+     {
+      "title": "'문학성이 있어도 음란할 수 있다' — 대법원 두 판례와 작가들이 치른 값",
+      "body": "마광수와 장석주는 1992년 12월 28일 1심에서 각각 징역 8월에 집행유예 2년을 받았고, 항소심을 거쳐 대법원은 1995년 6월 16일(94도2413) 상고를 기각했다. 이 판결은 성 묘사의 노골성과 비중, 예술성·사상성에 의한 완화 정도, 전체적으로 호색적 흥미를 돋우는지를 종합해 따진다는 음란 판단 기준을 세우고, '음란' 개념이 죄형법정주의에 어긋나지 않는다고 봤다. 장정일은 1997년 1월 구속영장이 기각된 뒤 불구속 기소됐지만 1심에서 징역 10월을 받고 법정구속됐고, 2심의 징역 6월·집행유예 1년이 2000년 10월 27일 대법원(98도679)에서 확정됐다. 이 판결은 문학성·예술성이 있다고 음란성이 부정되지는 않는다고 못 박았다. 마광수는 1995년 연세대에서 해직됐다가 1998년 사면복권으로 복직했으나 2000년 재임용에서 탈락했다가 2004년 강단에 돌아왔고, 2016년 퇴임한 이듬해인 2017년 9월 5일 세상을 떠났다.",
+      "tags": [
+       "판례",
+       "대법원",
+       "음란 판단 기준"
+      ],
+      "sources": [
+       {
+        "name": "대법원 1995. 6. 16. 선고 94도2413 판결(판결문 데이터베이스)",
+        "url": "https://www.nepla.ai/case/대법원/94도2413",
+        "date": "1995-06-16"
+       },
+       {
+        "name": "서울신문 「예술로 포장된 외설에 '유죄'」",
+        "url": "https://www.seoul.co.kr/news/1992/12/29/19921229022007",
+        "date": "1992-12-29"
+       },
+       {
+        "name": "법률신문 「소설 '내게 거짓말을 해봐'는 음란물」",
+        "url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=3281",
+        "date": "2000-10-27"
+       },
+       {
+        "name": "경향신문 「'거짓말' 작가 장정일 유죄 확정」",
+        "url": "https://www.khan.co.kr/article/200010271856491",
+        "date": "2000-10-27"
+       }
+      ]
+     },
+     {
+      "title": "법정에서 도서관으로 — 2,500여 권의 폐기와 27년 만의 무삭제판",
+      "body": "검열의 무대는 이제 법정보다 학교도서관이다. 경기도교육청이 보수 단체 민원을 받아 2023년 11월 '부적절한 논란 내용이 포함된 도서'를 조치하라는 공문을 보낸 뒤, 2023년 3월부터 2024년 2월까지 도내 초·중·고에서 성교육 도서 2,528권이 폐기됐고 간행물윤리위원회는 그사이 심의 청구된 68권 가운데 67권이 유해하지 않다고 의결했다. 2024년 10월 한강의 노벨문학상 수상 직후 한 사립고가 『채식주의자』 2권을 폐기한 사실이 알려지자 교육청은 특정 도서를 유해 도서로 지정한 적이 없다고 해명했지만, 국정감사에서 임태희 교육감은 기사를 공문에 첨부해 기준처럼 보이게 한 것은 잘못이라고 인정했다. 시민단체는 2026년 7월에도 폐기 2,517권과 열람 제한 3,340권의 복구를 요구했다. 한편 『내게 거짓말을 해봐』를 옮긴 장선우 감독의 「거짓말」은 2026년 11월 11일 잘렸던 17분여를 되살린 4K 무삭제 완전판으로 국내 극장에 처음 걸렸다. 무엇이 '해로운가'를 정하는 손이 검사에서 민원인과 운영위원회로 옮겨 간 지금, 소설가는 누구를 향해 자기 작품을 변론해야 하는가.",
+      "tags": [
+       "학교도서관",
+       "검열",
+       "한강",
+       "영화 「거짓말」"
+      ],
+      "sources": [
+       {
+        "name": "경향신문 「'동성애 유발' 민원에…경기도 초중고, 성교육 도서 2528권 폐기」",
+        "url": "https://www.khan.co.kr/article/202405072103025",
+        "date": "2024-05-07"
+       },
+       {
+        "name": "경기도교육청 보도자료 「특정 도서 유해도서 지정 폐기 관련 일부 언론보도에 대해 바로잡습니다」",
+        "url": "https://www.goe.go.kr/goe/na/ntt/selectNttInfo.do?nttSn=134215",
+        "date": "2024-10-11"
+       },
+       {
+        "name": "프레시안 「[경기교육청 국감] '노벨 문학상' 한강 작품 등 폐기」",
+        "url": "https://pressian.com/pages/articles/2024102217434982662",
+        "date": "2024-10-22"
+       },
+       {
+        "name": "미주중앙일보(중앙일보) · 나원정 「27년간 17분 잘린 이 영화」",
+        "url": "https://www.koreadaily.com/article/20261114220143057",
+        "date": "2026-11-14"
+       }
+      ],
+      "note": "간행물윤리위원회의 68권 중 67권 판정은 2024년 4월(경향신문 2024-05-12 보도), 시민단체 복구 요구 기자회견은 2026년 7월 29일(경향신문)이다."
+     }
+    ]
+   },
+   "requestedAt": "2026-11-24",
+   "notBefore": "2026-12-14",
+   "status": "pending"
   }
  ]
 }
