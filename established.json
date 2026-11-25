@@ -91,7 +91,9 @@
    "title": "심심",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=112497",
    "author": "임승훈",
-   "year": 2026
+   "year": 2026,
+   "checked": "2026-11-26",
+   "featured": "2026-11-26"
   },
   {
    "id": "munjang-112496",
@@ -724,7 +726,10 @@
    "source": "Electric Literature",
    "title": "Black-Eyed Women",
    "author": "Viet Thanh Nguyen",
-   "url": "https://electricliterature.com/black-eyed-women-by-viet-thanh-nguyen/"
+   "url": "https://electricliterature.com/black-eyed-women-by-viet-thanh-nguyen/",
+   "year": 2017,
+   "checked": "2026-11-26",
+   "featured": "2026-11-26"
   },
   {
    "id": "el-a-story-about-the-devastation-of-loving-your-husband",

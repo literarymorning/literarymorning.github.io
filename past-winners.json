@@ -1294,7 +1294,9 @@
      "url": "https://www.donga.com/news/article/all/20240101/122847095/1"
     }
    ],
-   "linkNote": "심사평은 당선 소감 기사에 함께 실림"
+   "linkNote": "심사평은 당선 소감 기사에 함께 실림",
+   "status": "dead",
+   "checked": "2026-11-26"
   },
   {
    "id": "2024-매일신문-단편소설",
@@ -1330,17 +1332,19 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "http://www.mdilbo.com/detail/EHdc4G/709570"
+     "url": "https://www.mdilbo.com/detail/EHdc4G/709570"
     },
     {
      "label": "당선 소감",
-     "url": "http://www.mdilbo.com/detail/EHdc4G/709573"
+     "url": "https://www.mdilbo.com/detail/EHdc4G/709573"
     },
     {
      "label": "심사평",
-     "url": "http://www.mdilbo.com/detail/EHdc4G/709576"
+     "url": "https://www.mdilbo.com/detail/EHdc4G/709576"
     }
-   ]
+   ],
+   "checked": "2026-11-26",
+   "featured": "2026-11-26"
   },
   {
    "id": "2024-문화일보-단편소설",

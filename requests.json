@@ -415,7 +415,8 @@
    },
    "requestedAt": "2026-11-24",
    "notBefore": "2026-11-26",
-   "status": "pending"
+   "status": "done",
+   "publishedIn": "2026-11-26"
   },
   {
    "topic": "금서 열전 ② 『마담 보바리』와 『악의 꽃』",
