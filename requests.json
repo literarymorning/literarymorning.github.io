@@ -633,7 +633,8 @@
    },
    "requestedAt": "2026-11-24",
    "notBefore": "2026-11-28",
-   "status": "pending"
+   "status": "done",
+   "publishedIn": "2026-11-28"
   },
   {
    "topic": "금서 열전 ③ 『율리시스』",

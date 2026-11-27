@@ -524,17 +524,15 @@
    "links": [
     {
      "label": "당선작 읽기",
-     "url": "https://www.hankookilbo.com/News/Read/A2025122315110003746"
-    },
-    {
-     "label": "당선 소감",
-     "url": "https://www.hankookilbo.com/News/Read/A2025122315060004616"
+     "url": "https://www.hankookilbo.com/news/article/A2025122315110003746"
     },
     {
      "label": "심사평",
-     "url": "https://www.hankookilbo.com/News/Read/A2025122415190005249"
+     "url": "https://www.hankookilbo.com/news/article/A2025122415190005249"
     }
-   ]
+   ],
+   "checked": "2026-11-28",
+   "featured": "2026-11-28"
   },
   {
    "id": "2026-한라일보-단편소설",
@@ -763,7 +761,9 @@
      "url": "https://www.donga.com/news/Culture/article/all/20250101/130764832/2"
     }
    ],
-   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림"
+   "linkNote": "당선작·당선 소감·심사평이 한 기사에 함께 실림",
+   "status": "dead",
+   "checked": "2026-11-28"
   },
   {
    "id": "2025-동아일보-중편소설",
@@ -1731,7 +1731,9 @@
      "label": "심사평",
      "url": "http://www.gwangnam.co.kr/read.php3?aid=1672565277436478025&search=%BD%C5%C3%E1%B9%AE%BF%B9"
     }
-   ]
+   ],
+   "status": "dead",
+   "checked": "2026-11-28"
   },
   {
    "id": "2023-국제신문-단편소설",

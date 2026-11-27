@@ -257,7 +257,9 @@
    "title": "히데오",
    "url": "https://munjang.or.kr/board.es?mid=a21300000000&bid=0003&act=view&list_no=105001",
    "author": "서장원",
-   "year": 2025
+   "year": 2025,
+   "checked": "2026-11-28",
+   "featured": "2026-11-28"
   },
   {
    "id": "munjang-2242",
@@ -611,7 +613,10 @@
    "source": "Electric Literature",
    "title": "The School",
    "author": "Donald Barthelme",
-   "url": "https://electricliterature.com/the-school/"
+   "url": "https://electricliterature.com/the-school-donald-barthelme/",
+   "year": 1976,
+   "checked": "2026-11-28",
+   "featured": "2026-11-28"
   },
   {
    "id": "el-safety-tips-for-living-alone",
@@ -961,6 +966,37 @@
    "year": 2021,
    "checked": "2026-11-06",
    "featured": "2026-11-06"
+  },
+  {
+   "id": "wwb-the-common-good",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "The Common Good",
+   "author": "Sara Cordón",
+   "url": "https://wordswithoutborders.org/read/article/2021-12/december-2021-spanish-new-york-the-common-good-sara-cordon-robin-myers/",
+   "year": 2021,
+   "originalLanguage": "스페인어",
+   "checked": "2026-11-28"
+  },
+  {
+   "id": "wwb-the-paradise-lily",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "The Paradise Lily",
+   "author": "Sirpa Kähkönen",
+   "url": "https://wordswithoutborders.org/read/article/2025-02/the-paradise-lily/",
+   "year": 2025,
+   "originalLanguage": "핀란드어"
+  },
+  {
+   "id": "wwb-special-flight-709",
+   "side": "해외",
+   "source": "Words Without Borders",
+   "title": "Special Flight 709",
+   "author": "Baalu Girma",
+   "url": "https://wordswithoutborders.org/read/article/2025-01/special-flight-709-girma-yirgu-degusta/",
+   "year": 2025,
+   "originalLanguage": "암하라어"
   }
  ]
 }
